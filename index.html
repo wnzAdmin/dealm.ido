@@ -27,7 +27,7 @@
     <script src="/dealm.ido/assets/js/videojs-yt.min.js" defer></script>
     
   <script type="module" crossorigin src="/dealm.ido/assets/main.1e029260.js"></script>
-  <link rel="stylesheet" href="/dealm.ido/assets/main.5b70803d.css">
+  <link rel="stylesheet" href="/dealm.ido/assets/main.7d13964c.css">
 </head>
 <body>
 
@@ -728,10 +728,10 @@
         <div class="cheese-container">
           <div class="cheese to-animate hidden md:block mx-auto">
   
-            <div style="background-image: url(/public/assets/img/cheese/cheese-bg.webp)" class="cheese-element cheese-bg"></div>
-            <div style="background-image: url(/public/assets/img/cheese/cheese-parts.webp)" class="cheese-element cheese-parts"></div>
-            <div style="background-image: url(/public/assets/img/cheese/cheese-stripes.webp)" class="cheese-element cheese-stripes"></div>
-            <div style="background-image: url(/public/assets/img/cheese/cheese-logo.webp)" class="cheese-element cheese-logo"></div>
+            <div style="background-image: url(./public/assets/img/cheese/cheese-bg.webp)" class="cheese-element cheese-bg"></div>
+            <div style="background-image: url(./public/assets/img/cheese/cheese-parts.webp)" class="cheese-element cheese-parts"></div>
+            <div style="background-image: url(./public/assets/img/cheese/cheese-stripes.webp)" class="cheese-element cheese-stripes"></div>
+            <div style="background-image: url(./public/assets/img/cheese/cheese-logo.webp)" class="cheese-element cheese-logo"></div>
   
             <label class="d-1"><span class="col-1">5%</span> Pre-Sale</label>
             <label class="d-2"><span class="col-1">10%</span> Private Sale</label>
@@ -749,10 +749,10 @@
           <div class="cheese-mobile to-animate block md:hidden flex flex-col">
   
             <div>
-              <div style="background-image: url(/public/assets/img/cheese/cheese-bg.webp)" class="cheese-element cheese-bg"></div>
-              <div style="background-image: url(/public/assets/img/cheese/cheese-parts.webp)" class="cheese-element cheese-parts"></div>
-              <div style="background-image: url(/public/assets/img/cheese/cheese-stripes-numbered.webp)" class="cheese-element cheese-stripes-numbered"></div>
-              <div style="background-image: url(/public/assets/img/cheese/cheese-logo.webp)" class="cheese-element cheese-logo"></div>
+              <div style="background-image: url(./public/assets/img/cheese/cheese-bg.webp)" class="cheese-element cheese-bg"></div>
+              <div style="background-image: url(./public/assets/img/cheese/cheese-parts.webp)" class="cheese-element cheese-parts"></div>
+              <div style="background-image: url(./public/assets/img/cheese/cheese-stripes-numbered.webp)" class="cheese-element cheese-stripes-numbered"></div>
+              <div style="background-image: url(./public/assets/img/cheese/cheese-logo.webp)" class="cheese-element cheese-logo"></div>
             </div>
   
             <div class="tokenomics-mobile">
@@ -1047,23 +1047,6 @@
           </span>
         </a>
       </div>
-
-      <!-- <div id="newsletter" class="newsletter mx-auto max-w-screen-md flex-col xl:flex-row items-center text-center">
-        <input type="email" id="nl_email" placeholder="Enter your e-mail to get updates!" />
-        <button onclick="registerNL(document.getElementById('nl_email').value)">Keep me posted</button>
-        <p id="nl-error" class="hidden text-center mx-auto">
-          An error occurred when registering to our Newsletter, please retry.
-        </p>
-        <p id="nl-wait" class="hidden text-center mx-auto">
-          Please wait
-        </p>
-      </div>
-
-      <div id="newsletter-ok" class="newsletter-ok hidden mx-auto text-center w-3/5">
-        <p class="text-center mx-auto">
-          Thank you for your interest! We will keep you posted as soon as we have good news to announce 😉
-        </p>
-      </div> -->
 
     </section>
 
@@ -1588,7 +1571,7 @@
 
       }
 
-      countdown('12/01/2022 00:00:00 AM');
+      countdown('12/01/2023 00:00:00 AM');
 
 
 
@@ -1645,59 +1628,6 @@
     }
 
 
-    function registerNL(email) {
-      
-      if (email !== "") {
-        
-        resetErrNewsletter();
-        try {
-          
-          (async () => {
-            const rawResponse = await fetch('https://api.winerz.com/api/public/newsletter', {
-              method: 'POST',
-              headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-              },
-              body: JSON.stringify({email: email, nl: 'ico'})
-            })
-            .then((response) => {
-              if (response.status >= 400 && response.status < 600) {
-                showErrNewsletter();
-              }
-              else {
-                showOkNewsletter();
-              }
-            })
-            .catch((err) => {
-              showErrNewsletter();
-            });
-          })();
-          
-        } catch (error) {
-          showErrNewsletter();
-        }
-
-      }
-
-    }
-
-    function resetErrNewsletter() {
-      document.getElementById("nl-wait").style.display = "block";
-      document.getElementById("nl-error").style.display = "none";
-    }
-    function showErrNewsletter() {
-      document.getElementById("nl-wait").style.display = "none";
-      document.getElementById("nl-error").style.display = "block";
-    }
-    function showOkNewsletter() {
-      document.getElementById("nl-wait").style.display = "none";
-      document.getElementById("nl-error").style.display = "none";
-      document.getElementById("newsletter").style.display = "none";
-      document.getElementById("newsletter-ok").style.display = "block";
-    }
-
-
     // let vidPlayer;
 
     // function initVideo() {
@@ -1749,7 +1679,7 @@
     }
 
     preloadImages([
-      '/assets/img/hero/hero-cards.png'
+      './assets/img/hero/hero-cards.png'
     ], function(){
         
       const waiter = document.getElementById("waiter");
