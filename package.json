@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite --https",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "publish": "vite build  --base=/dealm.ido/"
   },
   "dependencies": {
     "node-sass": "^6.0.1",
