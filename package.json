@@ -10,7 +10,7 @@
     "dev": "vite --https",
     "build": "vite build",
     "serve": "vite preview",
-    "publish": "./publish"
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "node-sass": "^6.0.1",
