@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-html",
+  "version": "0.0.1",
+  "description": "TailwindCSS for HTML Projects",
+  "main": "index.html",
+  "author": "",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "dev": "vite --https",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "path": "^0.12.7",
+    "tailwindcss-animation-delay": "^1.0.7",
+    "vanilla-tilt": "^1.7.2",
+    "vite": "^2.6.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}
