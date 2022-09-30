@@ -1048,7 +1048,7 @@
         </a>
       </div>
 
-      <div id="newsletter" class="newsletter mx-auto max-w-screen-md flex-col xl:flex-row items-center text-center">
+      <!-- <div id="newsletter" class="newsletter mx-auto max-w-screen-md flex-col xl:flex-row items-center text-center">
         <input type="email" id="nl_email" placeholder="Enter your e-mail to get updates!" />
         <button onclick="registerNL(document.getElementById('nl_email').value)">Keep me posted</button>
         <p id="nl-error" class="hidden text-center mx-auto">
@@ -1063,7 +1063,7 @@
         <p class="text-center mx-auto">
           Thank you for your interest! We will keep you posted as soon as we have good news to announce 😉
         </p>
-      </div>
+      </div> -->
 
     </section>
 
@@ -1697,35 +1697,36 @@
       document.getElementById("newsletter-ok").style.display = "block";
     }
 
-    let vidPlayer;
 
-    function initVideo() {
-      vidPlayer = videojs('wnz-teaser');
-      vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=iwZgR9X1-_s&vq=hd1080'});
-    }
+    // let vidPlayer;
+
+    // function initVideo() {
+    //   vidPlayer = videojs('wnz-teaser');
+    //   vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=iwZgR9X1-_s&vq=hd1080'});
+    // }
     
-    function closeVideo() {
-      vidPlayer.pause();
-      document.querySelector("#video-cta").style.display = 'flex';
-      document.querySelector("#wnz-teaser-modal").style.display = 'none';
-    }
-    function playVideo() {
+    // function closeVideo() {
+    //   vidPlayer.pause();
+    //   document.querySelector("#video-cta").style.display = 'flex';
+    //   document.querySelector("#wnz-teaser-modal").style.display = 'none';
+    // }
+    // function playVideo() {
       
-      document.querySelector("#video-cta").style.display = 'none';
-      document.querySelector("#wnz-teaser-modal").style.display = 'flex';
+    //   document.querySelector("#video-cta").style.display = 'none';
+    //   document.querySelector("#wnz-teaser-modal").style.display = 'flex';
       
-      vidPlayer.play();
+    //   vidPlayer.play();
 
 
-      // vidPlayer.ready(function() {
-        //   vidPlayer.play();
-      // });
-      // if (vidPlayer == undefined) {
+    //   // vidPlayer.ready(function() {
+    //     //   vidPlayer.play();
+    //   // });
+    //   // if (vidPlayer == undefined) {
 
-      // }
-      // else vidPlayer.play();
+    //   // }
+    //   // else vidPlayer.play();
 
-    }
+    // }
 
 
     function preloadImages(urls, allImagesLoadedCallback){
@@ -1748,11 +1749,7 @@
     }
 
     preloadImages([
-      '/assets/img/hero/bg.webp',
-      '/assets/img/hero/chat.webp',
-      '/assets/img/hero/player.webp',
-      '/assets/img/hero/cup.webp',
-      '/assets/img/hero/tokens.webp'
+      '/assets/img/hero/hero-cards.png'
     ], function(){
         
       const waiter = document.getElementById("waiter");
@@ -1769,32 +1766,6 @@
 
   </script>
 
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHG6YSS473" defer></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-HHG6YSS473');
-  </script>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '706444163377354');
-      fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=706444163377354&ev=PageView&noscript=1" /></noscript>
-  <!-- End Facebook Pixel Code -->
 
 
 </body>
