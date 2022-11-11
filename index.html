@@ -5,17 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="Description" content="DEALM Poker - Découvrez un nouvel univers Poker.">
+    <meta name="Description" content="DEALM Poker - Discover a new poker universe">
 
-    <meta property="og:url"                content="https://ico.winerz.com" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="The play to earn revolution is here" />
-    <meta property="og:description"        content="Join this opportunity on telegram to be whitelisted." />
-    <meta property="og:image"              content="https://ico.winerz.com/assets/img/fb_og.jpg" />
-    <meta property="fb:app_id"             content="1945740822259570" />
-
-
-    <title>DEALM Poker - Découvrez un nouvel univers Poker</title>
+    <title>DEALM Poker - Discover a new poker universe</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 
@@ -52,13 +44,12 @@
       <div class="container hidden lg:flex lg:flex-row w-full lg:pt-10">
         <img src="/public/assets/img/logo-dealm.png" class="inline-block mr-8 w-48" />
         <div class="menu-desktop">
-          <label>Home</label>
-          <label>Ecosystem</label>
-          <label>RoadMap</label>
-          <label>Tokenomics</label>
-          <label>Community</label>
-          <label>Team</label>
-          <label>FAQ</label> 
+          <label onclick="animTo(`.section-ecosystem`)">Ecosystem</label>
+          <label onclick="animTo(`.section-roadmap`)">RoadMap</label>
+          <label onclick="animTo(`.section-tokenomics`)">Tokenomics</label>
+          <label onclick="animTo(`.section-community`)">Community</label>
+          <label onclick="animTo(`.section-team`)">Team</label>
+          <label onclick="animTo(`.section-faq`)">FAQ</label> 
         </div>
       </div>
 
@@ -110,13 +101,13 @@
 
             <!-- <a class="rounded-hl highlight" href="https://www.gate.io/fr/trade/WNZ_USDT" target="_blank">
               <img src="/assets/img/logos/gate.webp" />Buy on gate.io</a> -->
- 
+
             <div class="flex flex-row mx-auto justify-center lg:justify-start gap-6 mt-8">
-              <a href="" target="_blank" class="btn-circle bg-transparent">
+              <a href="/assets/docs/WP_DEALMPOKER.pdf" target="_blank" class="btn-circle bg-transparent">
                 <span class="text-xl font-bold mt-2">Whitepaper</span>
                 <img src="/assets/img/icon-dl.png" class="h-5 inline-block ml-3 invert-hover -mt-3" />
               </a>
-              <a href="" target="_blank" class="btn-circle bg-transparent">
+              <a href="/assets/docs/TOKENOMIKS-DEAL-M.pdf" target="_blank" class="btn-circle bg-transparent">
                 <span class="text-xl font-bold mt-2">Tokenomics</span>
                 <img src="/assets/img/icon-dl.png" class="h-5 inline-block ml-3 invert-hover -mt-3" />
               </a>
@@ -146,7 +137,7 @@
 
 
 
-        <div class="countdown relative mt-12 flex flex-col">
+        <div class="countdown relative mt-12 flex flex-col hidden">
           <span class="uppercase font-bold text-l mt-2">Launch in</span>
 
           <div class="countdown-gauges">
@@ -255,8 +246,6 @@
           </a> -->
         </div>
 
-
-
       </div>
     </section>
 
@@ -265,8 +254,63 @@
 
 
 
+
+    <section class="section-whatis container mb-24 relative">
+
+      <div class="bg"></div>
+
+      <div class="container mx-auto relative">
+        
+        <div class="text-center">
+          <h2 class="text-3xl lg:text-6xl text-gradient-1 font-bold font-secondary uppercase mb-8">Our vision</h2>
+
+          <div class="cursor-pointer mx-auto mb-10 rounded-3xl lg:rounded-[4rem] bg-no-repeat w-full lg:w-1/2 h-48 lg:h-72 flex justify-center items-center content-center"
+               style="background-image: url(/assets/img/video-bg.jpg); background-size: cover;"
+               onclick="playVideo()"
+               id="video-cta">
+            <div class="animate-pops w-28 h-28 lg:w-36 lg:h-36 rounded-full p-2 bg-white bg-opacity-10" style="box-shadow: 1px 1px 6px rgba(0,0,0,0.8);">
+              <div class="rounded-full bg-[#4ea8ed] w-full h-full flex justify-center items-center content-center">
+                <img src="./public/assets/img/play-arrow.webp" class="ml-3 max-h-14" />
+              </div>
+            </div>
+          </div>
+          
+          <h4 class="text-white font-medium font-secondary text-lg lg:text-2xl mb-8 w-full lg:w-3/5 mx-auto">
+            Deal M Poker® is reshuffling the cards of online poker by digitizing poker players and dealing the cards to fans, players and even investors, who can sit at the tables of the biggest tournaments with Deal M Poker® players.
+          </h4>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div id="dealm-teaser-modal" class="fixed top-0 left-0 right-0 bottom-0 z-50 p-[10%] flex-col self-center items-center justify-center bg-black bg-opacity-90" style="display: none;">
+      <div class="relative w-full">
+        <div id="video-close" class="cursor-pointer absolute -top-12 left-[85vw] w-[100vw] h-6" onclick="closeVideo()">
+          <img src="./public/assets/img/cross.svg" class="invert w-6 h-6" />
+        </div>
+      </div>
+      <video
+        id="dealm-teaser"
+        class="video-js vjs-default-skin w-full h-[60vh] landscape:h-[80vh]"
+        controls
+        width="640" height="264"
+        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=QY7IevFAQ54&vq=hd1080"}] }'
+      >
+      </video>
+    </div>
+
+
+
+
+
+
+
+
     <section class="section-success container">
+
       <div class="container mx-auto">
+
         <div class="w-full lg:w-1/2">
 
           <h2 class="font-bold text-7xl">Deal M Poker platform is <strong class="text-gradient-1">already alive</strong></h2>
@@ -519,48 +563,59 @@
     <section class="section-ecosystem relative">
 
       <div class="bg"></div>
-      
 
+      <div class="container mx-auto mb-0">
+        <h3>Ecosystem</h3>
+      </div>
+      
       <div class="ecosystem-items xl:container">
 
         <div class="item">
-          <span class="label font-secondary">NFT</span>
-          <div class="visual">
-            <img src="/assets/img/ecosystem-nft.png" class="h-72">
-          </div>
-          <div class="explain">
-            <div class="desc">
-              An NFT marketplace will be added to the Staking platform. Through this marketplace, Deal M Poker® allows players to monetize their image through NFT cards issuance. Poker Token holders that will allow access to the marketplace and the buying, selling and trading of NFT cards.
+          <div class="cnt">
+            <span class="label font-secondary">NFT</span>
+            <div class="visual">
+              <img src="/assets/img/ecosystem-nft.png" class="h-72">
+            </div>
+            <div class="explain">
+              <div class="desc">
+                An NFT marketplace will be added to the Staking platform. Through this marketplace, Deal M Poker® allows players to monetize their image through NFT cards issuance. Poker Token holders that will allow access to the marketplace and the buying, selling and trading of NFT cards.
+                <br />
+                <br />
+              </div>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <span class="label font-secondary">Gaming</span>
-          <div class="visual">
-            <img src="/assets/img/ecosystem-table.png" class="h-72">
-          </div>
-          <div class="explain">
-            <div class="desc">
-              The Deal M Poker® gaming area is a new poker game with a combo of innovation, adrenaline and psychic connection.
-              <br />Deal M Poker® is reshuffling the cards of online poker by digitizing poker players and dealing the cards to fans, players and even investors, who can sit at the tables of the biggest tournaments with Deal M Poker® players.
+          <div class="cnt">
+            <span class="label font-secondary">Gaming</span>
+            <div class="visual">
+              <img src="/assets/img/ecosystem-table.png" class="h-72">
+            </div>
+            <div class="explain">
+              <div class="desc">
+                The Deal M Poker® gaming area is a new poker game with a combo of innovation, adrenaline and psychic connection.
+                <br />Deal M Poker® is reshuffling the cards of online poker by digitizing poker players and dealing the cards to fans, players and even investors, who can sit at the tables of the biggest tournaments with Deal M Poker® players.
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="item">
-          <span class="label font-secondary">Staking</span>
-          <div class="visual">
-            <img src="/assets/img/ecosystem-coffre.png" class="h-72">
-          </div>
-          <div class="explain">
-            <div class="desc">
-              Deal M Poker® has already started to create the “Poker’s Hub” with a staking platform which already allows poker players to open part of their bankroll to investors to finance their participation in famous world tournaments. In return, part of their winnings are paid back to those who bet on their success.
+        <div class="item mx-auto">
+          <div class="cnt">
+            <span class="label font-secondary">Staking</span>
+            <div class="visual">
+              <img src="/assets/img/ecosystem-coffre.png" class="h-72">
+            </div>
+            <div class="explain">
+              <div class="desc">
+                Deal M Poker® has already started to create the “Poker’s Hub” with a staking platform which already allows poker players to open part of their bankroll to investors to finance their participation in famous world tournaments. In return, part of their winnings are paid back to those who bet on their success.
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="item">
+        <!-- <div class="item">
           <span class="label font-secondary">Poker room</span>
           <div class="visual">
             <img src="/assets/img/ecosystem-coffre.png" class="h-72 translate-y-10 invisible">
@@ -570,7 +625,7 @@
               Deal M Poker® has already started to create the “Poker’s Hub” with a staking platform which already allows poker players to open part of their bankroll to investors to finance their participation in famous world tournaments. In return, part of their winnings are paid back to those who bet on their success.
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="item">
           <div class="visual">
@@ -598,6 +653,7 @@
 
 
 
+
     <section class="section-roadmap">
 
       <div class="container mx-auto mb-16">
@@ -606,7 +662,6 @@
 
       <div class="container mx-auto">
         <div class="roadmap-tabs years">
-          <label data-target="tab-2021" class="year">2021</label>
           <label data-target="tab-2022" class="year active">2022</label>
           <label data-target="tab-2023" class="year">2023</label>
           <label data-target="tab-2024" class="year">2024</label>
@@ -614,75 +669,16 @@
 
         <div class="yeartabs-container">
 
-          <!-- 2021 -->
-          <div class="yeartab tab-2021 active">
-            <div class="quarter">
-              <label>Q1</label>
-              <ul>
-                <li>Finalization of development</li>
-                <li>Winerz API</li>
-              </ul>
-            </div>
-            <div class="quarter">
-              <label>Q2</label>
-              <ul>
-                <li>MVP</li>
-                <li>Official partnership with Paypal & Checkout.com</li>
-              </ul>
-            </div>
-            <div class="quarter">
-              <label>Q3</label>
-              <ul>
-                <li>Fundraising: &euro; 500K+</li>
-                <li>Team recruitment</li>
-                <li>Top influencers partnerships</li>
-              </ul>
-            </div>
-            <div class="quarter">
-              <label>Q4</label>
-              <ul>
-                <li>Beta version launch</li>
-                <li>UK + German opening</li>
-                <li>Betting transactions: &euro; +200,000</li>
-                <li>Played matches: +30,000</li>
-                <li>Community members: +45,000</li>
-              </ul>
-            </div>
-          </div>
-
           <!-- 2022 -->
-          <div class="yeartab tab-2022">
-            <div class="quarter">
-              <label>Q1</label>
-              <ul>
-                <li>VC Partners</li>
-                <li>Pre Sale / Private Sale</li>
-              </ul>
-            </div>
-            <div class="quarter current">
-              <label>Q2</label>
-              <ul>
-                <li>WNZ Token launch</li>
-                <li>Wallet Integrations</li>
-                <li>Staking ecosystem integration</li>
-                <li>CEX and DEX listings</li>
-              </ul>
-            </div>
-            <div class="quarter">
-              <label>Q3</label>
-              <ul>
-                <li>Influence campaigns from top worldwide influencers (the Sidemen, The united Stand etc..)</li>
-                <li>Decentralized NFT marketplace</li>
-                <li>Addition of new games</li>
-                <li>Mobile App</li>
-              </ul>
-            </div>
+          <div class="yeartab tab-2022 active">
             <div class="quarter">
               <label>Q4</label>
+              <p>WSOP JUNE 2022</p>
               <ul>
-                <li>New NFT collection to unlock the tournament feature</li>
-                <li>Tournament pre-launch (For NFTs holders)</li>
-                <li>Official tournament feature launch</li>
+                <li>Whitepaper</li>
+                <li>Launch</li>
+                <li>Website</li>
+                <li>Pro Team DEAL M POKER</li>
               </ul>
             </div>
           </div>
@@ -691,28 +687,39 @@
           <div class="yeartab tab-2023">
             <div class="quarter">
               <label>Q1</label>
+              <p>NFT MARKETPLACE</p>
               <ul>
-                <li>Tournament feature launch for all the WNZ holders</li>
-                <li>Addition of new games</li>
+                <li>NFT Web platform</li>
+                <li>Profile creation module</li>
+                <li>NFT minting</li>
+                <li>Sale / Buy / Trade</li>
+                <li>Team NFT Builder</li>
+                <li>Crypto payment allowed</li>
               </ul>
             </div>
             <div class="quarter">
               <label>Q2</label>
+              <p>STAKING PLATFORM REVIEW (NFT)</p>
               <ul>
-                <li>Hiring of Gaming Developers</li>
-                <li>Organising partnerships with top mobile game publishers to integrate Winerz API</li>
+                <li>Interoperability with the NFT Marketplace</li>
+                <li>NFT staking approval</li>
               </ul>
             </div>
             <div class="quarter">
               <label>Q3</label>
+              <p>GAMING</p>
               <ul>
-                <li>API integration in Metaverse games</li>
+                <li>Interoperability with the NFT</li>
+                <li>Marketplace</li>
+                <li>NFT Tournaments</li>
+                <li>Live reporting</li>
               </ul>
             </div>
             <div class="quarter">
               <label>Q4</label>
+              <p>MOBILE APPLICATION & VR</p>
               <ul>
-                <li>1<sup>st</sup> Winerz Game Development</li>
+                <li>All the Deal M Poker power on your Mobile</li>
               </ul>
             </div>
           </div>
@@ -988,45 +995,12 @@
 
       
       <div class="w-full text-center mt-14 mb-8">
-        <a href="/assets/docs/Winerz-Token-Economics.pdf" target="_blank" class="btn-circle"><label>Tokenomics</label><img src="/assets/img/icon-dl.webp" class="h-3 inline-block ml-3 invert-hover" /></a>
+        <a href="/assets/docs/TOKENOMIKS-DEAL-M.pdf" target="_blank" class="btn-circle"><label>Tokenomics</label><img src="/assets/img/icon-dl.webp" class="h-3 inline-block ml-3 invert-hover" /></a>
       </div>
       
     </section>
 
-    
-
-
-
-    <!-- <section class="section-backed">
-      <div class="container mx-auto mb-16">
-        <h3>Our Backers</h3> 
-        <div class="mx-auto w-full text-center">
-          <a href="http://3commascapital.io" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/3commas.webp" /></a>                
-          <a href="https://www.bigbrain.holdings" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/bigbrain.webp" /></a>                
-          <a href="https://www.checkout.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/checkout.webp" /></a>               
-          <a href="https://www.parachaingroup.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/parachain.webp" /></a>             
-          <a href="https://www.skyvisioncapital.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/skyvision.webp" /></a>
-          <a href="https://www.ariagp.io" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/ariagp.webp" /></a>
-          <a href="https://blockminds.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/blockminds.webp" /></a>             
-          <a href="https://cropper.finance" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/cropper.webp" /></a>                
-          <a href="https://solster.finance/" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/solster.webp" /></a>
-          <a href="https://solrazr.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/solrazr.webp" /></a>
-          <a href="https://bullperks.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/bullperks.webp" /></a>
-          <a href="https://gamespad.io" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/gamespad.webp" /></a>
-          <a href="https://www.dexlab.space" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/dexlab.webp" /></a>
-          <a href="https://www.coban.io" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/coban.webp" /></a>
-          <a href="https://www.ipsos.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/ipsos.webp" /></a>                  
-          <a href="https://hammerstar.capital" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/hammerstar.webp" /></a>             
-          <a href="https://twitter.com/UnitedStandMUFC" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/unitedstand.webp" /></a>            
-          <a href="https://bellone.ee" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/bellone.webp" /></a>                
-          <a href="https://alvariuminvestments.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/alvarium.webp" /></a>               
-          <a href="https://www.saranacpartners.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/saranac.webp" /></a>                
-          <a href="https://ngencap.com" target="_blank"><img class="hover:scale-105 transition-all inline-block max-h-32 lg:max-h-44 mx-8 align-middle" src="/assets/img/backers/ngen.webp" /></a>                   
-        </div>
-      </div>
-    </section> -->
-
-
+  
 
 
 
@@ -1124,50 +1098,74 @@
 
         <div class="faq-entries">
           
+
+
           <div class="faq-entry">
-            <label>Question
-            </label>
+            <label>What is the utility of the DEAL M token?</label>
             <p>
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ex obcaecati sunt commodi explicabo veniam, quaerat corrupti inventore nulla facilis ducimus. Exercitationem consectetur consequuntur ad praesentium error. Perferendis, esse ab?
+              DLM is utilized as a combination of economic values, associated services, granted rights and guaranteed access to the Poker’s Hub ecosystem which are the Gaming Area, the Poker Staking System and the NFT marketplace.
+          </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>How will the token increase in value? </label>
+            <p>
+              <br />
+              There are several factors that will impact positively the price of the token:
+              <br />
+              <br/>* Number of daily active users of the Poker’s hub and the engagement of its community.
+              <br/>* Economic mechanics of the token in place in order to strengthen the price in the long run.
+              <br/>* Market conditions and the trust that investors have in the DLM token
+              </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>When can I buy, trade or resell the tokens?</label>
+            <p>
+              <br />
+              DLM will first be available on Raydium, the popular DEX on Solana.
+              </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>What are the advantages for me to hold Deal M tokens?</label>
+            <p>
+              <br />* Accessing the poker staking system to be able to bet on the poker players of your choice
+              <br />* Buy and Sell NFTs that can increase in value based on the players’ performances
+              <br />* Earn rewards when staking the DLM token
+              <br />* Accessing the Gaming Area to participate in major poker tournaments to earn bonuses
+              <br />* Holding the token until its value increases to have greater purchasing power in Deal M Poker ‘s ecosystem
+            </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>What is a DEAL M NFT?</label>
+            <p>
+              <br />
+              DEAL M NFTs are cards representing a poker player that can be traded on a marketplace.
+            </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>Will everyone be able to create their own NFT?</label>
+            <p>
+              <br />
+              Only players validated by Deal M Poker will be able to create and mint their NFTs.
+            </p>
+          </div>
+
+          <div class="faq-entry">
+            <label>What will the Nft be used for? How is their value calculated?</label>
+            <p>
+              <br />
+              NFTs will be used for entering major competitions, monetizing players’ skills and image and getting special bonuses in Deal M Poker’s ecosystem.
+              <br />
+              <br />
+              The value of the NFT will vary depending on the player’s performance.
             </p>
           </div>
           
-          <div class="faq-entry">
-            <label>Question
-            </label>
-            <p>
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ex obcaecati sunt commodi explicabo veniam, quaerat corrupti inventore nulla facilis ducimus. Exercitationem consectetur consequuntur ad praesentium error. Perferendis, esse ab?
-            </p>
-          </div>
-          
-          <div class="faq-entry">
-            <label>Question
-            </label>
-            <p>
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ex obcaecati sunt commodi explicabo veniam, quaerat corrupti inventore nulla facilis ducimus. Exercitationem consectetur consequuntur ad praesentium error. Perferendis, esse ab?
-            </p>
-          </div>
-          
-          <div class="faq-entry">
-            <label>Question
-            </label>
-            <p>
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ex obcaecati sunt commodi explicabo veniam, quaerat corrupti inventore nulla facilis ducimus. Exercitationem consectetur consequuntur ad praesentium error. Perferendis, esse ab?
-            </p>
-          </div>
-          
-          <div class="faq-entry">
-            <label>Question
-            </label>
-            <p>
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ex obcaecati sunt commodi explicabo veniam, quaerat corrupti inventore nulla facilis ducimus. Exercitationem consectetur consequuntur ad praesentium error. Perferendis, esse ab?
-            </p>
-          </div>
           
         </div>
 
@@ -1187,15 +1185,14 @@
       <div class="links mt-10 flex flex-col sm:flex-row text-xs gap-5 justify-evenly">
         <div>
           <strong>Ressources</strong>
-          <a href="/assets/docs/Investor-deck.pdf" target="_blank">Investor Deck</a>
-          <a href="/assets/docs/Winerz-Token-Economics.pdf" target="_blank">Tokenomics</a>
+          <a href="/assets/docs/WP_DEALMPOKER.pdf" target="_blank">Whitepaper</a>
+          <a href="/assets/docs/TOKENOMIKS-DEAL-M.pdf" target="_blank">Tokenomics</a>
         </div>
         <div>
           <strong>Company</strong>
-          <a href="mailto:support@winerz.com">Contact Us</a>
-          <a href="https://www.linkedin.com/company/winerz/jobs/" target="_blank">Careers</a>
+          <a href="mailto:info@dealmpoker.com">Contact Us</a>
         </div>
-        <div>
+        <!-- <div>
           <strong>Company Info</strong>
           ALPHA WOLF GAMING OÜ
           <br />Harjumaa, Tallinn linn,
@@ -1204,7 +1201,7 @@
         <div>
           <a href="">TERMS AND CONDITIONS</a>
           <a href="">PRIVACY POLICY</a>
-        </div>
+        </div> -->
       </div>
     </footer>
 
@@ -1219,11 +1216,13 @@
   <script>
     
     document.body.style.overflow = "hidden"
-    window.addEventListener("load", function() {
-      
-      fixBackgrounds();
 
-      // initVideo();
+    document.addEventListener("DOMContentLoaded", function() {
+      initVideo();
+    });
+    
+    window.addEventListener("load", function() {
+      fixBackgrounds();
     });
 
 
@@ -1501,7 +1500,7 @@
 
       }
 
-      countdown('12/01/2023 00:00:00 AM');
+      // countdown('12/01/2023 00:00:00 AM');
 
 
 
@@ -1558,35 +1557,34 @@
     }
 
 
-    // let vidPlayer;
+    let vidPlayer;
 
-    // function initVideo() {
-    //   vidPlayer = videojs('wnz-teaser');
-    //   vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=iwZgR9X1-_s&vq=hd1080'});
-    // }
+    function initVideo() {
+      vidPlayer = videojs('dealm-teaser');
+      vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=QY7IevFAQ54&vq=hd1080'});
+    }
     
-    // function closeVideo() {
-    //   vidPlayer.pause();
-    //   document.querySelector("#video-cta").style.display = 'flex';
-    //   document.querySelector("#wnz-teaser-modal").style.display = 'none';
-    // }
-    // function playVideo() {
+    function closeVideo() {
+      vidPlayer.pause();
+      document.querySelector("#video-cta").style.display = 'flex';
+      document.querySelector("#dealm-teaser-modal").style.display = 'none';
+    }
+    function playVideo() {
       
-    //   document.querySelector("#video-cta").style.display = 'none';
-    //   document.querySelector("#wnz-teaser-modal").style.display = 'flex';
+      document.querySelector("#video-cta").style.display = 'none';
+      document.querySelector("#dealm-teaser-modal").style.display = 'flex';
       
-    //   vidPlayer.play();
+      vidPlayer.play();
 
+      // vidPlayer.ready(function() {
+        //   vidPlayer.play();
+      // });
+      // if (vidPlayer == undefined) {
 
-    //   // vidPlayer.ready(function() {
-    //     //   vidPlayer.play();
-    //   // });
-    //   // if (vidPlayer == undefined) {
+      // }
+      // else vidPlayer.play();
 
-    //   // }
-    //   // else vidPlayer.play();
-
-    // }
+    }
 
 
     function preloadImages(urls, allImagesLoadedCallback){

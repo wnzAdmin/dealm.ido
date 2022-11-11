@@ -2605,231 +2605,231 @@ body .section-whatis .circle-container .circle {
 }
 
 body .section-whatis .circle-container:nth-child(1) {
-  width: 2px;
-  height: 2px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-1;
           animation-name: move-frames-1;
-  -webkit-animation-duration: 34893ms;
-          animation-duration: 34893ms;
-  -webkit-animation-delay: 14785ms;
-          animation-delay: 14785ms;
+  -webkit-animation-duration: 32114ms;
+          animation-duration: 32114ms;
+  -webkit-animation-delay: 13114ms;
+          animation-delay: 13114ms;
 }
 
 @-webkit-keyframes move-frames-1 {
   from {
-    -webkit-transform: translate3d(97vw, 107vh, 0);
-            transform: translate3d(97vw, 107vh, 0);
+    -webkit-transform: translate3d(90vw, 106vh, 0);
+            transform: translate3d(90vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(88vw, -124vh, 0);
-            transform: translate3d(88vw, -124vh, 0);
+    -webkit-transform: translate3d(93vw, -113vh, 0);
+            transform: translate3d(93vw, -113vh, 0);
   }
 }
 
 @keyframes move-frames-1 {
   from {
-    -webkit-transform: translate3d(97vw, 107vh, 0);
-            transform: translate3d(97vw, 107vh, 0);
+    -webkit-transform: translate3d(90vw, 106vh, 0);
+            transform: translate3d(90vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(88vw, -124vh, 0);
-            transform: translate3d(88vw, -124vh, 0);
+    -webkit-transform: translate3d(93vw, -113vh, 0);
+            transform: translate3d(93vw, -113vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(1) .circle {
-  -webkit-animation-delay: 32ms;
-          animation-delay: 32ms;
+  -webkit-animation-delay: 2645ms;
+          animation-delay: 2645ms;
 }
 
 body .section-whatis .circle-container:nth-child(2) {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-2;
           animation-name: move-frames-2;
-  -webkit-animation-duration: 30241ms;
-          animation-duration: 30241ms;
-  -webkit-animation-delay: 33540ms;
-          animation-delay: 33540ms;
+  -webkit-animation-duration: 34528ms;
+          animation-duration: 34528ms;
+  -webkit-animation-delay: 3762ms;
+          animation-delay: 3762ms;
 }
 
 @-webkit-keyframes move-frames-2 {
   from {
-    -webkit-transform: translate3d(76vw, 105vh, 0);
-            transform: translate3d(76vw, 105vh, 0);
+    -webkit-transform: translate3d(91vw, 101vh, 0);
+            transform: translate3d(91vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -124vh, 0);
-            transform: translate3d(56vw, -124vh, 0);
+    -webkit-transform: translate3d(99vw, -109vh, 0);
+            transform: translate3d(99vw, -109vh, 0);
   }
 }
 
 @keyframes move-frames-2 {
   from {
-    -webkit-transform: translate3d(76vw, 105vh, 0);
-            transform: translate3d(76vw, 105vh, 0);
+    -webkit-transform: translate3d(91vw, 101vh, 0);
+            transform: translate3d(91vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -124vh, 0);
-            transform: translate3d(56vw, -124vh, 0);
+    -webkit-transform: translate3d(99vw, -109vh, 0);
+            transform: translate3d(99vw, -109vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(2) .circle {
-  -webkit-animation-delay: 3990ms;
-          animation-delay: 3990ms;
+  -webkit-animation-delay: 2548ms;
+          animation-delay: 2548ms;
 }
 
 body .section-whatis .circle-container:nth-child(3) {
-  width: 8px;
-  height: 8px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-3;
           animation-name: move-frames-3;
-  -webkit-animation-duration: 30934ms;
-          animation-duration: 30934ms;
-  -webkit-animation-delay: 32349ms;
-          animation-delay: 32349ms;
+  -webkit-animation-duration: 36089ms;
+          animation-duration: 36089ms;
+  -webkit-animation-delay: 4773ms;
+          animation-delay: 4773ms;
 }
 
 @-webkit-keyframes move-frames-3 {
   from {
-    -webkit-transform: translate3d(60vw, 109vh, 0);
-            transform: translate3d(60vw, 109vh, 0);
+    -webkit-transform: translate3d(49vw, 103vh, 0);
+            transform: translate3d(49vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(30vw, -121vh, 0);
-            transform: translate3d(30vw, -121vh, 0);
+    -webkit-transform: translate3d(22vw, -106vh, 0);
+            transform: translate3d(22vw, -106vh, 0);
   }
 }
 
 @keyframes move-frames-3 {
   from {
-    -webkit-transform: translate3d(60vw, 109vh, 0);
-            transform: translate3d(60vw, 109vh, 0);
+    -webkit-transform: translate3d(49vw, 103vh, 0);
+            transform: translate3d(49vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(30vw, -121vh, 0);
-            transform: translate3d(30vw, -121vh, 0);
+    -webkit-transform: translate3d(22vw, -106vh, 0);
+            transform: translate3d(22vw, -106vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(3) .circle {
-  -webkit-animation-delay: 3955ms;
-          animation-delay: 3955ms;
+  -webkit-animation-delay: 2962ms;
+          animation-delay: 2962ms;
 }
 
 body .section-whatis .circle-container:nth-child(4) {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-4;
           animation-name: move-frames-4;
-  -webkit-animation-duration: 28999ms;
-          animation-duration: 28999ms;
-  -webkit-animation-delay: 15790ms;
-          animation-delay: 15790ms;
+  -webkit-animation-duration: 33605ms;
+          animation-duration: 33605ms;
+  -webkit-animation-delay: 30066ms;
+          animation-delay: 30066ms;
 }
 
 @-webkit-keyframes move-frames-4 {
   from {
-    -webkit-transform: translate3d(94vw, 109vh, 0);
-            transform: translate3d(94vw, 109vh, 0);
+    -webkit-transform: translate3d(13vw, 107vh, 0);
+            transform: translate3d(13vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(68vw, -112vh, 0);
-            transform: translate3d(68vw, -112vh, 0);
+    -webkit-transform: translate3d(51vw, -121vh, 0);
+            transform: translate3d(51vw, -121vh, 0);
   }
 }
 
 @keyframes move-frames-4 {
   from {
-    -webkit-transform: translate3d(94vw, 109vh, 0);
-            transform: translate3d(94vw, 109vh, 0);
+    -webkit-transform: translate3d(13vw, 107vh, 0);
+            transform: translate3d(13vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(68vw, -112vh, 0);
-            transform: translate3d(68vw, -112vh, 0);
+    -webkit-transform: translate3d(51vw, -121vh, 0);
+            transform: translate3d(51vw, -121vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(4) .circle {
-  -webkit-animation-delay: 2030ms;
-          animation-delay: 2030ms;
+  -webkit-animation-delay: 2788ms;
+          animation-delay: 2788ms;
 }
 
 body .section-whatis .circle-container:nth-child(5) {
-  width: 5px;
-  height: 5px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-5;
           animation-name: move-frames-5;
-  -webkit-animation-duration: 30576ms;
-          animation-duration: 30576ms;
-  -webkit-animation-delay: 30592ms;
-          animation-delay: 30592ms;
+  -webkit-animation-duration: 34516ms;
+          animation-duration: 34516ms;
+  -webkit-animation-delay: 7616ms;
+          animation-delay: 7616ms;
 }
 
 @-webkit-keyframes move-frames-5 {
   from {
-    -webkit-transform: translate3d(15vw, 105vh, 0);
-            transform: translate3d(15vw, 105vh, 0);
+    -webkit-transform: translate3d(22vw, 107vh, 0);
+            transform: translate3d(22vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(67vw, -112vh, 0);
-            transform: translate3d(67vw, -112vh, 0);
+    -webkit-transform: translate3d(26vw, -134vh, 0);
+            transform: translate3d(26vw, -134vh, 0);
   }
 }
 
 @keyframes move-frames-5 {
   from {
-    -webkit-transform: translate3d(15vw, 105vh, 0);
-            transform: translate3d(15vw, 105vh, 0);
+    -webkit-transform: translate3d(22vw, 107vh, 0);
+            transform: translate3d(22vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(67vw, -112vh, 0);
-            transform: translate3d(67vw, -112vh, 0);
+    -webkit-transform: translate3d(26vw, -134vh, 0);
+            transform: translate3d(26vw, -134vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(5) .circle {
-  -webkit-animation-delay: 1065ms;
-          animation-delay: 1065ms;
+  -webkit-animation-delay: 372ms;
+          animation-delay: 372ms;
 }
 
 body .section-whatis .circle-container:nth-child(6) {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-6;
           animation-name: move-frames-6;
-  -webkit-animation-duration: 33361ms;
-          animation-duration: 33361ms;
-  -webkit-animation-delay: 11713ms;
-          animation-delay: 11713ms;
+  -webkit-animation-duration: 30059ms;
+          animation-duration: 30059ms;
+  -webkit-animation-delay: 18636ms;
+          animation-delay: 18636ms;
 }
 
 @-webkit-keyframes move-frames-6 {
   from {
-    -webkit-transform: translate3d(18vw, 109vh, 0);
-            transform: translate3d(18vw, 109vh, 0);
+    -webkit-transform: translate3d(56vw, 110vh, 0);
+            transform: translate3d(56vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -139vh, 0);
-            transform: translate3d(50vw, -139vh, 0);
+    -webkit-transform: translate3d(39vw, -138vh, 0);
+            transform: translate3d(39vw, -138vh, 0);
   }
 }
 
 @keyframes move-frames-6 {
   from {
-    -webkit-transform: translate3d(18vw, 109vh, 0);
-            transform: translate3d(18vw, 109vh, 0);
+    -webkit-transform: translate3d(56vw, 110vh, 0);
+            transform: translate3d(56vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -139vh, 0);
-            transform: translate3d(50vw, -139vh, 0);
+    -webkit-transform: translate3d(39vw, -138vh, 0);
+            transform: translate3d(39vw, -138vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(6) .circle {
-  -webkit-animation-delay: 477ms;
-          animation-delay: 477ms;
+  -webkit-animation-delay: 167ms;
+          animation-delay: 167ms;
 }
 
 body .section-whatis .circle-container:nth-child(7) {
@@ -2837,265 +2837,265 @@ body .section-whatis .circle-container:nth-child(7) {
   height: 3px;
   -webkit-animation-name: move-frames-7;
           animation-name: move-frames-7;
-  -webkit-animation-duration: 34124ms;
-          animation-duration: 34124ms;
-  -webkit-animation-delay: 7836ms;
-          animation-delay: 7836ms;
+  -webkit-animation-duration: 36325ms;
+          animation-duration: 36325ms;
+  -webkit-animation-delay: 22034ms;
+          animation-delay: 22034ms;
 }
 
 @-webkit-keyframes move-frames-7 {
   from {
-    -webkit-transform: translate3d(8vw, 105vh, 0);
-            transform: translate3d(8vw, 105vh, 0);
+    -webkit-transform: translate3d(96vw, 107vh, 0);
+            transform: translate3d(96vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -126vh, 0);
-            transform: translate3d(47vw, -126vh, 0);
+    -webkit-transform: translate3d(20vw, -132vh, 0);
+            transform: translate3d(20vw, -132vh, 0);
   }
 }
 
 @keyframes move-frames-7 {
   from {
-    -webkit-transform: translate3d(8vw, 105vh, 0);
-            transform: translate3d(8vw, 105vh, 0);
+    -webkit-transform: translate3d(96vw, 107vh, 0);
+            transform: translate3d(96vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -126vh, 0);
-            transform: translate3d(47vw, -126vh, 0);
+    -webkit-transform: translate3d(20vw, -132vh, 0);
+            transform: translate3d(20vw, -132vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(7) .circle {
-  -webkit-animation-delay: 1417ms;
-          animation-delay: 1417ms;
+  -webkit-animation-delay: 671ms;
+          animation-delay: 671ms;
 }
 
 body .section-whatis .circle-container:nth-child(8) {
-  width: 2px;
-  height: 2px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-8;
           animation-name: move-frames-8;
-  -webkit-animation-duration: 30409ms;
-          animation-duration: 30409ms;
-  -webkit-animation-delay: 8954ms;
-          animation-delay: 8954ms;
+  -webkit-animation-duration: 36310ms;
+          animation-duration: 36310ms;
+  -webkit-animation-delay: 8476ms;
+          animation-delay: 8476ms;
 }
 
 @-webkit-keyframes move-frames-8 {
   from {
-    -webkit-transform: translate3d(2vw, 107vh, 0);
-            transform: translate3d(2vw, 107vh, 0);
+    -webkit-transform: translate3d(86vw, 110vh, 0);
+            transform: translate3d(86vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -109vh, 0);
-            transform: translate3d(45vw, -109vh, 0);
+    -webkit-transform: translate3d(69vw, -121vh, 0);
+            transform: translate3d(69vw, -121vh, 0);
   }
 }
 
 @keyframes move-frames-8 {
   from {
-    -webkit-transform: translate3d(2vw, 107vh, 0);
-            transform: translate3d(2vw, 107vh, 0);
+    -webkit-transform: translate3d(86vw, 110vh, 0);
+            transform: translate3d(86vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -109vh, 0);
-            transform: translate3d(45vw, -109vh, 0);
+    -webkit-transform: translate3d(69vw, -121vh, 0);
+            transform: translate3d(69vw, -121vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(8) .circle {
-  -webkit-animation-delay: 1546ms;
-          animation-delay: 1546ms;
+  -webkit-animation-delay: 961ms;
+          animation-delay: 961ms;
 }
 
 body .section-whatis .circle-container:nth-child(9) {
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-9;
           animation-name: move-frames-9;
-  -webkit-animation-duration: 34523ms;
-          animation-duration: 34523ms;
-  -webkit-animation-delay: 31432ms;
-          animation-delay: 31432ms;
+  -webkit-animation-duration: 36157ms;
+          animation-duration: 36157ms;
+  -webkit-animation-delay: 24409ms;
+          animation-delay: 24409ms;
 }
 
 @-webkit-keyframes move-frames-9 {
   from {
-    -webkit-transform: translate3d(94vw, 109vh, 0);
-            transform: translate3d(94vw, 109vh, 0);
+    -webkit-transform: translate3d(70vw, 109vh, 0);
+            transform: translate3d(70vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -136vh, 0);
-            transform: translate3d(18vw, -136vh, 0);
+    -webkit-transform: translate3d(52vw, -116vh, 0);
+            transform: translate3d(52vw, -116vh, 0);
   }
 }
 
 @keyframes move-frames-9 {
   from {
-    -webkit-transform: translate3d(94vw, 109vh, 0);
-            transform: translate3d(94vw, 109vh, 0);
+    -webkit-transform: translate3d(70vw, 109vh, 0);
+            transform: translate3d(70vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -136vh, 0);
-            transform: translate3d(18vw, -136vh, 0);
+    -webkit-transform: translate3d(52vw, -116vh, 0);
+            transform: translate3d(52vw, -116vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(9) .circle {
-  -webkit-animation-delay: 694ms;
-          animation-delay: 694ms;
+  -webkit-animation-delay: 259ms;
+          animation-delay: 259ms;
 }
 
 body .section-whatis .circle-container:nth-child(10) {
-  width: 7px;
-  height: 7px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-10;
           animation-name: move-frames-10;
-  -webkit-animation-duration: 29100ms;
-          animation-duration: 29100ms;
-  -webkit-animation-delay: 5251ms;
-          animation-delay: 5251ms;
+  -webkit-animation-duration: 28433ms;
+          animation-duration: 28433ms;
+  -webkit-animation-delay: 10123ms;
+          animation-delay: 10123ms;
 }
 
 @-webkit-keyframes move-frames-10 {
   from {
-    -webkit-transform: translate3d(58vw, 109vh, 0);
-            transform: translate3d(58vw, 109vh, 0);
+    -webkit-transform: translate3d(36vw, 108vh, 0);
+            transform: translate3d(36vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(93vw, -118vh, 0);
-            transform: translate3d(93vw, -118vh, 0);
+    -webkit-transform: translate3d(3vw, -111vh, 0);
+            transform: translate3d(3vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-10 {
   from {
-    -webkit-transform: translate3d(58vw, 109vh, 0);
-            transform: translate3d(58vw, 109vh, 0);
+    -webkit-transform: translate3d(36vw, 108vh, 0);
+            transform: translate3d(36vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(93vw, -118vh, 0);
-            transform: translate3d(93vw, -118vh, 0);
+    -webkit-transform: translate3d(3vw, -111vh, 0);
+            transform: translate3d(3vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(10) .circle {
-  -webkit-animation-delay: 3229ms;
-          animation-delay: 3229ms;
+  -webkit-animation-delay: 716ms;
+          animation-delay: 716ms;
 }
 
 body .section-whatis .circle-container:nth-child(11) {
-  width: 1px;
-  height: 1px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-11;
           animation-name: move-frames-11;
-  -webkit-animation-duration: 33703ms;
-          animation-duration: 33703ms;
-  -webkit-animation-delay: 2848ms;
-          animation-delay: 2848ms;
+  -webkit-animation-duration: 30317ms;
+          animation-duration: 30317ms;
+  -webkit-animation-delay: 30607ms;
+          animation-delay: 30607ms;
 }
 
 @-webkit-keyframes move-frames-11 {
   from {
-    -webkit-transform: translate3d(84vw, 101vh, 0);
-            transform: translate3d(84vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 108vh, 0);
+            transform: translate3d(8vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(60vw, -124vh, 0);
-            transform: translate3d(60vw, -124vh, 0);
+    -webkit-transform: translate3d(5vw, -116vh, 0);
+            transform: translate3d(5vw, -116vh, 0);
   }
 }
 
 @keyframes move-frames-11 {
   from {
-    -webkit-transform: translate3d(84vw, 101vh, 0);
-            transform: translate3d(84vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 108vh, 0);
+            transform: translate3d(8vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(60vw, -124vh, 0);
-            transform: translate3d(60vw, -124vh, 0);
+    -webkit-transform: translate3d(5vw, -116vh, 0);
+            transform: translate3d(5vw, -116vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(11) .circle {
-  -webkit-animation-delay: 3833ms;
-          animation-delay: 3833ms;
+  -webkit-animation-delay: 1540ms;
+          animation-delay: 1540ms;
 }
 
 body .section-whatis .circle-container:nth-child(12) {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-12;
           animation-name: move-frames-12;
-  -webkit-animation-duration: 29291ms;
-          animation-duration: 29291ms;
-  -webkit-animation-delay: 21983ms;
-          animation-delay: 21983ms;
+  -webkit-animation-duration: 33204ms;
+          animation-duration: 33204ms;
+  -webkit-animation-delay: 28257ms;
+          animation-delay: 28257ms;
 }
 
 @-webkit-keyframes move-frames-12 {
   from {
-    -webkit-transform: translate3d(71vw, 102vh, 0);
-            transform: translate3d(71vw, 102vh, 0);
+    -webkit-transform: translate3d(85vw, 103vh, 0);
+            transform: translate3d(85vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(53vw, -121vh, 0);
-            transform: translate3d(53vw, -121vh, 0);
+    -webkit-transform: translate3d(4vw, -106vh, 0);
+            transform: translate3d(4vw, -106vh, 0);
   }
 }
 
 @keyframes move-frames-12 {
   from {
-    -webkit-transform: translate3d(71vw, 102vh, 0);
-            transform: translate3d(71vw, 102vh, 0);
+    -webkit-transform: translate3d(85vw, 103vh, 0);
+            transform: translate3d(85vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(53vw, -121vh, 0);
-            transform: translate3d(53vw, -121vh, 0);
+    -webkit-transform: translate3d(4vw, -106vh, 0);
+            transform: translate3d(4vw, -106vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(12) .circle {
-  -webkit-animation-delay: 2700ms;
-          animation-delay: 2700ms;
+  -webkit-animation-delay: 818ms;
+          animation-delay: 818ms;
 }
 
 body .section-whatis .circle-container:nth-child(13) {
-  width: 2px;
-  height: 2px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-13;
           animation-name: move-frames-13;
-  -webkit-animation-duration: 34163ms;
-          animation-duration: 34163ms;
-  -webkit-animation-delay: 12352ms;
-          animation-delay: 12352ms;
+  -webkit-animation-duration: 28417ms;
+          animation-duration: 28417ms;
+  -webkit-animation-delay: 5228ms;
+          animation-delay: 5228ms;
 }
 
 @-webkit-keyframes move-frames-13 {
   from {
-    -webkit-transform: translate3d(16vw, 106vh, 0);
-            transform: translate3d(16vw, 106vh, 0);
+    -webkit-transform: translate3d(74vw, 106vh, 0);
+            transform: translate3d(74vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(33vw, -124vh, 0);
-            transform: translate3d(33vw, -124vh, 0);
+    -webkit-transform: translate3d(83vw, -124vh, 0);
+            transform: translate3d(83vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-13 {
   from {
-    -webkit-transform: translate3d(16vw, 106vh, 0);
-            transform: translate3d(16vw, 106vh, 0);
+    -webkit-transform: translate3d(74vw, 106vh, 0);
+            transform: translate3d(74vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(33vw, -124vh, 0);
-            transform: translate3d(33vw, -124vh, 0);
+    -webkit-transform: translate3d(83vw, -124vh, 0);
+            transform: translate3d(83vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(13) .circle {
-  -webkit-animation-delay: 846ms;
-          animation-delay: 846ms;
+  -webkit-animation-delay: 3664ms;
+          animation-delay: 3664ms;
 }
 
 body .section-whatis .circle-container:nth-child(14) {
@@ -3103,645 +3103,645 @@ body .section-whatis .circle-container:nth-child(14) {
   height: 8px;
   -webkit-animation-name: move-frames-14;
           animation-name: move-frames-14;
-  -webkit-animation-duration: 28952ms;
-          animation-duration: 28952ms;
-  -webkit-animation-delay: 24723ms;
-          animation-delay: 24723ms;
+  -webkit-animation-duration: 29643ms;
+          animation-duration: 29643ms;
+  -webkit-animation-delay: 31684ms;
+          animation-delay: 31684ms;
 }
 
 @-webkit-keyframes move-frames-14 {
   from {
-    -webkit-transform: translate3d(5vw, 109vh, 0);
-            transform: translate3d(5vw, 109vh, 0);
+    -webkit-transform: translate3d(24vw, 109vh, 0);
+            transform: translate3d(24vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(83vw, -123vh, 0);
-            transform: translate3d(83vw, -123vh, 0);
+    -webkit-transform: translate3d(2vw, -121vh, 0);
+            transform: translate3d(2vw, -121vh, 0);
   }
 }
 
 @keyframes move-frames-14 {
   from {
-    -webkit-transform: translate3d(5vw, 109vh, 0);
-            transform: translate3d(5vw, 109vh, 0);
+    -webkit-transform: translate3d(24vw, 109vh, 0);
+            transform: translate3d(24vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(83vw, -123vh, 0);
-            transform: translate3d(83vw, -123vh, 0);
+    -webkit-transform: translate3d(2vw, -121vh, 0);
+            transform: translate3d(2vw, -121vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(14) .circle {
-  -webkit-animation-delay: 2655ms;
-          animation-delay: 2655ms;
+  -webkit-animation-delay: 3915ms;
+          animation-delay: 3915ms;
 }
 
 body .section-whatis .circle-container:nth-child(15) {
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-15;
           animation-name: move-frames-15;
-  -webkit-animation-duration: 34462ms;
-          animation-duration: 34462ms;
-  -webkit-animation-delay: 36222ms;
-          animation-delay: 36222ms;
+  -webkit-animation-duration: 28171ms;
+          animation-duration: 28171ms;
+  -webkit-animation-delay: 32045ms;
+          animation-delay: 32045ms;
 }
 
 @-webkit-keyframes move-frames-15 {
   from {
-    -webkit-transform: translate3d(43vw, 106vh, 0);
-            transform: translate3d(43vw, 106vh, 0);
+    -webkit-transform: translate3d(30vw, 109vh, 0);
+            transform: translate3d(30vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(16vw, -130vh, 0);
-            transform: translate3d(16vw, -130vh, 0);
+    -webkit-transform: translate3d(51vw, -130vh, 0);
+            transform: translate3d(51vw, -130vh, 0);
   }
 }
 
 @keyframes move-frames-15 {
   from {
-    -webkit-transform: translate3d(43vw, 106vh, 0);
-            transform: translate3d(43vw, 106vh, 0);
+    -webkit-transform: translate3d(30vw, 109vh, 0);
+            transform: translate3d(30vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(16vw, -130vh, 0);
-            transform: translate3d(16vw, -130vh, 0);
+    -webkit-transform: translate3d(51vw, -130vh, 0);
+            transform: translate3d(51vw, -130vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(15) .circle {
-  -webkit-animation-delay: 398ms;
-          animation-delay: 398ms;
+  -webkit-animation-delay: 3911ms;
+          animation-delay: 3911ms;
 }
 
 body .section-whatis .circle-container:nth-child(16) {
-  width: 1px;
-  height: 1px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-16;
           animation-name: move-frames-16;
-  -webkit-animation-duration: 33381ms;
-          animation-duration: 33381ms;
-  -webkit-animation-delay: 15613ms;
-          animation-delay: 15613ms;
+  -webkit-animation-duration: 34825ms;
+          animation-duration: 34825ms;
+  -webkit-animation-delay: 26423ms;
+          animation-delay: 26423ms;
 }
 
 @-webkit-keyframes move-frames-16 {
   from {
-    -webkit-transform: translate3d(2vw, 107vh, 0);
-            transform: translate3d(2vw, 107vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(70vw, -133vh, 0);
-            transform: translate3d(70vw, -133vh, 0);
+    -webkit-transform: translate3d(72vw, -110vh, 0);
+            transform: translate3d(72vw, -110vh, 0);
   }
 }
 
 @keyframes move-frames-16 {
   from {
-    -webkit-transform: translate3d(2vw, 107vh, 0);
-            transform: translate3d(2vw, 107vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(70vw, -133vh, 0);
-            transform: translate3d(70vw, -133vh, 0);
+    -webkit-transform: translate3d(72vw, -110vh, 0);
+            transform: translate3d(72vw, -110vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(16) .circle {
-  -webkit-animation-delay: 351ms;
-          animation-delay: 351ms;
+  -webkit-animation-delay: 1290ms;
+          animation-delay: 1290ms;
 }
 
 body .section-whatis .circle-container:nth-child(17) {
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-17;
           animation-name: move-frames-17;
-  -webkit-animation-duration: 28208ms;
-          animation-duration: 28208ms;
-  -webkit-animation-delay: 21291ms;
-          animation-delay: 21291ms;
+  -webkit-animation-duration: 34262ms;
+          animation-duration: 34262ms;
+  -webkit-animation-delay: 4565ms;
+          animation-delay: 4565ms;
 }
 
 @-webkit-keyframes move-frames-17 {
   from {
-    -webkit-transform: translate3d(41vw, 105vh, 0);
-            transform: translate3d(41vw, 105vh, 0);
+    -webkit-transform: translate3d(28vw, 109vh, 0);
+            transform: translate3d(28vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(58vw, -109vh, 0);
-            transform: translate3d(58vw, -109vh, 0);
+    -webkit-transform: translate3d(66vw, -134vh, 0);
+            transform: translate3d(66vw, -134vh, 0);
   }
 }
 
 @keyframes move-frames-17 {
   from {
-    -webkit-transform: translate3d(41vw, 105vh, 0);
-            transform: translate3d(41vw, 105vh, 0);
+    -webkit-transform: translate3d(28vw, 109vh, 0);
+            transform: translate3d(28vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(58vw, -109vh, 0);
-            transform: translate3d(58vw, -109vh, 0);
+    -webkit-transform: translate3d(66vw, -134vh, 0);
+            transform: translate3d(66vw, -134vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(17) .circle {
-  -webkit-animation-delay: 402ms;
-          animation-delay: 402ms;
+  -webkit-animation-delay: 3641ms;
+          animation-delay: 3641ms;
 }
 
 body .section-whatis .circle-container:nth-child(18) {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-18;
           animation-name: move-frames-18;
-  -webkit-animation-duration: 35052ms;
-          animation-duration: 35052ms;
-  -webkit-animation-delay: 15397ms;
-          animation-delay: 15397ms;
+  -webkit-animation-duration: 29923ms;
+          animation-duration: 29923ms;
+  -webkit-animation-delay: 12884ms;
+          animation-delay: 12884ms;
 }
 
 @-webkit-keyframes move-frames-18 {
   from {
-    -webkit-transform: translate3d(67vw, 106vh, 0);
-            transform: translate3d(67vw, 106vh, 0);
+    -webkit-transform: translate3d(43vw, 101vh, 0);
+            transform: translate3d(43vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(73vw, -107vh, 0);
-            transform: translate3d(73vw, -107vh, 0);
+    -webkit-transform: translate3d(8vw, -122vh, 0);
+            transform: translate3d(8vw, -122vh, 0);
   }
 }
 
 @keyframes move-frames-18 {
   from {
-    -webkit-transform: translate3d(67vw, 106vh, 0);
-            transform: translate3d(67vw, 106vh, 0);
+    -webkit-transform: translate3d(43vw, 101vh, 0);
+            transform: translate3d(43vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(73vw, -107vh, 0);
-            transform: translate3d(73vw, -107vh, 0);
+    -webkit-transform: translate3d(8vw, -122vh, 0);
+            transform: translate3d(8vw, -122vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(18) .circle {
-  -webkit-animation-delay: 359ms;
-          animation-delay: 359ms;
+  -webkit-animation-delay: 2199ms;
+          animation-delay: 2199ms;
 }
 
 body .section-whatis .circle-container:nth-child(19) {
-  width: 3px;
-  height: 3px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-19;
           animation-name: move-frames-19;
-  -webkit-animation-duration: 32425ms;
-          animation-duration: 32425ms;
-  -webkit-animation-delay: 6512ms;
-          animation-delay: 6512ms;
+  -webkit-animation-duration: 36004ms;
+          animation-duration: 36004ms;
+  -webkit-animation-delay: 35230ms;
+          animation-delay: 35230ms;
 }
 
 @-webkit-keyframes move-frames-19 {
   from {
-    -webkit-transform: translate3d(47vw, 101vh, 0);
-            transform: translate3d(47vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 102vh, 0);
+            transform: translate3d(8vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(5vw, -115vh, 0);
-            transform: translate3d(5vw, -115vh, 0);
+    -webkit-transform: translate3d(30vw, -103vh, 0);
+            transform: translate3d(30vw, -103vh, 0);
   }
 }
 
 @keyframes move-frames-19 {
   from {
-    -webkit-transform: translate3d(47vw, 101vh, 0);
-            transform: translate3d(47vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 102vh, 0);
+            transform: translate3d(8vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(5vw, -115vh, 0);
-            transform: translate3d(5vw, -115vh, 0);
+    -webkit-transform: translate3d(30vw, -103vh, 0);
+            transform: translate3d(30vw, -103vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(19) .circle {
-  -webkit-animation-delay: 255ms;
-          animation-delay: 255ms;
+  -webkit-animation-delay: 3452ms;
+          animation-delay: 3452ms;
 }
 
 body .section-whatis .circle-container:nth-child(20) {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-20;
           animation-name: move-frames-20;
-  -webkit-animation-duration: 32747ms;
-          animation-duration: 32747ms;
-  -webkit-animation-delay: 34424ms;
-          animation-delay: 34424ms;
+  -webkit-animation-duration: 36138ms;
+          animation-duration: 36138ms;
+  -webkit-animation-delay: 24953ms;
+          animation-delay: 24953ms;
 }
 
 @-webkit-keyframes move-frames-20 {
   from {
-    -webkit-transform: translate3d(33vw, 102vh, 0);
-            transform: translate3d(33vw, 102vh, 0);
+    -webkit-transform: translate3d(31vw, 103vh, 0);
+            transform: translate3d(31vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -112vh, 0);
-            transform: translate3d(56vw, -112vh, 0);
+    -webkit-transform: translate3d(50vw, -106vh, 0);
+            transform: translate3d(50vw, -106vh, 0);
   }
 }
 
 @keyframes move-frames-20 {
   from {
-    -webkit-transform: translate3d(33vw, 102vh, 0);
-            transform: translate3d(33vw, 102vh, 0);
+    -webkit-transform: translate3d(31vw, 103vh, 0);
+            transform: translate3d(31vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -112vh, 0);
-            transform: translate3d(56vw, -112vh, 0);
+    -webkit-transform: translate3d(50vw, -106vh, 0);
+            transform: translate3d(50vw, -106vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(20) .circle {
-  -webkit-animation-delay: 2687ms;
-          animation-delay: 2687ms;
+  -webkit-animation-delay: 103ms;
+          animation-delay: 103ms;
 }
 
 body .section-whatis .circle-container:nth-child(21) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-21;
           animation-name: move-frames-21;
-  -webkit-animation-duration: 35103ms;
-          animation-duration: 35103ms;
-  -webkit-animation-delay: 11922ms;
-          animation-delay: 11922ms;
+  -webkit-animation-duration: 36283ms;
+          animation-duration: 36283ms;
+  -webkit-animation-delay: 584ms;
+          animation-delay: 584ms;
 }
 
 @-webkit-keyframes move-frames-21 {
   from {
-    -webkit-transform: translate3d(71vw, 107vh, 0);
-            transform: translate3d(71vw, 107vh, 0);
+    -webkit-transform: translate3d(39vw, 110vh, 0);
+            transform: translate3d(39vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(20vw, -124vh, 0);
-            transform: translate3d(20vw, -124vh, 0);
+    -webkit-transform: translate3d(82vw, -113vh, 0);
+            transform: translate3d(82vw, -113vh, 0);
   }
 }
 
 @keyframes move-frames-21 {
   from {
-    -webkit-transform: translate3d(71vw, 107vh, 0);
-            transform: translate3d(71vw, 107vh, 0);
+    -webkit-transform: translate3d(39vw, 110vh, 0);
+            transform: translate3d(39vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(20vw, -124vh, 0);
-            transform: translate3d(20vw, -124vh, 0);
+    -webkit-transform: translate3d(82vw, -113vh, 0);
+            transform: translate3d(82vw, -113vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(21) .circle {
-  -webkit-animation-delay: 3366ms;
-          animation-delay: 3366ms;
+  -webkit-animation-delay: 1677ms;
+          animation-delay: 1677ms;
 }
 
 body .section-whatis .circle-container:nth-child(22) {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-22;
           animation-name: move-frames-22;
-  -webkit-animation-duration: 28638ms;
-          animation-duration: 28638ms;
-  -webkit-animation-delay: 33096ms;
-          animation-delay: 33096ms;
+  -webkit-animation-duration: 36630ms;
+          animation-duration: 36630ms;
+  -webkit-animation-delay: 32864ms;
+          animation-delay: 32864ms;
 }
 
 @-webkit-keyframes move-frames-22 {
   from {
-    -webkit-transform: translate3d(25vw, 107vh, 0);
-            transform: translate3d(25vw, 107vh, 0);
+    -webkit-transform: translate3d(82vw, 107vh, 0);
+            transform: translate3d(82vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(82vw, -114vh, 0);
-            transform: translate3d(82vw, -114vh, 0);
+    -webkit-transform: translate3d(22vw, -123vh, 0);
+            transform: translate3d(22vw, -123vh, 0);
   }
 }
 
 @keyframes move-frames-22 {
   from {
-    -webkit-transform: translate3d(25vw, 107vh, 0);
-            transform: translate3d(25vw, 107vh, 0);
+    -webkit-transform: translate3d(82vw, 107vh, 0);
+            transform: translate3d(82vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(82vw, -114vh, 0);
-            transform: translate3d(82vw, -114vh, 0);
+    -webkit-transform: translate3d(22vw, -123vh, 0);
+            transform: translate3d(22vw, -123vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(22) .circle {
-  -webkit-animation-delay: 1312ms;
-          animation-delay: 1312ms;
+  -webkit-animation-delay: 3184ms;
+          animation-delay: 3184ms;
 }
 
 body .section-whatis .circle-container:nth-child(23) {
-  width: 8px;
-  height: 8px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-23;
           animation-name: move-frames-23;
-  -webkit-animation-duration: 32437ms;
-          animation-duration: 32437ms;
-  -webkit-animation-delay: 35798ms;
-          animation-delay: 35798ms;
+  -webkit-animation-duration: 35742ms;
+          animation-duration: 35742ms;
+  -webkit-animation-delay: 23762ms;
+          animation-delay: 23762ms;
 }
 
 @-webkit-keyframes move-frames-23 {
   from {
-    -webkit-transform: translate3d(19vw, 104vh, 0);
-            transform: translate3d(19vw, 104vh, 0);
+    -webkit-transform: translate3d(4vw, 109vh, 0);
+            transform: translate3d(4vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -108vh, 0);
-            transform: translate3d(56vw, -108vh, 0);
+    -webkit-transform: translate3d(45vw, -129vh, 0);
+            transform: translate3d(45vw, -129vh, 0);
   }
 }
 
 @keyframes move-frames-23 {
   from {
-    -webkit-transform: translate3d(19vw, 104vh, 0);
-            transform: translate3d(19vw, 104vh, 0);
+    -webkit-transform: translate3d(4vw, 109vh, 0);
+            transform: translate3d(4vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(56vw, -108vh, 0);
-            transform: translate3d(56vw, -108vh, 0);
+    -webkit-transform: translate3d(45vw, -129vh, 0);
+            transform: translate3d(45vw, -129vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(23) .circle {
-  -webkit-animation-delay: 713ms;
-          animation-delay: 713ms;
+  -webkit-animation-delay: 491ms;
+          animation-delay: 491ms;
 }
 
 body .section-whatis .circle-container:nth-child(24) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-24;
           animation-name: move-frames-24;
-  -webkit-animation-duration: 28194ms;
-          animation-duration: 28194ms;
-  -webkit-animation-delay: 16733ms;
-          animation-delay: 16733ms;
+  -webkit-animation-duration: 34101ms;
+          animation-duration: 34101ms;
+  -webkit-animation-delay: 13368ms;
+          animation-delay: 13368ms;
 }
 
 @-webkit-keyframes move-frames-24 {
   from {
-    -webkit-transform: translate3d(44vw, 104vh, 0);
-            transform: translate3d(44vw, 104vh, 0);
+    -webkit-transform: translate3d(54vw, 103vh, 0);
+            transform: translate3d(54vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -128vh, 0);
-            transform: translate3d(47vw, -128vh, 0);
+    -webkit-transform: translate3d(94vw, -107vh, 0);
+            transform: translate3d(94vw, -107vh, 0);
   }
 }
 
 @keyframes move-frames-24 {
   from {
-    -webkit-transform: translate3d(44vw, 104vh, 0);
-            transform: translate3d(44vw, 104vh, 0);
+    -webkit-transform: translate3d(54vw, 103vh, 0);
+            transform: translate3d(54vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -128vh, 0);
-            transform: translate3d(47vw, -128vh, 0);
+    -webkit-transform: translate3d(94vw, -107vh, 0);
+            transform: translate3d(94vw, -107vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(24) .circle {
-  -webkit-animation-delay: 266ms;
-          animation-delay: 266ms;
+  -webkit-animation-delay: 290ms;
+          animation-delay: 290ms;
 }
 
 body .section-whatis .circle-container:nth-child(25) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-25;
           animation-name: move-frames-25;
-  -webkit-animation-duration: 31974ms;
-          animation-duration: 31974ms;
-  -webkit-animation-delay: 35317ms;
-          animation-delay: 35317ms;
+  -webkit-animation-duration: 30511ms;
+          animation-duration: 30511ms;
+  -webkit-animation-delay: 26234ms;
+          animation-delay: 26234ms;
 }
 
 @-webkit-keyframes move-frames-25 {
   from {
-    -webkit-transform: translate3d(30vw, 103vh, 0);
-            transform: translate3d(30vw, 103vh, 0);
+    -webkit-transform: translate3d(33vw, 108vh, 0);
+            transform: translate3d(33vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -128vh, 0);
-            transform: translate3d(45vw, -128vh, 0);
+    -webkit-transform: translate3d(60vw, -126vh, 0);
+            transform: translate3d(60vw, -126vh, 0);
   }
 }
 
 @keyframes move-frames-25 {
   from {
-    -webkit-transform: translate3d(30vw, 103vh, 0);
-            transform: translate3d(30vw, 103vh, 0);
+    -webkit-transform: translate3d(33vw, 108vh, 0);
+            transform: translate3d(33vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -128vh, 0);
-            transform: translate3d(45vw, -128vh, 0);
+    -webkit-transform: translate3d(60vw, -126vh, 0);
+            transform: translate3d(60vw, -126vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(25) .circle {
-  -webkit-animation-delay: 3335ms;
-          animation-delay: 3335ms;
+  -webkit-animation-delay: 3748ms;
+          animation-delay: 3748ms;
 }
 
 body .section-whatis .circle-container:nth-child(26) {
-  width: 2px;
-  height: 2px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-26;
           animation-name: move-frames-26;
-  -webkit-animation-duration: 35979ms;
-          animation-duration: 35979ms;
-  -webkit-animation-delay: 19269ms;
-          animation-delay: 19269ms;
+  -webkit-animation-duration: 36218ms;
+          animation-duration: 36218ms;
+  -webkit-animation-delay: 7727ms;
+          animation-delay: 7727ms;
 }
 
 @-webkit-keyframes move-frames-26 {
   from {
-    -webkit-transform: translate3d(1vw, 102vh, 0);
-            transform: translate3d(1vw, 102vh, 0);
+    -webkit-transform: translate3d(20vw, 104vh, 0);
+            transform: translate3d(20vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -108vh, 0);
-            transform: translate3d(81vw, -108vh, 0);
+    -webkit-transform: translate3d(10vw, -126vh, 0);
+            transform: translate3d(10vw, -126vh, 0);
   }
 }
 
 @keyframes move-frames-26 {
   from {
-    -webkit-transform: translate3d(1vw, 102vh, 0);
-            transform: translate3d(1vw, 102vh, 0);
+    -webkit-transform: translate3d(20vw, 104vh, 0);
+            transform: translate3d(20vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -108vh, 0);
-            transform: translate3d(81vw, -108vh, 0);
+    -webkit-transform: translate3d(10vw, -126vh, 0);
+            transform: translate3d(10vw, -126vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(26) .circle {
-  -webkit-animation-delay: 3754ms;
-          animation-delay: 3754ms;
+  -webkit-animation-delay: 1008ms;
+          animation-delay: 1008ms;
 }
 
 body .section-whatis .circle-container:nth-child(27) {
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-27;
           animation-name: move-frames-27;
-  -webkit-animation-duration: 36220ms;
-          animation-duration: 36220ms;
-  -webkit-animation-delay: 6257ms;
-          animation-delay: 6257ms;
+  -webkit-animation-duration: 34009ms;
+          animation-duration: 34009ms;
+  -webkit-animation-delay: 1326ms;
+          animation-delay: 1326ms;
 }
 
 @-webkit-keyframes move-frames-27 {
   from {
-    -webkit-transform: translate3d(4vw, 106vh, 0);
-            transform: translate3d(4vw, 106vh, 0);
+    -webkit-transform: translate3d(54vw, 107vh, 0);
+            transform: translate3d(54vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(91vw, -115vh, 0);
-            transform: translate3d(91vw, -115vh, 0);
+    -webkit-transform: translate3d(35vw, -125vh, 0);
+            transform: translate3d(35vw, -125vh, 0);
   }
 }
 
 @keyframes move-frames-27 {
   from {
-    -webkit-transform: translate3d(4vw, 106vh, 0);
-            transform: translate3d(4vw, 106vh, 0);
+    -webkit-transform: translate3d(54vw, 107vh, 0);
+            transform: translate3d(54vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(91vw, -115vh, 0);
-            transform: translate3d(91vw, -115vh, 0);
+    -webkit-transform: translate3d(35vw, -125vh, 0);
+            transform: translate3d(35vw, -125vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(27) .circle {
-  -webkit-animation-delay: 3925ms;
-          animation-delay: 3925ms;
+  -webkit-animation-delay: 1355ms;
+          animation-delay: 1355ms;
 }
 
 body .section-whatis .circle-container:nth-child(28) {
-  width: 1px;
-  height: 1px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-28;
           animation-name: move-frames-28;
-  -webkit-animation-duration: 33080ms;
-          animation-duration: 33080ms;
-  -webkit-animation-delay: 35408ms;
-          animation-delay: 35408ms;
+  -webkit-animation-duration: 31371ms;
+          animation-duration: 31371ms;
+  -webkit-animation-delay: 35362ms;
+          animation-delay: 35362ms;
 }
 
 @-webkit-keyframes move-frames-28 {
   from {
-    -webkit-transform: translate3d(65vw, 102vh, 0);
-            transform: translate3d(65vw, 102vh, 0);
+    -webkit-transform: translate3d(76vw, 102vh, 0);
+            transform: translate3d(76vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(1vw, -116vh, 0);
-            transform: translate3d(1vw, -116vh, 0);
+    -webkit-transform: translate3d(87vw, -116vh, 0);
+            transform: translate3d(87vw, -116vh, 0);
   }
 }
 
 @keyframes move-frames-28 {
   from {
-    -webkit-transform: translate3d(65vw, 102vh, 0);
-            transform: translate3d(65vw, 102vh, 0);
+    -webkit-transform: translate3d(76vw, 102vh, 0);
+            transform: translate3d(76vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(1vw, -116vh, 0);
-            transform: translate3d(1vw, -116vh, 0);
+    -webkit-transform: translate3d(87vw, -116vh, 0);
+            transform: translate3d(87vw, -116vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(28) .circle {
-  -webkit-animation-delay: 265ms;
-          animation-delay: 265ms;
+  -webkit-animation-delay: 2737ms;
+          animation-delay: 2737ms;
 }
 
 body .section-whatis .circle-container:nth-child(29) {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-29;
           animation-name: move-frames-29;
-  -webkit-animation-duration: 33911ms;
-          animation-duration: 33911ms;
-  -webkit-animation-delay: 6405ms;
-          animation-delay: 6405ms;
+  -webkit-animation-duration: 33537ms;
+          animation-duration: 33537ms;
+  -webkit-animation-delay: 21485ms;
+          animation-delay: 21485ms;
 }
 
 @-webkit-keyframes move-frames-29 {
   from {
-    -webkit-transform: translate3d(33vw, 109vh, 0);
-            transform: translate3d(33vw, 109vh, 0);
+    -webkit-transform: translate3d(64vw, 102vh, 0);
+            transform: translate3d(64vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -136vh, 0);
-            transform: translate3d(6vw, -136vh, 0);
+    -webkit-transform: translate3d(20vw, -107vh, 0);
+            transform: translate3d(20vw, -107vh, 0);
   }
 }
 
 @keyframes move-frames-29 {
   from {
-    -webkit-transform: translate3d(33vw, 109vh, 0);
-            transform: translate3d(33vw, 109vh, 0);
+    -webkit-transform: translate3d(64vw, 102vh, 0);
+            transform: translate3d(64vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -136vh, 0);
-            transform: translate3d(6vw, -136vh, 0);
+    -webkit-transform: translate3d(20vw, -107vh, 0);
+            transform: translate3d(20vw, -107vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(29) .circle {
-  -webkit-animation-delay: 2787ms;
-          animation-delay: 2787ms;
+  -webkit-animation-delay: 2217ms;
+          animation-delay: 2217ms;
 }
 
 body .section-whatis .circle-container:nth-child(30) {
-  width: 8px;
-  height: 8px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-30;
           animation-name: move-frames-30;
-  -webkit-animation-duration: 32546ms;
-          animation-duration: 32546ms;
-  -webkit-animation-delay: 10462ms;
-          animation-delay: 10462ms;
+  -webkit-animation-duration: 28596ms;
+          animation-duration: 28596ms;
+  -webkit-animation-delay: 33598ms;
+          animation-delay: 33598ms;
 }
 
 @-webkit-keyframes move-frames-30 {
   from {
-    -webkit-transform: translate3d(17vw, 107vh, 0);
-            transform: translate3d(17vw, 107vh, 0);
+    -webkit-transform: translate3d(35vw, 103vh, 0);
+            transform: translate3d(35vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(13vw, -112vh, 0);
-            transform: translate3d(13vw, -112vh, 0);
+    -webkit-transform: translate3d(54vw, -109vh, 0);
+            transform: translate3d(54vw, -109vh, 0);
   }
 }
 
 @keyframes move-frames-30 {
   from {
-    -webkit-transform: translate3d(17vw, 107vh, 0);
-            transform: translate3d(17vw, 107vh, 0);
+    -webkit-transform: translate3d(35vw, 103vh, 0);
+            transform: translate3d(35vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(13vw, -112vh, 0);
-            transform: translate3d(13vw, -112vh, 0);
+    -webkit-transform: translate3d(54vw, -109vh, 0);
+            transform: translate3d(54vw, -109vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(30) .circle {
-  -webkit-animation-delay: 2002ms;
-          animation-delay: 2002ms;
+  -webkit-animation-delay: 1728ms;
+          animation-delay: 1728ms;
 }
 
 body .section-whatis .circle-container:nth-child(31) {
@@ -3749,379 +3749,379 @@ body .section-whatis .circle-container:nth-child(31) {
   height: 6px;
   -webkit-animation-name: move-frames-31;
           animation-name: move-frames-31;
-  -webkit-animation-duration: 28161ms;
-          animation-duration: 28161ms;
-  -webkit-animation-delay: 22820ms;
-          animation-delay: 22820ms;
+  -webkit-animation-duration: 28651ms;
+          animation-duration: 28651ms;
+  -webkit-animation-delay: 12761ms;
+          animation-delay: 12761ms;
 }
 
 @-webkit-keyframes move-frames-31 {
   from {
-    -webkit-transform: translate3d(28vw, 108vh, 0);
-            transform: translate3d(28vw, 108vh, 0);
+    -webkit-transform: translate3d(2vw, 109vh, 0);
+            transform: translate3d(2vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(16vw, -135vh, 0);
-            transform: translate3d(16vw, -135vh, 0);
+    -webkit-transform: translate3d(85vw, -132vh, 0);
+            transform: translate3d(85vw, -132vh, 0);
   }
 }
 
 @keyframes move-frames-31 {
   from {
-    -webkit-transform: translate3d(28vw, 108vh, 0);
-            transform: translate3d(28vw, 108vh, 0);
+    -webkit-transform: translate3d(2vw, 109vh, 0);
+            transform: translate3d(2vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(16vw, -135vh, 0);
-            transform: translate3d(16vw, -135vh, 0);
+    -webkit-transform: translate3d(85vw, -132vh, 0);
+            transform: translate3d(85vw, -132vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(31) .circle {
-  -webkit-animation-delay: 2054ms;
-          animation-delay: 2054ms;
+  -webkit-animation-delay: 1164ms;
+          animation-delay: 1164ms;
 }
 
 body .section-whatis .circle-container:nth-child(32) {
-  width: 3px;
-  height: 3px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-32;
           animation-name: move-frames-32;
-  -webkit-animation-duration: 35845ms;
-          animation-duration: 35845ms;
-  -webkit-animation-delay: 35822ms;
-          animation-delay: 35822ms;
+  -webkit-animation-duration: 29054ms;
+          animation-duration: 29054ms;
+  -webkit-animation-delay: 15237ms;
+          animation-delay: 15237ms;
 }
 
 @-webkit-keyframes move-frames-32 {
   from {
-    -webkit-transform: translate3d(92vw, 105vh, 0);
-            transform: translate3d(92vw, 105vh, 0);
+    -webkit-transform: translate3d(69vw, 102vh, 0);
+            transform: translate3d(69vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -124vh, 0);
-            transform: translate3d(47vw, -124vh, 0);
+    -webkit-transform: translate3d(93vw, -131vh, 0);
+            transform: translate3d(93vw, -131vh, 0);
   }
 }
 
 @keyframes move-frames-32 {
   from {
-    -webkit-transform: translate3d(92vw, 105vh, 0);
-            transform: translate3d(92vw, 105vh, 0);
+    -webkit-transform: translate3d(69vw, 102vh, 0);
+            transform: translate3d(69vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -124vh, 0);
-            transform: translate3d(47vw, -124vh, 0);
+    -webkit-transform: translate3d(93vw, -131vh, 0);
+            transform: translate3d(93vw, -131vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(32) .circle {
-  -webkit-animation-delay: 1534ms;
-          animation-delay: 1534ms;
+  -webkit-animation-delay: 1844ms;
+          animation-delay: 1844ms;
 }
 
 body .section-whatis .circle-container:nth-child(33) {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-33;
           animation-name: move-frames-33;
-  -webkit-animation-duration: 36565ms;
-          animation-duration: 36565ms;
-  -webkit-animation-delay: 29281ms;
-          animation-delay: 29281ms;
+  -webkit-animation-duration: 35183ms;
+          animation-duration: 35183ms;
+  -webkit-animation-delay: 12775ms;
+          animation-delay: 12775ms;
 }
 
 @-webkit-keyframes move-frames-33 {
   from {
-    -webkit-transform: translate3d(65vw, 103vh, 0);
-            transform: translate3d(65vw, 103vh, 0);
+    -webkit-transform: translate3d(85vw, 106vh, 0);
+            transform: translate3d(85vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(78vw, -114vh, 0);
-            transform: translate3d(78vw, -114vh, 0);
+    -webkit-transform: translate3d(89vw, -124vh, 0);
+            transform: translate3d(89vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-33 {
   from {
-    -webkit-transform: translate3d(65vw, 103vh, 0);
-            transform: translate3d(65vw, 103vh, 0);
+    -webkit-transform: translate3d(85vw, 106vh, 0);
+            transform: translate3d(85vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(78vw, -114vh, 0);
-            transform: translate3d(78vw, -114vh, 0);
+    -webkit-transform: translate3d(89vw, -124vh, 0);
+            transform: translate3d(89vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(33) .circle {
-  -webkit-animation-delay: 1344ms;
-          animation-delay: 1344ms;
+  -webkit-animation-delay: 1278ms;
+          animation-delay: 1278ms;
 }
 
 body .section-whatis .circle-container:nth-child(34) {
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-34;
           animation-name: move-frames-34;
-  -webkit-animation-duration: 32315ms;
-          animation-duration: 32315ms;
-  -webkit-animation-delay: 8449ms;
-          animation-delay: 8449ms;
+  -webkit-animation-duration: 33271ms;
+          animation-duration: 33271ms;
+  -webkit-animation-delay: 23257ms;
+          animation-delay: 23257ms;
 }
 
 @-webkit-keyframes move-frames-34 {
   from {
-    -webkit-transform: translate3d(29vw, 106vh, 0);
-            transform: translate3d(29vw, 106vh, 0);
+    -webkit-transform: translate3d(15vw, 105vh, 0);
+            transform: translate3d(15vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(57vw, -107vh, 0);
-            transform: translate3d(57vw, -107vh, 0);
+    -webkit-transform: translate3d(39vw, -124vh, 0);
+            transform: translate3d(39vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-34 {
   from {
-    -webkit-transform: translate3d(29vw, 106vh, 0);
-            transform: translate3d(29vw, 106vh, 0);
+    -webkit-transform: translate3d(15vw, 105vh, 0);
+            transform: translate3d(15vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(57vw, -107vh, 0);
-            transform: translate3d(57vw, -107vh, 0);
+    -webkit-transform: translate3d(39vw, -124vh, 0);
+            transform: translate3d(39vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(34) .circle {
-  -webkit-animation-delay: 52ms;
-          animation-delay: 52ms;
+  -webkit-animation-delay: 611ms;
+          animation-delay: 611ms;
 }
 
 body .section-whatis .circle-container:nth-child(35) {
-  width: 7px;
-  height: 7px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-35;
           animation-name: move-frames-35;
-  -webkit-animation-duration: 35733ms;
-          animation-duration: 35733ms;
-  -webkit-animation-delay: 4915ms;
-          animation-delay: 4915ms;
+  -webkit-animation-duration: 35791ms;
+          animation-duration: 35791ms;
+  -webkit-animation-delay: 17621ms;
+          animation-delay: 17621ms;
 }
 
 @-webkit-keyframes move-frames-35 {
   from {
-    -webkit-transform: translate3d(82vw, 108vh, 0);
-            transform: translate3d(82vw, 108vh, 0);
+    -webkit-transform: translate3d(30vw, 101vh, 0);
+            transform: translate3d(30vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(94vw, -128vh, 0);
-            transform: translate3d(94vw, -128vh, 0);
+    -webkit-transform: translate3d(71vw, -110vh, 0);
+            transform: translate3d(71vw, -110vh, 0);
   }
 }
 
 @keyframes move-frames-35 {
   from {
-    -webkit-transform: translate3d(82vw, 108vh, 0);
-            transform: translate3d(82vw, 108vh, 0);
+    -webkit-transform: translate3d(30vw, 101vh, 0);
+            transform: translate3d(30vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(94vw, -128vh, 0);
-            transform: translate3d(94vw, -128vh, 0);
+    -webkit-transform: translate3d(71vw, -110vh, 0);
+            transform: translate3d(71vw, -110vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(35) .circle {
-  -webkit-animation-delay: 3368ms;
-          animation-delay: 3368ms;
+  -webkit-animation-delay: 1832ms;
+          animation-delay: 1832ms;
 }
 
 body .section-whatis .circle-container:nth-child(36) {
-  width: 6px;
-  height: 6px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-36;
           animation-name: move-frames-36;
-  -webkit-animation-duration: 32172ms;
-          animation-duration: 32172ms;
-  -webkit-animation-delay: 1838ms;
-          animation-delay: 1838ms;
+  -webkit-animation-duration: 34024ms;
+          animation-duration: 34024ms;
+  -webkit-animation-delay: 10249ms;
+          animation-delay: 10249ms;
 }
 
 @-webkit-keyframes move-frames-36 {
   from {
-    -webkit-transform: translate3d(90vw, 101vh, 0);
-            transform: translate3d(90vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(77vw, -115vh, 0);
-            transform: translate3d(77vw, -115vh, 0);
+    -webkit-transform: translate3d(14vw, -126vh, 0);
+            transform: translate3d(14vw, -126vh, 0);
   }
 }
 
 @keyframes move-frames-36 {
   from {
-    -webkit-transform: translate3d(90vw, 101vh, 0);
-            transform: translate3d(90vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(77vw, -115vh, 0);
-            transform: translate3d(77vw, -115vh, 0);
+    -webkit-transform: translate3d(14vw, -126vh, 0);
+            transform: translate3d(14vw, -126vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(36) .circle {
-  -webkit-animation-delay: 2441ms;
-          animation-delay: 2441ms;
+  -webkit-animation-delay: 712ms;
+          animation-delay: 712ms;
 }
 
 body .section-whatis .circle-container:nth-child(37) {
-  width: 1px;
-  height: 1px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-37;
           animation-name: move-frames-37;
-  -webkit-animation-duration: 32160ms;
-          animation-duration: 32160ms;
-  -webkit-animation-delay: 29579ms;
-          animation-delay: 29579ms;
+  -webkit-animation-duration: 34999ms;
+          animation-duration: 34999ms;
+  -webkit-animation-delay: 27961ms;
+          animation-delay: 27961ms;
 }
 
 @-webkit-keyframes move-frames-37 {
   from {
-    -webkit-transform: translate3d(23vw, 109vh, 0);
-            transform: translate3d(23vw, 109vh, 0);
+    -webkit-transform: translate3d(74vw, 101vh, 0);
+            transform: translate3d(74vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(57vw, -136vh, 0);
-            transform: translate3d(57vw, -136vh, 0);
+    -webkit-transform: translate3d(68vw, -111vh, 0);
+            transform: translate3d(68vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-37 {
   from {
-    -webkit-transform: translate3d(23vw, 109vh, 0);
-            transform: translate3d(23vw, 109vh, 0);
+    -webkit-transform: translate3d(74vw, 101vh, 0);
+            transform: translate3d(74vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(57vw, -136vh, 0);
-            transform: translate3d(57vw, -136vh, 0);
+    -webkit-transform: translate3d(68vw, -111vh, 0);
+            transform: translate3d(68vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(37) .circle {
-  -webkit-animation-delay: 1246ms;
-          animation-delay: 1246ms;
+  -webkit-animation-delay: 795ms;
+          animation-delay: 795ms;
 }
 
 body .section-whatis .circle-container:nth-child(38) {
-  width: 8px;
-  height: 8px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-38;
           animation-name: move-frames-38;
-  -webkit-animation-duration: 36977ms;
-          animation-duration: 36977ms;
-  -webkit-animation-delay: 8370ms;
-          animation-delay: 8370ms;
+  -webkit-animation-duration: 28544ms;
+          animation-duration: 28544ms;
+  -webkit-animation-delay: 32101ms;
+          animation-delay: 32101ms;
 }
 
 @-webkit-keyframes move-frames-38 {
   from {
-    -webkit-transform: translate3d(9vw, 101vh, 0);
-            transform: translate3d(9vw, 101vh, 0);
+    -webkit-transform: translate3d(18vw, 108vh, 0);
+            transform: translate3d(18vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -110vh, 0);
-            transform: translate3d(81vw, -110vh, 0);
+    -webkit-transform: translate3d(84vw, -132vh, 0);
+            transform: translate3d(84vw, -132vh, 0);
   }
 }
 
 @keyframes move-frames-38 {
   from {
-    -webkit-transform: translate3d(9vw, 101vh, 0);
-            transform: translate3d(9vw, 101vh, 0);
+    -webkit-transform: translate3d(18vw, 108vh, 0);
+            transform: translate3d(18vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -110vh, 0);
-            transform: translate3d(81vw, -110vh, 0);
+    -webkit-transform: translate3d(84vw, -132vh, 0);
+            transform: translate3d(84vw, -132vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(38) .circle {
-  -webkit-animation-delay: 3041ms;
-          animation-delay: 3041ms;
+  -webkit-animation-delay: 122ms;
+          animation-delay: 122ms;
 }
 
 body .section-whatis .circle-container:nth-child(39) {
-  width: 5px;
-  height: 5px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-39;
           animation-name: move-frames-39;
-  -webkit-animation-duration: 29981ms;
-          animation-duration: 29981ms;
-  -webkit-animation-delay: 28150ms;
-          animation-delay: 28150ms;
+  -webkit-animation-duration: 31099ms;
+          animation-duration: 31099ms;
+  -webkit-animation-delay: 32488ms;
+          animation-delay: 32488ms;
 }
 
 @-webkit-keyframes move-frames-39 {
   from {
-    -webkit-transform: translate3d(58vw, 107vh, 0);
-            transform: translate3d(58vw, 107vh, 0);
+    -webkit-transform: translate3d(9vw, 101vh, 0);
+            transform: translate3d(9vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(21vw, -126vh, 0);
-            transform: translate3d(21vw, -126vh, 0);
+    -webkit-transform: translate3d(8vw, -130vh, 0);
+            transform: translate3d(8vw, -130vh, 0);
   }
 }
 
 @keyframes move-frames-39 {
   from {
-    -webkit-transform: translate3d(58vw, 107vh, 0);
-            transform: translate3d(58vw, 107vh, 0);
+    -webkit-transform: translate3d(9vw, 101vh, 0);
+            transform: translate3d(9vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(21vw, -126vh, 0);
-            transform: translate3d(21vw, -126vh, 0);
+    -webkit-transform: translate3d(8vw, -130vh, 0);
+            transform: translate3d(8vw, -130vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(39) .circle {
-  -webkit-animation-delay: 2337ms;
-          animation-delay: 2337ms;
+  -webkit-animation-delay: 2519ms;
+          animation-delay: 2519ms;
 }
 
 body .section-whatis .circle-container:nth-child(40) {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-40;
           animation-name: move-frames-40;
-  -webkit-animation-duration: 33068ms;
-          animation-duration: 33068ms;
-  -webkit-animation-delay: 19015ms;
-          animation-delay: 19015ms;
+  -webkit-animation-duration: 31159ms;
+          animation-duration: 31159ms;
+  -webkit-animation-delay: 25360ms;
+          animation-delay: 25360ms;
 }
 
 @-webkit-keyframes move-frames-40 {
   from {
-    -webkit-transform: translate3d(80vw, 103vh, 0);
-            transform: translate3d(80vw, 103vh, 0);
+    -webkit-transform: translate3d(94vw, 102vh, 0);
+            transform: translate3d(94vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(85vw, -125vh, 0);
-            transform: translate3d(85vw, -125vh, 0);
+    -webkit-transform: translate3d(38vw, -117vh, 0);
+            transform: translate3d(38vw, -117vh, 0);
   }
 }
 
 @keyframes move-frames-40 {
   from {
-    -webkit-transform: translate3d(80vw, 103vh, 0);
-            transform: translate3d(80vw, 103vh, 0);
+    -webkit-transform: translate3d(94vw, 102vh, 0);
+            transform: translate3d(94vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(85vw, -125vh, 0);
-            transform: translate3d(85vw, -125vh, 0);
+    -webkit-transform: translate3d(38vw, -117vh, 0);
+            transform: translate3d(38vw, -117vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(40) .circle {
-  -webkit-animation-delay: 1671ms;
-          animation-delay: 1671ms;
+  -webkit-animation-delay: 1692ms;
+          animation-delay: 1692ms;
 }
 
 body .section-whatis .circle-container:nth-child(41) {
@@ -4129,1063 +4129,1063 @@ body .section-whatis .circle-container:nth-child(41) {
   height: 6px;
   -webkit-animation-name: move-frames-41;
           animation-name: move-frames-41;
-  -webkit-animation-duration: 28806ms;
-          animation-duration: 28806ms;
-  -webkit-animation-delay: 19628ms;
-          animation-delay: 19628ms;
+  -webkit-animation-duration: 33101ms;
+          animation-duration: 33101ms;
+  -webkit-animation-delay: 6397ms;
+          animation-delay: 6397ms;
 }
 
 @-webkit-keyframes move-frames-41 {
   from {
-    -webkit-transform: translate3d(25vw, 109vh, 0);
-            transform: translate3d(25vw, 109vh, 0);
+    -webkit-transform: translate3d(24vw, 105vh, 0);
+            transform: translate3d(24vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(42vw, -122vh, 0);
-            transform: translate3d(42vw, -122vh, 0);
+    -webkit-transform: translate3d(80vw, -106vh, 0);
+            transform: translate3d(80vw, -106vh, 0);
   }
 }
 
 @keyframes move-frames-41 {
   from {
-    -webkit-transform: translate3d(25vw, 109vh, 0);
-            transform: translate3d(25vw, 109vh, 0);
+    -webkit-transform: translate3d(24vw, 105vh, 0);
+            transform: translate3d(24vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(42vw, -122vh, 0);
-            transform: translate3d(42vw, -122vh, 0);
+    -webkit-transform: translate3d(80vw, -106vh, 0);
+            transform: translate3d(80vw, -106vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(41) .circle {
-  -webkit-animation-delay: 3556ms;
-          animation-delay: 3556ms;
+  -webkit-animation-delay: 3529ms;
+          animation-delay: 3529ms;
 }
 
 body .section-whatis .circle-container:nth-child(42) {
-  width: 7px;
-  height: 7px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-42;
           animation-name: move-frames-42;
-  -webkit-animation-duration: 29809ms;
-          animation-duration: 29809ms;
-  -webkit-animation-delay: 2781ms;
-          animation-delay: 2781ms;
+  -webkit-animation-duration: 29003ms;
+          animation-duration: 29003ms;
+  -webkit-animation-delay: 25584ms;
+          animation-delay: 25584ms;
 }
 
 @-webkit-keyframes move-frames-42 {
   from {
-    -webkit-transform: translate3d(61vw, 110vh, 0);
-            transform: translate3d(61vw, 110vh, 0);
+    -webkit-transform: translate3d(99vw, 103vh, 0);
+            transform: translate3d(99vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(76vw, -132vh, 0);
-            transform: translate3d(76vw, -132vh, 0);
+    -webkit-transform: translate3d(97vw, -111vh, 0);
+            transform: translate3d(97vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-42 {
   from {
-    -webkit-transform: translate3d(61vw, 110vh, 0);
-            transform: translate3d(61vw, 110vh, 0);
+    -webkit-transform: translate3d(99vw, 103vh, 0);
+            transform: translate3d(99vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(76vw, -132vh, 0);
-            transform: translate3d(76vw, -132vh, 0);
+    -webkit-transform: translate3d(97vw, -111vh, 0);
+            transform: translate3d(97vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(42) .circle {
-  -webkit-animation-delay: 42ms;
-          animation-delay: 42ms;
+  -webkit-animation-delay: 608ms;
+          animation-delay: 608ms;
 }
 
 body .section-whatis .circle-container:nth-child(43) {
-  width: 2px;
-  height: 2px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-43;
           animation-name: move-frames-43;
-  -webkit-animation-duration: 33753ms;
-          animation-duration: 33753ms;
-  -webkit-animation-delay: 10141ms;
-          animation-delay: 10141ms;
+  -webkit-animation-duration: 30196ms;
+          animation-duration: 30196ms;
+  -webkit-animation-delay: 13712ms;
+          animation-delay: 13712ms;
 }
 
 @-webkit-keyframes move-frames-43 {
   from {
-    -webkit-transform: translate3d(86vw, 109vh, 0);
-            transform: translate3d(86vw, 109vh, 0);
+    -webkit-transform: translate3d(17vw, 103vh, 0);
+            transform: translate3d(17vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(59vw, -127vh, 0);
-            transform: translate3d(59vw, -127vh, 0);
+    -webkit-transform: translate3d(45vw, -116vh, 0);
+            transform: translate3d(45vw, -116vh, 0);
   }
 }
 
 @keyframes move-frames-43 {
   from {
-    -webkit-transform: translate3d(86vw, 109vh, 0);
-            transform: translate3d(86vw, 109vh, 0);
+    -webkit-transform: translate3d(17vw, 103vh, 0);
+            transform: translate3d(17vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(59vw, -127vh, 0);
-            transform: translate3d(59vw, -127vh, 0);
+    -webkit-transform: translate3d(45vw, -116vh, 0);
+            transform: translate3d(45vw, -116vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(43) .circle {
-  -webkit-animation-delay: 1039ms;
-          animation-delay: 1039ms;
+  -webkit-animation-delay: 820ms;
+          animation-delay: 820ms;
 }
 
 body .section-whatis .circle-container:nth-child(44) {
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-44;
           animation-name: move-frames-44;
-  -webkit-animation-duration: 33761ms;
-          animation-duration: 33761ms;
-  -webkit-animation-delay: 2504ms;
-          animation-delay: 2504ms;
+  -webkit-animation-duration: 32596ms;
+          animation-duration: 32596ms;
+  -webkit-animation-delay: 16238ms;
+          animation-delay: 16238ms;
 }
 
 @-webkit-keyframes move-frames-44 {
   from {
-    -webkit-transform: translate3d(77vw, 107vh, 0);
-            transform: translate3d(77vw, 107vh, 0);
+    -webkit-transform: translate3d(45vw, 108vh, 0);
+            transform: translate3d(45vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(7vw, -118vh, 0);
-            transform: translate3d(7vw, -118vh, 0);
+    -webkit-transform: translate3d(38vw, -125vh, 0);
+            transform: translate3d(38vw, -125vh, 0);
   }
 }
 
 @keyframes move-frames-44 {
   from {
-    -webkit-transform: translate3d(77vw, 107vh, 0);
-            transform: translate3d(77vw, 107vh, 0);
+    -webkit-transform: translate3d(45vw, 108vh, 0);
+            transform: translate3d(45vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(7vw, -118vh, 0);
-            transform: translate3d(7vw, -118vh, 0);
+    -webkit-transform: translate3d(38vw, -125vh, 0);
+            transform: translate3d(38vw, -125vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(44) .circle {
-  -webkit-animation-delay: 1643ms;
-          animation-delay: 1643ms;
+  -webkit-animation-delay: 2399ms;
+          animation-delay: 2399ms;
 }
 
 body .section-whatis .circle-container:nth-child(45) {
-  width: 4px;
-  height: 4px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-45;
           animation-name: move-frames-45;
-  -webkit-animation-duration: 33192ms;
-          animation-duration: 33192ms;
-  -webkit-animation-delay: 27201ms;
-          animation-delay: 27201ms;
+  -webkit-animation-duration: 36831ms;
+          animation-duration: 36831ms;
+  -webkit-animation-delay: 23836ms;
+          animation-delay: 23836ms;
 }
 
 @-webkit-keyframes move-frames-45 {
   from {
-    -webkit-transform: translate3d(62vw, 102vh, 0);
-            transform: translate3d(62vw, 102vh, 0);
+    -webkit-transform: translate3d(49vw, 106vh, 0);
+            transform: translate3d(49vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(29vw, -109vh, 0);
-            transform: translate3d(29vw, -109vh, 0);
+    -webkit-transform: translate3d(79vw, -136vh, 0);
+            transform: translate3d(79vw, -136vh, 0);
   }
 }
 
 @keyframes move-frames-45 {
   from {
-    -webkit-transform: translate3d(62vw, 102vh, 0);
-            transform: translate3d(62vw, 102vh, 0);
+    -webkit-transform: translate3d(49vw, 106vh, 0);
+            transform: translate3d(49vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(29vw, -109vh, 0);
-            transform: translate3d(29vw, -109vh, 0);
+    -webkit-transform: translate3d(79vw, -136vh, 0);
+            transform: translate3d(79vw, -136vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(45) .circle {
-  -webkit-animation-delay: 1522ms;
-          animation-delay: 1522ms;
+  -webkit-animation-delay: 3729ms;
+          animation-delay: 3729ms;
 }
 
 body .section-whatis .circle-container:nth-child(46) {
-  width: 4px;
-  height: 4px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-46;
           animation-name: move-frames-46;
-  -webkit-animation-duration: 28434ms;
-          animation-duration: 28434ms;
-  -webkit-animation-delay: 3388ms;
-          animation-delay: 3388ms;
+  -webkit-animation-duration: 32189ms;
+          animation-duration: 32189ms;
+  -webkit-animation-delay: 20303ms;
+          animation-delay: 20303ms;
 }
 
 @-webkit-keyframes move-frames-46 {
   from {
-    -webkit-transform: translate3d(99vw, 103vh, 0);
-            transform: translate3d(99vw, 103vh, 0);
+    -webkit-transform: translate3d(73vw, 101vh, 0);
+            transform: translate3d(73vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -120vh, 0);
-            transform: translate3d(47vw, -120vh, 0);
+    -webkit-transform: translate3d(25vw, -127vh, 0);
+            transform: translate3d(25vw, -127vh, 0);
   }
 }
 
 @keyframes move-frames-46 {
   from {
-    -webkit-transform: translate3d(99vw, 103vh, 0);
-            transform: translate3d(99vw, 103vh, 0);
+    -webkit-transform: translate3d(73vw, 101vh, 0);
+            transform: translate3d(73vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(47vw, -120vh, 0);
-            transform: translate3d(47vw, -120vh, 0);
+    -webkit-transform: translate3d(25vw, -127vh, 0);
+            transform: translate3d(25vw, -127vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(46) .circle {
-  -webkit-animation-delay: 3706ms;
-          animation-delay: 3706ms;
+  -webkit-animation-delay: 747ms;
+          animation-delay: 747ms;
 }
 
 body .section-whatis .circle-container:nth-child(47) {
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-47;
           animation-name: move-frames-47;
-  -webkit-animation-duration: 35876ms;
-          animation-duration: 35876ms;
-  -webkit-animation-delay: 3055ms;
-          animation-delay: 3055ms;
+  -webkit-animation-duration: 28829ms;
+          animation-duration: 28829ms;
+  -webkit-animation-delay: 13172ms;
+          animation-delay: 13172ms;
 }
 
 @-webkit-keyframes move-frames-47 {
   from {
-    -webkit-transform: translate3d(34vw, 107vh, 0);
-            transform: translate3d(34vw, 107vh, 0);
+    -webkit-transform: translate3d(33vw, 109vh, 0);
+            transform: translate3d(33vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(71vw, -111vh, 0);
-            transform: translate3d(71vw, -111vh, 0);
+    -webkit-transform: translate3d(98vw, -132vh, 0);
+            transform: translate3d(98vw, -132vh, 0);
   }
 }
 
 @keyframes move-frames-47 {
   from {
-    -webkit-transform: translate3d(34vw, 107vh, 0);
-            transform: translate3d(34vw, 107vh, 0);
+    -webkit-transform: translate3d(33vw, 109vh, 0);
+            transform: translate3d(33vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(71vw, -111vh, 0);
-            transform: translate3d(71vw, -111vh, 0);
+    -webkit-transform: translate3d(98vw, -132vh, 0);
+            transform: translate3d(98vw, -132vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(47) .circle {
-  -webkit-animation-delay: 1517ms;
-          animation-delay: 1517ms;
+  -webkit-animation-delay: 2329ms;
+          animation-delay: 2329ms;
 }
 
 body .section-whatis .circle-container:nth-child(48) {
-  width: 1px;
-  height: 1px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-48;
           animation-name: move-frames-48;
-  -webkit-animation-duration: 32954ms;
-          animation-duration: 32954ms;
-  -webkit-animation-delay: 3542ms;
-          animation-delay: 3542ms;
+  -webkit-animation-duration: 33284ms;
+          animation-duration: 33284ms;
+  -webkit-animation-delay: 27966ms;
+          animation-delay: 27966ms;
 }
 
 @-webkit-keyframes move-frames-48 {
   from {
-    -webkit-transform: translate3d(23vw, 110vh, 0);
-            transform: translate3d(23vw, 110vh, 0);
+    -webkit-transform: translate3d(52vw, 101vh, 0);
+            transform: translate3d(52vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(38vw, -122vh, 0);
-            transform: translate3d(38vw, -122vh, 0);
+    -webkit-transform: translate3d(97vw, -103vh, 0);
+            transform: translate3d(97vw, -103vh, 0);
   }
 }
 
 @keyframes move-frames-48 {
   from {
-    -webkit-transform: translate3d(23vw, 110vh, 0);
-            transform: translate3d(23vw, 110vh, 0);
+    -webkit-transform: translate3d(52vw, 101vh, 0);
+            transform: translate3d(52vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(38vw, -122vh, 0);
-            transform: translate3d(38vw, -122vh, 0);
+    -webkit-transform: translate3d(97vw, -103vh, 0);
+            transform: translate3d(97vw, -103vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(48) .circle {
-  -webkit-animation-delay: 2956ms;
-          animation-delay: 2956ms;
+  -webkit-animation-delay: 2728ms;
+          animation-delay: 2728ms;
 }
 
 body .section-whatis .circle-container:nth-child(49) {
-  width: 7px;
-  height: 7px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-49;
           animation-name: move-frames-49;
-  -webkit-animation-duration: 35458ms;
-          animation-duration: 35458ms;
-  -webkit-animation-delay: 35551ms;
-          animation-delay: 35551ms;
+  -webkit-animation-duration: 33898ms;
+          animation-duration: 33898ms;
+  -webkit-animation-delay: 7380ms;
+          animation-delay: 7380ms;
 }
 
 @-webkit-keyframes move-frames-49 {
   from {
-    -webkit-transform: translate3d(77vw, 109vh, 0);
-            transform: translate3d(77vw, 109vh, 0);
+    -webkit-transform: translate3d(74vw, 108vh, 0);
+            transform: translate3d(74vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(68vw, -126vh, 0);
-            transform: translate3d(68vw, -126vh, 0);
+    -webkit-transform: translate3d(98vw, -127vh, 0);
+            transform: translate3d(98vw, -127vh, 0);
   }
 }
 
 @keyframes move-frames-49 {
   from {
-    -webkit-transform: translate3d(77vw, 109vh, 0);
-            transform: translate3d(77vw, 109vh, 0);
+    -webkit-transform: translate3d(74vw, 108vh, 0);
+            transform: translate3d(74vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(68vw, -126vh, 0);
-            transform: translate3d(68vw, -126vh, 0);
+    -webkit-transform: translate3d(98vw, -127vh, 0);
+            transform: translate3d(98vw, -127vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(49) .circle {
-  -webkit-animation-delay: 2266ms;
-          animation-delay: 2266ms;
+  -webkit-animation-delay: 2498ms;
+          animation-delay: 2498ms;
 }
 
 body .section-whatis .circle-container:nth-child(50) {
-  width: 6px;
-  height: 6px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-50;
           animation-name: move-frames-50;
-  -webkit-animation-duration: 29166ms;
-          animation-duration: 29166ms;
-  -webkit-animation-delay: 20828ms;
-          animation-delay: 20828ms;
+  -webkit-animation-duration: 29533ms;
+          animation-duration: 29533ms;
+  -webkit-animation-delay: 5653ms;
+          animation-delay: 5653ms;
 }
 
 @-webkit-keyframes move-frames-50 {
   from {
-    -webkit-transform: translate3d(81vw, 104vh, 0);
-            transform: translate3d(81vw, 104vh, 0);
+    -webkit-transform: translate3d(40vw, 108vh, 0);
+            transform: translate3d(40vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(51vw, -118vh, 0);
-            transform: translate3d(51vw, -118vh, 0);
+    -webkit-transform: translate3d(58vw, -109vh, 0);
+            transform: translate3d(58vw, -109vh, 0);
   }
 }
 
 @keyframes move-frames-50 {
   from {
-    -webkit-transform: translate3d(81vw, 104vh, 0);
-            transform: translate3d(81vw, 104vh, 0);
+    -webkit-transform: translate3d(40vw, 108vh, 0);
+            transform: translate3d(40vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(51vw, -118vh, 0);
-            transform: translate3d(51vw, -118vh, 0);
+    -webkit-transform: translate3d(58vw, -109vh, 0);
+            transform: translate3d(58vw, -109vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(50) .circle {
-  -webkit-animation-delay: 1027ms;
-          animation-delay: 1027ms;
+  -webkit-animation-delay: 312ms;
+          animation-delay: 312ms;
 }
 
 body .section-whatis .circle-container:nth-child(51) {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-51;
           animation-name: move-frames-51;
-  -webkit-animation-duration: 35546ms;
-          animation-duration: 35546ms;
-  -webkit-animation-delay: 8461ms;
-          animation-delay: 8461ms;
+  -webkit-animation-duration: 32733ms;
+          animation-duration: 32733ms;
+  -webkit-animation-delay: 8745ms;
+          animation-delay: 8745ms;
 }
 
 @-webkit-keyframes move-frames-51 {
   from {
-    -webkit-transform: translate3d(46vw, 101vh, 0);
-            transform: translate3d(46vw, 101vh, 0);
+    -webkit-transform: translate3d(12vw, 106vh, 0);
+            transform: translate3d(12vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(59vw, -130vh, 0);
-            transform: translate3d(59vw, -130vh, 0);
+    -webkit-transform: translate3d(15vw, -125vh, 0);
+            transform: translate3d(15vw, -125vh, 0);
   }
 }
 
 @keyframes move-frames-51 {
   from {
-    -webkit-transform: translate3d(46vw, 101vh, 0);
-            transform: translate3d(46vw, 101vh, 0);
+    -webkit-transform: translate3d(12vw, 106vh, 0);
+            transform: translate3d(12vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(59vw, -130vh, 0);
-            transform: translate3d(59vw, -130vh, 0);
+    -webkit-transform: translate3d(15vw, -125vh, 0);
+            transform: translate3d(15vw, -125vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(51) .circle {
-  -webkit-animation-delay: 2935ms;
-          animation-delay: 2935ms;
+  -webkit-animation-delay: 631ms;
+          animation-delay: 631ms;
 }
 
 body .section-whatis .circle-container:nth-child(52) {
-  width: 2px;
-  height: 2px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-52;
           animation-name: move-frames-52;
-  -webkit-animation-duration: 33635ms;
-          animation-duration: 33635ms;
-  -webkit-animation-delay: 24330ms;
-          animation-delay: 24330ms;
+  -webkit-animation-duration: 35932ms;
+          animation-duration: 35932ms;
+  -webkit-animation-delay: 24745ms;
+          animation-delay: 24745ms;
 }
 
 @-webkit-keyframes move-frames-52 {
   from {
-    -webkit-transform: translate3d(66vw, 103vh, 0);
-            transform: translate3d(66vw, 103vh, 0);
+    -webkit-transform: translate3d(44vw, 106vh, 0);
+            transform: translate3d(44vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(87vw, -121vh, 0);
-            transform: translate3d(87vw, -121vh, 0);
+    -webkit-transform: translate3d(75vw, -120vh, 0);
+            transform: translate3d(75vw, -120vh, 0);
   }
 }
 
 @keyframes move-frames-52 {
   from {
-    -webkit-transform: translate3d(66vw, 103vh, 0);
-            transform: translate3d(66vw, 103vh, 0);
+    -webkit-transform: translate3d(44vw, 106vh, 0);
+            transform: translate3d(44vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(87vw, -121vh, 0);
-            transform: translate3d(87vw, -121vh, 0);
+    -webkit-transform: translate3d(75vw, -120vh, 0);
+            transform: translate3d(75vw, -120vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(52) .circle {
-  -webkit-animation-delay: 3909ms;
-          animation-delay: 3909ms;
+  -webkit-animation-delay: 1181ms;
+          animation-delay: 1181ms;
 }
 
 body .section-whatis .circle-container:nth-child(53) {
-  width: 1px;
-  height: 1px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-53;
           animation-name: move-frames-53;
-  -webkit-animation-duration: 34890ms;
-          animation-duration: 34890ms;
-  -webkit-animation-delay: 18666ms;
-          animation-delay: 18666ms;
+  -webkit-animation-duration: 33536ms;
+          animation-duration: 33536ms;
+  -webkit-animation-delay: 9960ms;
+          animation-delay: 9960ms;
 }
 
 @-webkit-keyframes move-frames-53 {
   from {
-    -webkit-transform: translate3d(68vw, 104vh, 0);
-            transform: translate3d(68vw, 104vh, 0);
+    -webkit-transform: translate3d(12vw, 110vh, 0);
+            transform: translate3d(12vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(84vw, -117vh, 0);
-            transform: translate3d(84vw, -117vh, 0);
+    -webkit-transform: translate3d(49vw, -127vh, 0);
+            transform: translate3d(49vw, -127vh, 0);
   }
 }
 
 @keyframes move-frames-53 {
   from {
-    -webkit-transform: translate3d(68vw, 104vh, 0);
-            transform: translate3d(68vw, 104vh, 0);
+    -webkit-transform: translate3d(12vw, 110vh, 0);
+            transform: translate3d(12vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(84vw, -117vh, 0);
-            transform: translate3d(84vw, -117vh, 0);
+    -webkit-transform: translate3d(49vw, -127vh, 0);
+            transform: translate3d(49vw, -127vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(53) .circle {
-  -webkit-animation-delay: 3581ms;
-          animation-delay: 3581ms;
+  -webkit-animation-delay: 3734ms;
+          animation-delay: 3734ms;
 }
 
 body .section-whatis .circle-container:nth-child(54) {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-54;
           animation-name: move-frames-54;
-  -webkit-animation-duration: 29551ms;
-          animation-duration: 29551ms;
-  -webkit-animation-delay: 30557ms;
-          animation-delay: 30557ms;
+  -webkit-animation-duration: 35237ms;
+          animation-duration: 35237ms;
+  -webkit-animation-delay: 295ms;
+          animation-delay: 295ms;
 }
 
 @-webkit-keyframes move-frames-54 {
   from {
-    -webkit-transform: translate3d(67vw, 108vh, 0);
-            transform: translate3d(67vw, 108vh, 0);
+    -webkit-transform: translate3d(28vw, 106vh, 0);
+            transform: translate3d(28vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(46vw, -131vh, 0);
-            transform: translate3d(46vw, -131vh, 0);
+    -webkit-transform: translate3d(3vw, -119vh, 0);
+            transform: translate3d(3vw, -119vh, 0);
   }
 }
 
 @keyframes move-frames-54 {
   from {
-    -webkit-transform: translate3d(67vw, 108vh, 0);
-            transform: translate3d(67vw, 108vh, 0);
+    -webkit-transform: translate3d(28vw, 106vh, 0);
+            transform: translate3d(28vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(46vw, -131vh, 0);
-            transform: translate3d(46vw, -131vh, 0);
+    -webkit-transform: translate3d(3vw, -119vh, 0);
+            transform: translate3d(3vw, -119vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(54) .circle {
-  -webkit-animation-delay: 3294ms;
-          animation-delay: 3294ms;
+  -webkit-animation-delay: 3925ms;
+          animation-delay: 3925ms;
 }
 
 body .section-whatis .circle-container:nth-child(55) {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-55;
           animation-name: move-frames-55;
-  -webkit-animation-duration: 35045ms;
-          animation-duration: 35045ms;
-  -webkit-animation-delay: 11052ms;
-          animation-delay: 11052ms;
+  -webkit-animation-duration: 31415ms;
+          animation-duration: 31415ms;
+  -webkit-animation-delay: 10600ms;
+          animation-delay: 10600ms;
 }
 
 @-webkit-keyframes move-frames-55 {
   from {
-    -webkit-transform: translate3d(37vw, 105vh, 0);
-            transform: translate3d(37vw, 105vh, 0);
+    -webkit-transform: translate3d(44vw, 110vh, 0);
+            transform: translate3d(44vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(67vw, -110vh, 0);
-            transform: translate3d(67vw, -110vh, 0);
+    -webkit-transform: translate3d(55vw, -127vh, 0);
+            transform: translate3d(55vw, -127vh, 0);
   }
 }
 
 @keyframes move-frames-55 {
   from {
-    -webkit-transform: translate3d(37vw, 105vh, 0);
-            transform: translate3d(37vw, 105vh, 0);
+    -webkit-transform: translate3d(44vw, 110vh, 0);
+            transform: translate3d(44vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(67vw, -110vh, 0);
-            transform: translate3d(67vw, -110vh, 0);
+    -webkit-transform: translate3d(55vw, -127vh, 0);
+            transform: translate3d(55vw, -127vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(55) .circle {
-  -webkit-animation-delay: 825ms;
-          animation-delay: 825ms;
+  -webkit-animation-delay: 2468ms;
+          animation-delay: 2468ms;
 }
 
 body .section-whatis .circle-container:nth-child(56) {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-56;
           animation-name: move-frames-56;
-  -webkit-animation-duration: 34684ms;
-          animation-duration: 34684ms;
-  -webkit-animation-delay: 9855ms;
-          animation-delay: 9855ms;
+  -webkit-animation-duration: 34215ms;
+          animation-duration: 34215ms;
+  -webkit-animation-delay: 4604ms;
+          animation-delay: 4604ms;
 }
 
 @-webkit-keyframes move-frames-56 {
   from {
-    -webkit-transform: translate3d(70vw, 110vh, 0);
-            transform: translate3d(70vw, 110vh, 0);
+    -webkit-transform: translate3d(52vw, 110vh, 0);
+            transform: translate3d(52vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(92vw, -116vh, 0);
-            transform: translate3d(92vw, -116vh, 0);
+    -webkit-transform: translate3d(36vw, -112vh, 0);
+            transform: translate3d(36vw, -112vh, 0);
   }
 }
 
 @keyframes move-frames-56 {
   from {
-    -webkit-transform: translate3d(70vw, 110vh, 0);
-            transform: translate3d(70vw, 110vh, 0);
+    -webkit-transform: translate3d(52vw, 110vh, 0);
+            transform: translate3d(52vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(92vw, -116vh, 0);
-            transform: translate3d(92vw, -116vh, 0);
+    -webkit-transform: translate3d(36vw, -112vh, 0);
+            transform: translate3d(36vw, -112vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(56) .circle {
-  -webkit-animation-delay: 3426ms;
-          animation-delay: 3426ms;
+  -webkit-animation-delay: 3196ms;
+          animation-delay: 3196ms;
 }
 
 body .section-whatis .circle-container:nth-child(57) {
-  width: 4px;
-  height: 4px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-57;
           animation-name: move-frames-57;
-  -webkit-animation-duration: 31832ms;
-          animation-duration: 31832ms;
-  -webkit-animation-delay: 21942ms;
-          animation-delay: 21942ms;
+  -webkit-animation-duration: 29668ms;
+          animation-duration: 29668ms;
+  -webkit-animation-delay: 12336ms;
+          animation-delay: 12336ms;
 }
 
 @-webkit-keyframes move-frames-57 {
   from {
-    -webkit-transform: translate3d(66vw, 110vh, 0);
-            transform: translate3d(66vw, 110vh, 0);
+    -webkit-transform: translate3d(44vw, 107vh, 0);
+            transform: translate3d(44vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(75vw, -118vh, 0);
-            transform: translate3d(75vw, -118vh, 0);
+    -webkit-transform: translate3d(69vw, -135vh, 0);
+            transform: translate3d(69vw, -135vh, 0);
   }
 }
 
 @keyframes move-frames-57 {
   from {
-    -webkit-transform: translate3d(66vw, 110vh, 0);
-            transform: translate3d(66vw, 110vh, 0);
+    -webkit-transform: translate3d(44vw, 107vh, 0);
+            transform: translate3d(44vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(75vw, -118vh, 0);
-            transform: translate3d(75vw, -118vh, 0);
+    -webkit-transform: translate3d(69vw, -135vh, 0);
+            transform: translate3d(69vw, -135vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(57) .circle {
-  -webkit-animation-delay: 2501ms;
-          animation-delay: 2501ms;
+  -webkit-animation-delay: 3526ms;
+          animation-delay: 3526ms;
 }
 
 body .section-whatis .circle-container:nth-child(58) {
-  width: 4px;
-  height: 4px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-58;
           animation-name: move-frames-58;
-  -webkit-animation-duration: 34034ms;
-          animation-duration: 34034ms;
-  -webkit-animation-delay: 5537ms;
-          animation-delay: 5537ms;
+  -webkit-animation-duration: 34269ms;
+          animation-duration: 34269ms;
+  -webkit-animation-delay: 33873ms;
+          animation-delay: 33873ms;
 }
 
 @-webkit-keyframes move-frames-58 {
   from {
-    -webkit-transform: translate3d(23vw, 109vh, 0);
-            transform: translate3d(23vw, 109vh, 0);
+    -webkit-transform: translate3d(57vw, 101vh, 0);
+            transform: translate3d(57vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(79vw, -119vh, 0);
-            transform: translate3d(79vw, -119vh, 0);
+    -webkit-transform: translate3d(11vw, -104vh, 0);
+            transform: translate3d(11vw, -104vh, 0);
   }
 }
 
 @keyframes move-frames-58 {
   from {
-    -webkit-transform: translate3d(23vw, 109vh, 0);
-            transform: translate3d(23vw, 109vh, 0);
+    -webkit-transform: translate3d(57vw, 101vh, 0);
+            transform: translate3d(57vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(79vw, -119vh, 0);
-            transform: translate3d(79vw, -119vh, 0);
+    -webkit-transform: translate3d(11vw, -104vh, 0);
+            transform: translate3d(11vw, -104vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(58) .circle {
-  -webkit-animation-delay: 1991ms;
-          animation-delay: 1991ms;
+  -webkit-animation-delay: 1782ms;
+          animation-delay: 1782ms;
 }
 
 body .section-whatis .circle-container:nth-child(59) {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-59;
           animation-name: move-frames-59;
-  -webkit-animation-duration: 36024ms;
-          animation-duration: 36024ms;
-  -webkit-animation-delay: 8247ms;
-          animation-delay: 8247ms;
+  -webkit-animation-duration: 34621ms;
+          animation-duration: 34621ms;
+  -webkit-animation-delay: 6949ms;
+          animation-delay: 6949ms;
 }
 
 @-webkit-keyframes move-frames-59 {
   from {
-    -webkit-transform: translate3d(42vw, 104vh, 0);
-            transform: translate3d(42vw, 104vh, 0);
+    -webkit-transform: translate3d(51vw, 101vh, 0);
+            transform: translate3d(51vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(33vw, -107vh, 0);
+            transform: translate3d(33vw, -107vh, 0);
   }
 }
 
 @keyframes move-frames-59 {
   from {
-    -webkit-transform: translate3d(42vw, 104vh, 0);
-            transform: translate3d(42vw, 104vh, 0);
+    -webkit-transform: translate3d(51vw, 101vh, 0);
+            transform: translate3d(51vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(33vw, -107vh, 0);
+            transform: translate3d(33vw, -107vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(59) .circle {
-  -webkit-animation-delay: 479ms;
-          animation-delay: 479ms;
+  -webkit-animation-delay: 3642ms;
+          animation-delay: 3642ms;
 }
 
 body .section-whatis .circle-container:nth-child(60) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-60;
           animation-name: move-frames-60;
-  -webkit-animation-duration: 31637ms;
-          animation-duration: 31637ms;
-  -webkit-animation-delay: 20617ms;
-          animation-delay: 20617ms;
+  -webkit-animation-duration: 36373ms;
+          animation-duration: 36373ms;
+  -webkit-animation-delay: 24048ms;
+          animation-delay: 24048ms;
 }
 
 @-webkit-keyframes move-frames-60 {
   from {
-    -webkit-transform: translate3d(79vw, 105vh, 0);
-            transform: translate3d(79vw, 105vh, 0);
+    -webkit-transform: translate3d(41vw, 106vh, 0);
+            transform: translate3d(41vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(61vw, -109vh, 0);
-            transform: translate3d(61vw, -109vh, 0);
+    -webkit-transform: translate3d(97vw, -122vh, 0);
+            transform: translate3d(97vw, -122vh, 0);
   }
 }
 
 @keyframes move-frames-60 {
   from {
-    -webkit-transform: translate3d(79vw, 105vh, 0);
-            transform: translate3d(79vw, 105vh, 0);
+    -webkit-transform: translate3d(41vw, 106vh, 0);
+            transform: translate3d(41vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(61vw, -109vh, 0);
-            transform: translate3d(61vw, -109vh, 0);
+    -webkit-transform: translate3d(97vw, -122vh, 0);
+            transform: translate3d(97vw, -122vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(60) .circle {
-  -webkit-animation-delay: 1648ms;
-          animation-delay: 1648ms;
+  -webkit-animation-delay: 1899ms;
+          animation-delay: 1899ms;
 }
 
 body .section-whatis .circle-container:nth-child(61) {
-  width: 2px;
-  height: 2px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-61;
           animation-name: move-frames-61;
-  -webkit-animation-duration: 34641ms;
-          animation-duration: 34641ms;
-  -webkit-animation-delay: 659ms;
-          animation-delay: 659ms;
+  -webkit-animation-duration: 29852ms;
+          animation-duration: 29852ms;
+  -webkit-animation-delay: 19156ms;
+          animation-delay: 19156ms;
 }
 
 @-webkit-keyframes move-frames-61 {
   from {
-    -webkit-transform: translate3d(5vw, 109vh, 0);
-            transform: translate3d(5vw, 109vh, 0);
+    -webkit-transform: translate3d(19vw, 108vh, 0);
+            transform: translate3d(19vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(19vw, -128vh, 0);
-            transform: translate3d(19vw, -128vh, 0);
+    -webkit-transform: translate3d(78vw, -114vh, 0);
+            transform: translate3d(78vw, -114vh, 0);
   }
 }
 
 @keyframes move-frames-61 {
   from {
-    -webkit-transform: translate3d(5vw, 109vh, 0);
-            transform: translate3d(5vw, 109vh, 0);
+    -webkit-transform: translate3d(19vw, 108vh, 0);
+            transform: translate3d(19vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(19vw, -128vh, 0);
-            transform: translate3d(19vw, -128vh, 0);
+    -webkit-transform: translate3d(78vw, -114vh, 0);
+            transform: translate3d(78vw, -114vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(61) .circle {
-  -webkit-animation-delay: 3764ms;
-          animation-delay: 3764ms;
+  -webkit-animation-delay: 2840ms;
+          animation-delay: 2840ms;
 }
 
 body .section-whatis .circle-container:nth-child(62) {
-  width: 2px;
-  height: 2px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-62;
           animation-name: move-frames-62;
-  -webkit-animation-duration: 36270ms;
-          animation-duration: 36270ms;
-  -webkit-animation-delay: 23736ms;
-          animation-delay: 23736ms;
+  -webkit-animation-duration: 29147ms;
+          animation-duration: 29147ms;
+  -webkit-animation-delay: 31464ms;
+          animation-delay: 31464ms;
 }
 
 @-webkit-keyframes move-frames-62 {
   from {
-    -webkit-transform: translate3d(33vw, 110vh, 0);
-            transform: translate3d(33vw, 110vh, 0);
+    -webkit-transform: translate3d(45vw, 102vh, 0);
+            transform: translate3d(45vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(51vw, -130vh, 0);
-            transform: translate3d(51vw, -130vh, 0);
+    -webkit-transform: translate3d(39vw, -109vh, 0);
+            transform: translate3d(39vw, -109vh, 0);
   }
 }
 
 @keyframes move-frames-62 {
   from {
-    -webkit-transform: translate3d(33vw, 110vh, 0);
-            transform: translate3d(33vw, 110vh, 0);
+    -webkit-transform: translate3d(45vw, 102vh, 0);
+            transform: translate3d(45vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(51vw, -130vh, 0);
-            transform: translate3d(51vw, -130vh, 0);
+    -webkit-transform: translate3d(39vw, -109vh, 0);
+            transform: translate3d(39vw, -109vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(62) .circle {
-  -webkit-animation-delay: 1092ms;
-          animation-delay: 1092ms;
+  -webkit-animation-delay: 842ms;
+          animation-delay: 842ms;
 }
 
 body .section-whatis .circle-container:nth-child(63) {
-  width: 7px;
-  height: 7px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-63;
           animation-name: move-frames-63;
-  -webkit-animation-duration: 33450ms;
-          animation-duration: 33450ms;
-  -webkit-animation-delay: 15978ms;
-          animation-delay: 15978ms;
+  -webkit-animation-duration: 30429ms;
+          animation-duration: 30429ms;
+  -webkit-animation-delay: 3832ms;
+          animation-delay: 3832ms;
 }
 
 @-webkit-keyframes move-frames-63 {
   from {
-    -webkit-transform: translate3d(12vw, 107vh, 0);
-            transform: translate3d(12vw, 107vh, 0);
+    -webkit-transform: translate3d(64vw, 103vh, 0);
+            transform: translate3d(64vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -137vh, 0);
-            transform: translate3d(81vw, -137vh, 0);
+    -webkit-transform: translate3d(29vw, -119vh, 0);
+            transform: translate3d(29vw, -119vh, 0);
   }
 }
 
 @keyframes move-frames-63 {
   from {
-    -webkit-transform: translate3d(12vw, 107vh, 0);
-            transform: translate3d(12vw, 107vh, 0);
+    -webkit-transform: translate3d(64vw, 103vh, 0);
+            transform: translate3d(64vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(81vw, -137vh, 0);
-            transform: translate3d(81vw, -137vh, 0);
+    -webkit-transform: translate3d(29vw, -119vh, 0);
+            transform: translate3d(29vw, -119vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(63) .circle {
-  -webkit-animation-delay: 1764ms;
-          animation-delay: 1764ms;
+  -webkit-animation-delay: 3691ms;
+          animation-delay: 3691ms;
 }
 
 body .section-whatis .circle-container:nth-child(64) {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-64;
           animation-name: move-frames-64;
-  -webkit-animation-duration: 29439ms;
-          animation-duration: 29439ms;
-  -webkit-animation-delay: 31396ms;
-          animation-delay: 31396ms;
+  -webkit-animation-duration: 35924ms;
+          animation-duration: 35924ms;
+  -webkit-animation-delay: 10578ms;
+          animation-delay: 10578ms;
 }
 
 @-webkit-keyframes move-frames-64 {
   from {
-    -webkit-transform: translate3d(73vw, 109vh, 0);
-            transform: translate3d(73vw, 109vh, 0);
+    -webkit-transform: translate3d(89vw, 109vh, 0);
+            transform: translate3d(89vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(72vw, -121vh, 0);
-            transform: translate3d(72vw, -121vh, 0);
+    -webkit-transform: translate3d(43vw, -114vh, 0);
+            transform: translate3d(43vw, -114vh, 0);
   }
 }
 
 @keyframes move-frames-64 {
   from {
-    -webkit-transform: translate3d(73vw, 109vh, 0);
-            transform: translate3d(73vw, 109vh, 0);
+    -webkit-transform: translate3d(89vw, 109vh, 0);
+            transform: translate3d(89vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(72vw, -121vh, 0);
-            transform: translate3d(72vw, -121vh, 0);
+    -webkit-transform: translate3d(43vw, -114vh, 0);
+            transform: translate3d(43vw, -114vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(64) .circle {
-  -webkit-animation-delay: 2182ms;
-          animation-delay: 2182ms;
+  -webkit-animation-delay: 508ms;
+          animation-delay: 508ms;
 }
 
 body .section-whatis .circle-container:nth-child(65) {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-65;
           animation-name: move-frames-65;
-  -webkit-animation-duration: 32348ms;
-          animation-duration: 32348ms;
-  -webkit-animation-delay: 7468ms;
-          animation-delay: 7468ms;
+  -webkit-animation-duration: 30473ms;
+          animation-duration: 30473ms;
+  -webkit-animation-delay: 22518ms;
+          animation-delay: 22518ms;
 }
 
 @-webkit-keyframes move-frames-65 {
   from {
-    -webkit-transform: translate3d(7vw, 107vh, 0);
-            transform: translate3d(7vw, 107vh, 0);
+    -webkit-transform: translate3d(88vw, 101vh, 0);
+            transform: translate3d(88vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(22vw, -126vh, 0);
-            transform: translate3d(22vw, -126vh, 0);
+    -webkit-transform: translate3d(85vw, -128vh, 0);
+            transform: translate3d(85vw, -128vh, 0);
   }
 }
 
 @keyframes move-frames-65 {
   from {
-    -webkit-transform: translate3d(7vw, 107vh, 0);
-            transform: translate3d(7vw, 107vh, 0);
+    -webkit-transform: translate3d(88vw, 101vh, 0);
+            transform: translate3d(88vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(22vw, -126vh, 0);
-            transform: translate3d(22vw, -126vh, 0);
+    -webkit-transform: translate3d(85vw, -128vh, 0);
+            transform: translate3d(85vw, -128vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(65) .circle {
-  -webkit-animation-delay: 3779ms;
-          animation-delay: 3779ms;
+  -webkit-animation-delay: 617ms;
+          animation-delay: 617ms;
 }
 
 body .section-whatis .circle-container:nth-child(66) {
-  width: 8px;
-  height: 8px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-66;
           animation-name: move-frames-66;
-  -webkit-animation-duration: 31150ms;
-          animation-duration: 31150ms;
-  -webkit-animation-delay: 19500ms;
-          animation-delay: 19500ms;
+  -webkit-animation-duration: 31601ms;
+          animation-duration: 31601ms;
+  -webkit-animation-delay: 20308ms;
+          animation-delay: 20308ms;
 }
 
 @-webkit-keyframes move-frames-66 {
   from {
-    -webkit-transform: translate3d(26vw, 110vh, 0);
-            transform: translate3d(26vw, 110vh, 0);
+    -webkit-transform: translate3d(3vw, 110vh, 0);
+            transform: translate3d(3vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(76vw, -129vh, 0);
-            transform: translate3d(76vw, -129vh, 0);
+    -webkit-transform: translate3d(10vw, -124vh, 0);
+            transform: translate3d(10vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-66 {
   from {
-    -webkit-transform: translate3d(26vw, 110vh, 0);
-            transform: translate3d(26vw, 110vh, 0);
+    -webkit-transform: translate3d(3vw, 110vh, 0);
+            transform: translate3d(3vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(76vw, -129vh, 0);
-            transform: translate3d(76vw, -129vh, 0);
+    -webkit-transform: translate3d(10vw, -124vh, 0);
+            transform: translate3d(10vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(66) .circle {
-  -webkit-animation-delay: 3610ms;
-          animation-delay: 3610ms;
+  -webkit-animation-delay: 2581ms;
+          animation-delay: 2581ms;
 }
 
 body .section-whatis .circle-container:nth-child(67) {
-  width: 2px;
-  height: 2px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-67;
           animation-name: move-frames-67;
-  -webkit-animation-duration: 30152ms;
-          animation-duration: 30152ms;
-  -webkit-animation-delay: 15687ms;
-          animation-delay: 15687ms;
+  -webkit-animation-duration: 32146ms;
+          animation-duration: 32146ms;
+  -webkit-animation-delay: 13686ms;
+          animation-delay: 13686ms;
 }
 
 @-webkit-keyframes move-frames-67 {
   from {
-    -webkit-transform: translate3d(85vw, 103vh, 0);
-            transform: translate3d(85vw, 103vh, 0);
+    -webkit-transform: translate3d(38vw, 107vh, 0);
+            transform: translate3d(38vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(48vw, -121vh, 0);
-            transform: translate3d(48vw, -121vh, 0);
+    -webkit-transform: translate3d(35vw, -108vh, 0);
+            transform: translate3d(35vw, -108vh, 0);
   }
 }
 
 @keyframes move-frames-67 {
   from {
-    -webkit-transform: translate3d(85vw, 103vh, 0);
-            transform: translate3d(85vw, 103vh, 0);
+    -webkit-transform: translate3d(38vw, 107vh, 0);
+            transform: translate3d(38vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(48vw, -121vh, 0);
-            transform: translate3d(48vw, -121vh, 0);
+    -webkit-transform: translate3d(35vw, -108vh, 0);
+            transform: translate3d(35vw, -108vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(67) .circle {
-  -webkit-animation-delay: 3237ms;
-          animation-delay: 3237ms;
+  -webkit-animation-delay: 293ms;
+          animation-delay: 293ms;
 }
 
 body .section-whatis .circle-container:nth-child(68) {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-68;
           animation-name: move-frames-68;
-  -webkit-animation-duration: 31015ms;
-          animation-duration: 31015ms;
-  -webkit-animation-delay: 12136ms;
-          animation-delay: 12136ms;
+  -webkit-animation-duration: 28332ms;
+          animation-duration: 28332ms;
+  -webkit-animation-delay: 1496ms;
+          animation-delay: 1496ms;
 }
 
 @-webkit-keyframes move-frames-68 {
   from {
-    -webkit-transform: translate3d(43vw, 105vh, 0);
-            transform: translate3d(43vw, 105vh, 0);
+    -webkit-transform: translate3d(29vw, 104vh, 0);
+            transform: translate3d(29vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(98vw, -111vh, 0);
-            transform: translate3d(98vw, -111vh, 0);
+    -webkit-transform: translate3d(39vw, -122vh, 0);
+            transform: translate3d(39vw, -122vh, 0);
   }
 }
 
 @keyframes move-frames-68 {
   from {
-    -webkit-transform: translate3d(43vw, 105vh, 0);
-            transform: translate3d(43vw, 105vh, 0);
+    -webkit-transform: translate3d(29vw, 104vh, 0);
+            transform: translate3d(29vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(98vw, -111vh, 0);
-            transform: translate3d(98vw, -111vh, 0);
+    -webkit-transform: translate3d(39vw, -122vh, 0);
+            transform: translate3d(39vw, -122vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(68) .circle {
-  -webkit-animation-delay: 1632ms;
-          animation-delay: 1632ms;
+  -webkit-animation-delay: 2272ms;
+          animation-delay: 2272ms;
 }
 
 body .section-whatis .circle-container:nth-child(69) {
@@ -5193,797 +5193,797 @@ body .section-whatis .circle-container:nth-child(69) {
   height: 8px;
   -webkit-animation-name: move-frames-69;
           animation-name: move-frames-69;
-  -webkit-animation-duration: 36405ms;
-          animation-duration: 36405ms;
-  -webkit-animation-delay: 8026ms;
-          animation-delay: 8026ms;
+  -webkit-animation-duration: 36913ms;
+          animation-duration: 36913ms;
+  -webkit-animation-delay: 17083ms;
+          animation-delay: 17083ms;
 }
 
 @-webkit-keyframes move-frames-69 {
   from {
-    -webkit-transform: translate3d(73vw, 106vh, 0);
-            transform: translate3d(73vw, 106vh, 0);
+    -webkit-transform: translate3d(76vw, 105vh, 0);
+            transform: translate3d(76vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(35vw, -114vh, 0);
-            transform: translate3d(35vw, -114vh, 0);
+    -webkit-transform: translate3d(99vw, -120vh, 0);
+            transform: translate3d(99vw, -120vh, 0);
   }
 }
 
 @keyframes move-frames-69 {
   from {
-    -webkit-transform: translate3d(73vw, 106vh, 0);
-            transform: translate3d(73vw, 106vh, 0);
+    -webkit-transform: translate3d(76vw, 105vh, 0);
+            transform: translate3d(76vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(35vw, -114vh, 0);
-            transform: translate3d(35vw, -114vh, 0);
+    -webkit-transform: translate3d(99vw, -120vh, 0);
+            transform: translate3d(99vw, -120vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(69) .circle {
-  -webkit-animation-delay: 15ms;
-          animation-delay: 15ms;
+  -webkit-animation-delay: 3272ms;
+          animation-delay: 3272ms;
 }
 
 body .section-whatis .circle-container:nth-child(70) {
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-70;
           animation-name: move-frames-70;
-  -webkit-animation-duration: 31736ms;
-          animation-duration: 31736ms;
-  -webkit-animation-delay: 32691ms;
-          animation-delay: 32691ms;
+  -webkit-animation-duration: 29987ms;
+          animation-duration: 29987ms;
+  -webkit-animation-delay: 6366ms;
+          animation-delay: 6366ms;
 }
 
 @-webkit-keyframes move-frames-70 {
   from {
-    -webkit-transform: translate3d(38vw, 106vh, 0);
-            transform: translate3d(38vw, 106vh, 0);
+    -webkit-transform: translate3d(77vw, 108vh, 0);
+            transform: translate3d(77vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -114vh, 0);
-            transform: translate3d(6vw, -114vh, 0);
+    -webkit-transform: translate3d(1vw, -114vh, 0);
+            transform: translate3d(1vw, -114vh, 0);
   }
 }
 
 @keyframes move-frames-70 {
   from {
-    -webkit-transform: translate3d(38vw, 106vh, 0);
-            transform: translate3d(38vw, 106vh, 0);
+    -webkit-transform: translate3d(77vw, 108vh, 0);
+            transform: translate3d(77vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -114vh, 0);
-            transform: translate3d(6vw, -114vh, 0);
+    -webkit-transform: translate3d(1vw, -114vh, 0);
+            transform: translate3d(1vw, -114vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(70) .circle {
-  -webkit-animation-delay: 2919ms;
-          animation-delay: 2919ms;
+  -webkit-animation-delay: 3252ms;
+          animation-delay: 3252ms;
 }
 
 body .section-whatis .circle-container:nth-child(71) {
-  width: 1px;
-  height: 1px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-71;
           animation-name: move-frames-71;
-  -webkit-animation-duration: 36402ms;
-          animation-duration: 36402ms;
-  -webkit-animation-delay: 13423ms;
-          animation-delay: 13423ms;
+  -webkit-animation-duration: 35359ms;
+          animation-duration: 35359ms;
+  -webkit-animation-delay: 4768ms;
+          animation-delay: 4768ms;
 }
 
 @-webkit-keyframes move-frames-71 {
   from {
-    -webkit-transform: translate3d(70vw, 108vh, 0);
-            transform: translate3d(70vw, 108vh, 0);
+    -webkit-transform: translate3d(61vw, 109vh, 0);
+            transform: translate3d(61vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(34vw, -131vh, 0);
-            transform: translate3d(34vw, -131vh, 0);
+    -webkit-transform: translate3d(49vw, -123vh, 0);
+            transform: translate3d(49vw, -123vh, 0);
   }
 }
 
 @keyframes move-frames-71 {
   from {
-    -webkit-transform: translate3d(70vw, 108vh, 0);
-            transform: translate3d(70vw, 108vh, 0);
+    -webkit-transform: translate3d(61vw, 109vh, 0);
+            transform: translate3d(61vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(34vw, -131vh, 0);
-            transform: translate3d(34vw, -131vh, 0);
+    -webkit-transform: translate3d(49vw, -123vh, 0);
+            transform: translate3d(49vw, -123vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(71) .circle {
-  -webkit-animation-delay: 1314ms;
-          animation-delay: 1314ms;
+  -webkit-animation-delay: 2873ms;
+          animation-delay: 2873ms;
 }
 
 body .section-whatis .circle-container:nth-child(72) {
-  width: 6px;
-  height: 6px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-72;
           animation-name: move-frames-72;
-  -webkit-animation-duration: 29156ms;
-          animation-duration: 29156ms;
-  -webkit-animation-delay: 22923ms;
-          animation-delay: 22923ms;
+  -webkit-animation-duration: 32604ms;
+          animation-duration: 32604ms;
+  -webkit-animation-delay: 13187ms;
+          animation-delay: 13187ms;
 }
 
 @-webkit-keyframes move-frames-72 {
   from {
-    -webkit-transform: translate3d(55vw, 102vh, 0);
-            transform: translate3d(55vw, 102vh, 0);
+    -webkit-transform: translate3d(91vw, 106vh, 0);
+            transform: translate3d(91vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(55vw, -115vh, 0);
-            transform: translate3d(55vw, -115vh, 0);
+    -webkit-transform: translate3d(25vw, -130vh, 0);
+            transform: translate3d(25vw, -130vh, 0);
   }
 }
 
 @keyframes move-frames-72 {
   from {
-    -webkit-transform: translate3d(55vw, 102vh, 0);
-            transform: translate3d(55vw, 102vh, 0);
+    -webkit-transform: translate3d(91vw, 106vh, 0);
+            transform: translate3d(91vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(55vw, -115vh, 0);
-            transform: translate3d(55vw, -115vh, 0);
+    -webkit-transform: translate3d(25vw, -130vh, 0);
+            transform: translate3d(25vw, -130vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(72) .circle {
-  -webkit-animation-delay: 718ms;
-          animation-delay: 718ms;
+  -webkit-animation-delay: 1771ms;
+          animation-delay: 1771ms;
 }
 
 body .section-whatis .circle-container:nth-child(73) {
-  width: 5px;
-  height: 5px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-73;
           animation-name: move-frames-73;
-  -webkit-animation-duration: 36621ms;
-          animation-duration: 36621ms;
-  -webkit-animation-delay: 36357ms;
-          animation-delay: 36357ms;
+  -webkit-animation-duration: 29776ms;
+          animation-duration: 29776ms;
+  -webkit-animation-delay: 17019ms;
+          animation-delay: 17019ms;
 }
 
 @-webkit-keyframes move-frames-73 {
   from {
-    -webkit-transform: translate3d(100vw, 106vh, 0);
-            transform: translate3d(100vw, 106vh, 0);
+    -webkit-transform: translate3d(72vw, 106vh, 0);
+            transform: translate3d(72vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -108vh, 0);
-            transform: translate3d(45vw, -108vh, 0);
+    -webkit-transform: translate3d(14vw, -120vh, 0);
+            transform: translate3d(14vw, -120vh, 0);
   }
 }
 
 @keyframes move-frames-73 {
   from {
-    -webkit-transform: translate3d(100vw, 106vh, 0);
-            transform: translate3d(100vw, 106vh, 0);
+    -webkit-transform: translate3d(72vw, 106vh, 0);
+            transform: translate3d(72vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(45vw, -108vh, 0);
-            transform: translate3d(45vw, -108vh, 0);
+    -webkit-transform: translate3d(14vw, -120vh, 0);
+            transform: translate3d(14vw, -120vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(73) .circle {
-  -webkit-animation-delay: 896ms;
-          animation-delay: 896ms;
+  -webkit-animation-delay: 1708ms;
+          animation-delay: 1708ms;
 }
 
 body .section-whatis .circle-container:nth-child(74) {
-  width: 3px;
-  height: 3px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-74;
           animation-name: move-frames-74;
-  -webkit-animation-duration: 29325ms;
-          animation-duration: 29325ms;
-  -webkit-animation-delay: 31657ms;
-          animation-delay: 31657ms;
+  -webkit-animation-duration: 35839ms;
+          animation-duration: 35839ms;
+  -webkit-animation-delay: 25615ms;
+          animation-delay: 25615ms;
 }
 
 @-webkit-keyframes move-frames-74 {
   from {
-    -webkit-transform: translate3d(65vw, 103vh, 0);
-            transform: translate3d(65vw, 103vh, 0);
+    -webkit-transform: translate3d(78vw, 110vh, 0);
+            transform: translate3d(78vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -115vh, 0);
-            transform: translate3d(18vw, -115vh, 0);
+    -webkit-transform: translate3d(39vw, -130vh, 0);
+            transform: translate3d(39vw, -130vh, 0);
   }
 }
 
 @keyframes move-frames-74 {
   from {
-    -webkit-transform: translate3d(65vw, 103vh, 0);
-            transform: translate3d(65vw, 103vh, 0);
+    -webkit-transform: translate3d(78vw, 110vh, 0);
+            transform: translate3d(78vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -115vh, 0);
-            transform: translate3d(18vw, -115vh, 0);
+    -webkit-transform: translate3d(39vw, -130vh, 0);
+            transform: translate3d(39vw, -130vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(74) .circle {
-  -webkit-animation-delay: 3431ms;
-          animation-delay: 3431ms;
+  -webkit-animation-delay: 421ms;
+          animation-delay: 421ms;
 }
 
 body .section-whatis .circle-container:nth-child(75) {
-  width: 6px;
-  height: 6px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-75;
           animation-name: move-frames-75;
-  -webkit-animation-duration: 36989ms;
-          animation-duration: 36989ms;
-  -webkit-animation-delay: 32608ms;
-          animation-delay: 32608ms;
+  -webkit-animation-duration: 29019ms;
+          animation-duration: 29019ms;
+  -webkit-animation-delay: 18782ms;
+          animation-delay: 18782ms;
 }
 
 @-webkit-keyframes move-frames-75 {
   from {
-    -webkit-transform: translate3d(70vw, 109vh, 0);
-            transform: translate3d(70vw, 109vh, 0);
+    -webkit-transform: translate3d(14vw, 104vh, 0);
+            transform: translate3d(14vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(66vw, -132vh, 0);
-            transform: translate3d(66vw, -132vh, 0);
+    -webkit-transform: translate3d(64vw, -109vh, 0);
+            transform: translate3d(64vw, -109vh, 0);
   }
 }
 
 @keyframes move-frames-75 {
   from {
-    -webkit-transform: translate3d(70vw, 109vh, 0);
-            transform: translate3d(70vw, 109vh, 0);
+    -webkit-transform: translate3d(14vw, 104vh, 0);
+            transform: translate3d(14vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(66vw, -132vh, 0);
-            transform: translate3d(66vw, -132vh, 0);
+    -webkit-transform: translate3d(64vw, -109vh, 0);
+            transform: translate3d(64vw, -109vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(75) .circle {
-  -webkit-animation-delay: 1261ms;
-          animation-delay: 1261ms;
+  -webkit-animation-delay: 237ms;
+          animation-delay: 237ms;
 }
 
 body .section-whatis .circle-container:nth-child(76) {
-  width: 1px;
-  height: 1px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-76;
           animation-name: move-frames-76;
-  -webkit-animation-duration: 29757ms;
-          animation-duration: 29757ms;
-  -webkit-animation-delay: 25585ms;
-          animation-delay: 25585ms;
+  -webkit-animation-duration: 30247ms;
+          animation-duration: 30247ms;
+  -webkit-animation-delay: 35557ms;
+          animation-delay: 35557ms;
 }
 
 @-webkit-keyframes move-frames-76 {
   from {
-    -webkit-transform: translate3d(88vw, 104vh, 0);
-            transform: translate3d(88vw, 104vh, 0);
+    -webkit-transform: translate3d(26vw, 108vh, 0);
+            transform: translate3d(26vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(67vw, -125vh, 0);
+            transform: translate3d(67vw, -125vh, 0);
   }
 }
 
 @keyframes move-frames-76 {
   from {
-    -webkit-transform: translate3d(88vw, 104vh, 0);
-            transform: translate3d(88vw, 104vh, 0);
+    -webkit-transform: translate3d(26vw, 108vh, 0);
+            transform: translate3d(26vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(67vw, -125vh, 0);
+            transform: translate3d(67vw, -125vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(76) .circle {
-  -webkit-animation-delay: 3467ms;
-          animation-delay: 3467ms;
+  -webkit-animation-delay: 970ms;
+          animation-delay: 970ms;
 }
 
 body .section-whatis .circle-container:nth-child(77) {
-  width: 4px;
-  height: 4px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-77;
           animation-name: move-frames-77;
-  -webkit-animation-duration: 32636ms;
-          animation-duration: 32636ms;
-  -webkit-animation-delay: 22812ms;
-          animation-delay: 22812ms;
+  -webkit-animation-duration: 29988ms;
+          animation-duration: 29988ms;
+  -webkit-animation-delay: 21392ms;
+          animation-delay: 21392ms;
 }
 
 @-webkit-keyframes move-frames-77 {
   from {
-    -webkit-transform: translate3d(100vw, 107vh, 0);
-            transform: translate3d(100vw, 107vh, 0);
+    -webkit-transform: translate3d(34vw, 102vh, 0);
+            transform: translate3d(34vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -134vh, 0);
-            transform: translate3d(50vw, -134vh, 0);
+    -webkit-transform: translate3d(47vw, -111vh, 0);
+            transform: translate3d(47vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-77 {
   from {
-    -webkit-transform: translate3d(100vw, 107vh, 0);
-            transform: translate3d(100vw, 107vh, 0);
+    -webkit-transform: translate3d(34vw, 102vh, 0);
+            transform: translate3d(34vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -134vh, 0);
-            transform: translate3d(50vw, -134vh, 0);
+    -webkit-transform: translate3d(47vw, -111vh, 0);
+            transform: translate3d(47vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(77) .circle {
-  -webkit-animation-delay: 2261ms;
-          animation-delay: 2261ms;
+  -webkit-animation-delay: 1211ms;
+          animation-delay: 1211ms;
 }
 
 body .section-whatis .circle-container:nth-child(78) {
-  width: 1px;
-  height: 1px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-78;
           animation-name: move-frames-78;
-  -webkit-animation-duration: 28888ms;
-          animation-duration: 28888ms;
-  -webkit-animation-delay: 16213ms;
-          animation-delay: 16213ms;
+  -webkit-animation-duration: 31604ms;
+          animation-duration: 31604ms;
+  -webkit-animation-delay: 27003ms;
+          animation-delay: 27003ms;
 }
 
 @-webkit-keyframes move-frames-78 {
   from {
-    -webkit-transform: translate3d(56vw, 101vh, 0);
-            transform: translate3d(56vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 106vh, 0);
+            transform: translate3d(8vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(97vw, -109vh, 0);
-            transform: translate3d(97vw, -109vh, 0);
+    -webkit-transform: translate3d(66vw, -111vh, 0);
+            transform: translate3d(66vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-78 {
   from {
-    -webkit-transform: translate3d(56vw, 101vh, 0);
-            transform: translate3d(56vw, 101vh, 0);
+    -webkit-transform: translate3d(8vw, 106vh, 0);
+            transform: translate3d(8vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(97vw, -109vh, 0);
-            transform: translate3d(97vw, -109vh, 0);
+    -webkit-transform: translate3d(66vw, -111vh, 0);
+            transform: translate3d(66vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(78) .circle {
-  -webkit-animation-delay: 3841ms;
-          animation-delay: 3841ms;
+  -webkit-animation-delay: 518ms;
+          animation-delay: 518ms;
 }
 
 body .section-whatis .circle-container:nth-child(79) {
-  width: 4px;
-  height: 4px;
+  width: 8px;
+  height: 8px;
   -webkit-animation-name: move-frames-79;
           animation-name: move-frames-79;
-  -webkit-animation-duration: 30212ms;
-          animation-duration: 30212ms;
-  -webkit-animation-delay: 2536ms;
-          animation-delay: 2536ms;
+  -webkit-animation-duration: 29590ms;
+          animation-duration: 29590ms;
+  -webkit-animation-delay: 19896ms;
+          animation-delay: 19896ms;
 }
 
 @-webkit-keyframes move-frames-79 {
   from {
-    -webkit-transform: translate3d(23vw, 110vh, 0);
-            transform: translate3d(23vw, 110vh, 0);
+    -webkit-transform: translate3d(68vw, 105vh, 0);
+            transform: translate3d(68vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(71vw, -133vh, 0);
-            transform: translate3d(71vw, -133vh, 0);
+    -webkit-transform: translate3d(84vw, -128vh, 0);
+            transform: translate3d(84vw, -128vh, 0);
   }
 }
 
 @keyframes move-frames-79 {
   from {
-    -webkit-transform: translate3d(23vw, 110vh, 0);
-            transform: translate3d(23vw, 110vh, 0);
+    -webkit-transform: translate3d(68vw, 105vh, 0);
+            transform: translate3d(68vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(71vw, -133vh, 0);
-            transform: translate3d(71vw, -133vh, 0);
+    -webkit-transform: translate3d(84vw, -128vh, 0);
+            transform: translate3d(84vw, -128vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(79) .circle {
-  -webkit-animation-delay: 3376ms;
-          animation-delay: 3376ms;
+  -webkit-animation-delay: 3389ms;
+          animation-delay: 3389ms;
 }
 
 body .section-whatis .circle-container:nth-child(80) {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-80;
           animation-name: move-frames-80;
-  -webkit-animation-duration: 33467ms;
-          animation-duration: 33467ms;
-  -webkit-animation-delay: 13677ms;
-          animation-delay: 13677ms;
+  -webkit-animation-duration: 33736ms;
+          animation-duration: 33736ms;
+  -webkit-animation-delay: 2225ms;
+          animation-delay: 2225ms;
 }
 
 @-webkit-keyframes move-frames-80 {
   from {
-    -webkit-transform: translate3d(30vw, 103vh, 0);
-            transform: translate3d(30vw, 103vh, 0);
+    -webkit-transform: translate3d(100vw, 103vh, 0);
+            transform: translate3d(100vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(79vw, -109vh, 0);
-            transform: translate3d(79vw, -109vh, 0);
+    -webkit-transform: translate3d(8vw, -122vh, 0);
+            transform: translate3d(8vw, -122vh, 0);
   }
 }
 
 @keyframes move-frames-80 {
   from {
-    -webkit-transform: translate3d(30vw, 103vh, 0);
-            transform: translate3d(30vw, 103vh, 0);
+    -webkit-transform: translate3d(100vw, 103vh, 0);
+            transform: translate3d(100vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(79vw, -109vh, 0);
-            transform: translate3d(79vw, -109vh, 0);
+    -webkit-transform: translate3d(8vw, -122vh, 0);
+            transform: translate3d(8vw, -122vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(80) .circle {
-  -webkit-animation-delay: 18ms;
-          animation-delay: 18ms;
+  -webkit-animation-delay: 2232ms;
+          animation-delay: 2232ms;
 }
 
 body .section-whatis .circle-container:nth-child(81) {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-81;
           animation-name: move-frames-81;
-  -webkit-animation-duration: 32610ms;
-          animation-duration: 32610ms;
-  -webkit-animation-delay: 14103ms;
-          animation-delay: 14103ms;
+  -webkit-animation-duration: 31080ms;
+          animation-duration: 31080ms;
+  -webkit-animation-delay: 3115ms;
+          animation-delay: 3115ms;
 }
 
 @-webkit-keyframes move-frames-81 {
   from {
-    -webkit-transform: translate3d(96vw, 101vh, 0);
-            transform: translate3d(96vw, 101vh, 0);
+    -webkit-transform: translate3d(57vw, 101vh, 0);
+            transform: translate3d(57vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(84vw, -117vh, 0);
-            transform: translate3d(84vw, -117vh, 0);
+    -webkit-transform: translate3d(18vw, -127vh, 0);
+            transform: translate3d(18vw, -127vh, 0);
   }
 }
 
 @keyframes move-frames-81 {
   from {
-    -webkit-transform: translate3d(96vw, 101vh, 0);
-            transform: translate3d(96vw, 101vh, 0);
+    -webkit-transform: translate3d(57vw, 101vh, 0);
+            transform: translate3d(57vw, 101vh, 0);
   }
   to {
-    -webkit-transform: translate3d(84vw, -117vh, 0);
-            transform: translate3d(84vw, -117vh, 0);
+    -webkit-transform: translate3d(18vw, -127vh, 0);
+            transform: translate3d(18vw, -127vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(81) .circle {
-  -webkit-animation-delay: 2957ms;
-          animation-delay: 2957ms;
+  -webkit-animation-delay: 1729ms;
+          animation-delay: 1729ms;
 }
 
 body .section-whatis .circle-container:nth-child(82) {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-82;
           animation-name: move-frames-82;
-  -webkit-animation-duration: 35932ms;
-          animation-duration: 35932ms;
-  -webkit-animation-delay: 2237ms;
-          animation-delay: 2237ms;
+  -webkit-animation-duration: 33690ms;
+          animation-duration: 33690ms;
+  -webkit-animation-delay: 27587ms;
+          animation-delay: 27587ms;
 }
 
 @-webkit-keyframes move-frames-82 {
   from {
-    -webkit-transform: translate3d(96vw, 110vh, 0);
-            transform: translate3d(96vw, 110vh, 0);
+    -webkit-transform: translate3d(41vw, 110vh, 0);
+            transform: translate3d(41vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -114vh, 0);
-            transform: translate3d(18vw, -114vh, 0);
+    -webkit-transform: translate3d(27vw, -134vh, 0);
+            transform: translate3d(27vw, -134vh, 0);
   }
 }
 
 @keyframes move-frames-82 {
   from {
-    -webkit-transform: translate3d(96vw, 110vh, 0);
-            transform: translate3d(96vw, 110vh, 0);
+    -webkit-transform: translate3d(41vw, 110vh, 0);
+            transform: translate3d(41vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(18vw, -114vh, 0);
-            transform: translate3d(18vw, -114vh, 0);
+    -webkit-transform: translate3d(27vw, -134vh, 0);
+            transform: translate3d(27vw, -134vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(82) .circle {
-  -webkit-animation-delay: 2975ms;
-          animation-delay: 2975ms;
+  -webkit-animation-delay: 2190ms;
+          animation-delay: 2190ms;
 }
 
 body .section-whatis .circle-container:nth-child(83) {
-  width: 6px;
-  height: 6px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-83;
           animation-name: move-frames-83;
-  -webkit-animation-duration: 29581ms;
-          animation-duration: 29581ms;
-  -webkit-animation-delay: 21389ms;
-          animation-delay: 21389ms;
+  -webkit-animation-duration: 34352ms;
+          animation-duration: 34352ms;
+  -webkit-animation-delay: 15399ms;
+          animation-delay: 15399ms;
 }
 
 @-webkit-keyframes move-frames-83 {
   from {
-    -webkit-transform: translate3d(20vw, 109vh, 0);
-            transform: translate3d(20vw, 109vh, 0);
+    -webkit-transform: translate3d(1vw, 109vh, 0);
+            transform: translate3d(1vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -118vh, 0);
-            transform: translate3d(99vw, -118vh, 0);
+    -webkit-transform: translate3d(36vw, -114vh, 0);
+            transform: translate3d(36vw, -114vh, 0);
   }
 }
 
 @keyframes move-frames-83 {
   from {
-    -webkit-transform: translate3d(20vw, 109vh, 0);
-            transform: translate3d(20vw, 109vh, 0);
+    -webkit-transform: translate3d(1vw, 109vh, 0);
+            transform: translate3d(1vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -118vh, 0);
-            transform: translate3d(99vw, -118vh, 0);
+    -webkit-transform: translate3d(36vw, -114vh, 0);
+            transform: translate3d(36vw, -114vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(83) .circle {
-  -webkit-animation-delay: 2142ms;
-          animation-delay: 2142ms;
+  -webkit-animation-delay: 1706ms;
+          animation-delay: 1706ms;
 }
 
 body .section-whatis .circle-container:nth-child(84) {
-  width: 2px;
-  height: 2px;
+  width: 7px;
+  height: 7px;
   -webkit-animation-name: move-frames-84;
           animation-name: move-frames-84;
-  -webkit-animation-duration: 36388ms;
-          animation-duration: 36388ms;
-  -webkit-animation-delay: 28127ms;
-          animation-delay: 28127ms;
+  -webkit-animation-duration: 35593ms;
+          animation-duration: 35593ms;
+  -webkit-animation-delay: 27138ms;
+          animation-delay: 27138ms;
 }
 
 @-webkit-keyframes move-frames-84 {
   from {
-    -webkit-transform: translate3d(26vw, 106vh, 0);
-            transform: translate3d(26vw, 106vh, 0);
+    -webkit-transform: translate3d(3vw, 106vh, 0);
+            transform: translate3d(3vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(29vw, -127vh, 0);
-            transform: translate3d(29vw, -127vh, 0);
+    -webkit-transform: translate3d(1vw, -111vh, 0);
+            transform: translate3d(1vw, -111vh, 0);
   }
 }
 
 @keyframes move-frames-84 {
   from {
-    -webkit-transform: translate3d(26vw, 106vh, 0);
-            transform: translate3d(26vw, 106vh, 0);
+    -webkit-transform: translate3d(3vw, 106vh, 0);
+            transform: translate3d(3vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(29vw, -127vh, 0);
-            transform: translate3d(29vw, -127vh, 0);
+    -webkit-transform: translate3d(1vw, -111vh, 0);
+            transform: translate3d(1vw, -111vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(84) .circle {
-  -webkit-animation-delay: 2105ms;
-          animation-delay: 2105ms;
+  -webkit-animation-delay: 974ms;
+          animation-delay: 974ms;
 }
 
 body .section-whatis .circle-container:nth-child(85) {
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-85;
           animation-name: move-frames-85;
-  -webkit-animation-duration: 36264ms;
-          animation-duration: 36264ms;
-  -webkit-animation-delay: 17362ms;
-          animation-delay: 17362ms;
+  -webkit-animation-duration: 34079ms;
+          animation-duration: 34079ms;
+  -webkit-animation-delay: 23281ms;
+          animation-delay: 23281ms;
 }
 
 @-webkit-keyframes move-frames-85 {
   from {
-    -webkit-transform: translate3d(20vw, 101vh, 0);
-            transform: translate3d(20vw, 101vh, 0);
+    -webkit-transform: translate3d(27vw, 107vh, 0);
+            transform: translate3d(27vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -108vh, 0);
-            transform: translate3d(50vw, -108vh, 0);
+    -webkit-transform: translate3d(26vw, -131vh, 0);
+            transform: translate3d(26vw, -131vh, 0);
   }
 }
 
 @keyframes move-frames-85 {
   from {
-    -webkit-transform: translate3d(20vw, 101vh, 0);
-            transform: translate3d(20vw, 101vh, 0);
+    -webkit-transform: translate3d(27vw, 107vh, 0);
+            transform: translate3d(27vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(50vw, -108vh, 0);
-            transform: translate3d(50vw, -108vh, 0);
+    -webkit-transform: translate3d(26vw, -131vh, 0);
+            transform: translate3d(26vw, -131vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(85) .circle {
-  -webkit-animation-delay: 2693ms;
-          animation-delay: 2693ms;
+  -webkit-animation-delay: 3933ms;
+          animation-delay: 3933ms;
 }
 
 body .section-whatis .circle-container:nth-child(86) {
-  width: 6px;
-  height: 6px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-86;
           animation-name: move-frames-86;
-  -webkit-animation-duration: 32994ms;
-          animation-duration: 32994ms;
-  -webkit-animation-delay: 17486ms;
-          animation-delay: 17486ms;
+  -webkit-animation-duration: 28678ms;
+          animation-duration: 28678ms;
+  -webkit-animation-delay: 35736ms;
+          animation-delay: 35736ms;
 }
 
 @-webkit-keyframes move-frames-86 {
   from {
-    -webkit-transform: translate3d(27vw, 105vh, 0);
-            transform: translate3d(27vw, 105vh, 0);
+    -webkit-transform: translate3d(27vw, 107vh, 0);
+            transform: translate3d(27vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(9vw, -133vh, 0);
-            transform: translate3d(9vw, -133vh, 0);
+    -webkit-transform: translate3d(36vw, -112vh, 0);
+            transform: translate3d(36vw, -112vh, 0);
   }
 }
 
 @keyframes move-frames-86 {
   from {
-    -webkit-transform: translate3d(27vw, 105vh, 0);
-            transform: translate3d(27vw, 105vh, 0);
+    -webkit-transform: translate3d(27vw, 107vh, 0);
+            transform: translate3d(27vw, 107vh, 0);
   }
   to {
-    -webkit-transform: translate3d(9vw, -133vh, 0);
-            transform: translate3d(9vw, -133vh, 0);
+    -webkit-transform: translate3d(36vw, -112vh, 0);
+            transform: translate3d(36vw, -112vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(86) .circle {
-  -webkit-animation-delay: 3950ms;
-          animation-delay: 3950ms;
+  -webkit-animation-delay: 3229ms;
+          animation-delay: 3229ms;
 }
 
 body .section-whatis .circle-container:nth-child(87) {
-  width: 1px;
-  height: 1px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-87;
           animation-name: move-frames-87;
-  -webkit-animation-duration: 29655ms;
-          animation-duration: 29655ms;
-  -webkit-animation-delay: 8711ms;
-          animation-delay: 8711ms;
+  -webkit-animation-duration: 31903ms;
+          animation-duration: 31903ms;
+  -webkit-animation-delay: 28684ms;
+          animation-delay: 28684ms;
 }
 
 @-webkit-keyframes move-frames-87 {
   from {
-    -webkit-transform: translate3d(68vw, 102vh, 0);
-            transform: translate3d(68vw, 102vh, 0);
+    -webkit-transform: translate3d(100vw, 108vh, 0);
+            transform: translate3d(100vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(33vw, -107vh, 0);
-            transform: translate3d(33vw, -107vh, 0);
+    -webkit-transform: translate3d(35vw, -124vh, 0);
+            transform: translate3d(35vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-87 {
   from {
-    -webkit-transform: translate3d(68vw, 102vh, 0);
-            transform: translate3d(68vw, 102vh, 0);
+    -webkit-transform: translate3d(100vw, 108vh, 0);
+            transform: translate3d(100vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(33vw, -107vh, 0);
-            transform: translate3d(33vw, -107vh, 0);
+    -webkit-transform: translate3d(35vw, -124vh, 0);
+            transform: translate3d(35vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(87) .circle {
-  -webkit-animation-delay: 3348ms;
-          animation-delay: 3348ms;
+  -webkit-animation-delay: 3743ms;
+          animation-delay: 3743ms;
 }
 
 body .section-whatis .circle-container:nth-child(88) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-88;
           animation-name: move-frames-88;
-  -webkit-animation-duration: 30522ms;
-          animation-duration: 30522ms;
-  -webkit-animation-delay: 20439ms;
-          animation-delay: 20439ms;
+  -webkit-animation-duration: 36453ms;
+          animation-duration: 36453ms;
+  -webkit-animation-delay: 20503ms;
+          animation-delay: 20503ms;
 }
 
 @-webkit-keyframes move-frames-88 {
   from {
-    -webkit-transform: translate3d(79vw, 102vh, 0);
-            transform: translate3d(79vw, 102vh, 0);
+    -webkit-transform: translate3d(30vw, 105vh, 0);
+            transform: translate3d(30vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(27vw, -103vh, 0);
-            transform: translate3d(27vw, -103vh, 0);
+    -webkit-transform: translate3d(48vw, -120vh, 0);
+            transform: translate3d(48vw, -120vh, 0);
   }
 }
 
 @keyframes move-frames-88 {
   from {
-    -webkit-transform: translate3d(79vw, 102vh, 0);
-            transform: translate3d(79vw, 102vh, 0);
+    -webkit-transform: translate3d(30vw, 105vh, 0);
+            transform: translate3d(30vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(27vw, -103vh, 0);
-            transform: translate3d(27vw, -103vh, 0);
+    -webkit-transform: translate3d(48vw, -120vh, 0);
+            transform: translate3d(48vw, -120vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(88) .circle {
-  -webkit-animation-delay: 171ms;
-          animation-delay: 171ms;
+  -webkit-animation-delay: 2653ms;
+          animation-delay: 2653ms;
 }
 
 body .section-whatis .circle-container:nth-child(89) {
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-89;
           animation-name: move-frames-89;
-  -webkit-animation-duration: 32476ms;
-          animation-duration: 32476ms;
-  -webkit-animation-delay: 8198ms;
-          animation-delay: 8198ms;
+  -webkit-animation-duration: 29064ms;
+          animation-duration: 29064ms;
+  -webkit-animation-delay: 36214ms;
+          animation-delay: 36214ms;
 }
 
 @-webkit-keyframes move-frames-89 {
   from {
-    -webkit-transform: translate3d(42vw, 110vh, 0);
-            transform: translate3d(42vw, 110vh, 0);
+    -webkit-transform: translate3d(77vw, 110vh, 0);
+            transform: translate3d(77vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(97vw, -115vh, 0);
-            transform: translate3d(97vw, -115vh, 0);
+    -webkit-transform: translate3d(90vw, -125vh, 0);
+            transform: translate3d(90vw, -125vh, 0);
   }
 }
 
 @keyframes move-frames-89 {
   from {
-    -webkit-transform: translate3d(42vw, 110vh, 0);
-            transform: translate3d(42vw, 110vh, 0);
+    -webkit-transform: translate3d(77vw, 110vh, 0);
+            transform: translate3d(77vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(97vw, -115vh, 0);
-            transform: translate3d(97vw, -115vh, 0);
+    -webkit-transform: translate3d(90vw, -125vh, 0);
+            transform: translate3d(90vw, -125vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(89) .circle {
-  -webkit-animation-delay: 3486ms;
-          animation-delay: 3486ms;
+  -webkit-animation-delay: 568ms;
+          animation-delay: 568ms;
 }
 
 body .section-whatis .circle-container:nth-child(90) {
@@ -5991,151 +5991,151 @@ body .section-whatis .circle-container:nth-child(90) {
   height: 3px;
   -webkit-animation-name: move-frames-90;
           animation-name: move-frames-90;
-  -webkit-animation-duration: 31662ms;
-          animation-duration: 31662ms;
-  -webkit-animation-delay: 29265ms;
-          animation-delay: 29265ms;
+  -webkit-animation-duration: 34544ms;
+          animation-duration: 34544ms;
+  -webkit-animation-delay: 34874ms;
+          animation-delay: 34874ms;
 }
 
 @-webkit-keyframes move-frames-90 {
   from {
-    -webkit-transform: translate3d(52vw, 103vh, 0);
-            transform: translate3d(52vw, 103vh, 0);
+    -webkit-transform: translate3d(78vw, 106vh, 0);
+            transform: translate3d(78vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(24vw, -104vh, 0);
-            transform: translate3d(24vw, -104vh, 0);
+    -webkit-transform: translate3d(18vw, -118vh, 0);
+            transform: translate3d(18vw, -118vh, 0);
   }
 }
 
 @keyframes move-frames-90 {
   from {
-    -webkit-transform: translate3d(52vw, 103vh, 0);
-            transform: translate3d(52vw, 103vh, 0);
+    -webkit-transform: translate3d(78vw, 106vh, 0);
+            transform: translate3d(78vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(24vw, -104vh, 0);
-            transform: translate3d(24vw, -104vh, 0);
+    -webkit-transform: translate3d(18vw, -118vh, 0);
+            transform: translate3d(18vw, -118vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(90) .circle {
-  -webkit-animation-delay: 3022ms;
-          animation-delay: 3022ms;
+  -webkit-animation-delay: 722ms;
+          animation-delay: 722ms;
 }
 
 body .section-whatis .circle-container:nth-child(91) {
-  width: 2px;
-  height: 2px;
+  width: 5px;
+  height: 5px;
   -webkit-animation-name: move-frames-91;
           animation-name: move-frames-91;
-  -webkit-animation-duration: 29837ms;
-          animation-duration: 29837ms;
-  -webkit-animation-delay: 28860ms;
-          animation-delay: 28860ms;
+  -webkit-animation-duration: 34845ms;
+          animation-duration: 34845ms;
+  -webkit-animation-delay: 29059ms;
+          animation-delay: 29059ms;
 }
 
 @-webkit-keyframes move-frames-91 {
   from {
-    -webkit-transform: translate3d(64vw, 109vh, 0);
-            transform: translate3d(64vw, 109vh, 0);
+    -webkit-transform: translate3d(79vw, 108vh, 0);
+            transform: translate3d(79vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -128vh, 0);
-            transform: translate3d(99vw, -128vh, 0);
+    -webkit-transform: translate3d(29vw, -126vh, 0);
+            transform: translate3d(29vw, -126vh, 0);
   }
 }
 
 @keyframes move-frames-91 {
   from {
-    -webkit-transform: translate3d(64vw, 109vh, 0);
-            transform: translate3d(64vw, 109vh, 0);
+    -webkit-transform: translate3d(79vw, 108vh, 0);
+            transform: translate3d(79vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -128vh, 0);
-            transform: translate3d(99vw, -128vh, 0);
+    -webkit-transform: translate3d(29vw, -126vh, 0);
+            transform: translate3d(29vw, -126vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(91) .circle {
-  -webkit-animation-delay: 2414ms;
-          animation-delay: 2414ms;
+  -webkit-animation-delay: 638ms;
+          animation-delay: 638ms;
 }
 
 body .section-whatis .circle-container:nth-child(92) {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   -webkit-animation-name: move-frames-92;
           animation-name: move-frames-92;
-  -webkit-animation-duration: 28831ms;
-          animation-duration: 28831ms;
-  -webkit-animation-delay: 11134ms;
-          animation-delay: 11134ms;
+  -webkit-animation-duration: 36675ms;
+          animation-duration: 36675ms;
+  -webkit-animation-delay: 1956ms;
+          animation-delay: 1956ms;
 }
 
 @-webkit-keyframes move-frames-92 {
   from {
-    -webkit-transform: translate3d(19vw, 109vh, 0);
-            transform: translate3d(19vw, 109vh, 0);
+    -webkit-transform: translate3d(56vw, 104vh, 0);
+            transform: translate3d(56vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(54vw, -128vh, 0);
-            transform: translate3d(54vw, -128vh, 0);
+    -webkit-transform: translate3d(63vw, -133vh, 0);
+            transform: translate3d(63vw, -133vh, 0);
   }
 }
 
 @keyframes move-frames-92 {
   from {
-    -webkit-transform: translate3d(19vw, 109vh, 0);
-            transform: translate3d(19vw, 109vh, 0);
+    -webkit-transform: translate3d(56vw, 104vh, 0);
+            transform: translate3d(56vw, 104vh, 0);
   }
   to {
-    -webkit-transform: translate3d(54vw, -128vh, 0);
-            transform: translate3d(54vw, -128vh, 0);
+    -webkit-transform: translate3d(63vw, -133vh, 0);
+            transform: translate3d(63vw, -133vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(92) .circle {
-  -webkit-animation-delay: 1662ms;
-          animation-delay: 1662ms;
+  -webkit-animation-delay: 3349ms;
+          animation-delay: 3349ms;
 }
 
 body .section-whatis .circle-container:nth-child(93) {
-  width: 7px;
-  height: 7px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-93;
           animation-name: move-frames-93;
-  -webkit-animation-duration: 29319ms;
-          animation-duration: 29319ms;
-  -webkit-animation-delay: 1205ms;
-          animation-delay: 1205ms;
+  -webkit-animation-duration: 34955ms;
+          animation-duration: 34955ms;
+  -webkit-animation-delay: 2195ms;
+          animation-delay: 2195ms;
 }
 
 @-webkit-keyframes move-frames-93 {
   from {
-    -webkit-transform: translate3d(28vw, 107vh, 0);
-            transform: translate3d(28vw, 107vh, 0);
+    -webkit-transform: translate3d(16vw, 109vh, 0);
+            transform: translate3d(16vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(27vw, -134vh, 0);
-            transform: translate3d(27vw, -134vh, 0);
+    -webkit-transform: translate3d(95vw, -132vh, 0);
+            transform: translate3d(95vw, -132vh, 0);
   }
 }
 
 @keyframes move-frames-93 {
   from {
-    -webkit-transform: translate3d(28vw, 107vh, 0);
-            transform: translate3d(28vw, 107vh, 0);
+    -webkit-transform: translate3d(16vw, 109vh, 0);
+            transform: translate3d(16vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(27vw, -134vh, 0);
-            transform: translate3d(27vw, -134vh, 0);
+    -webkit-transform: translate3d(95vw, -132vh, 0);
+            transform: translate3d(95vw, -132vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(93) .circle {
-  -webkit-animation-delay: 2089ms;
-          animation-delay: 2089ms;
+  -webkit-animation-delay: 160ms;
+          animation-delay: 160ms;
 }
 
 body .section-whatis .circle-container:nth-child(94) {
@@ -6143,265 +6143,265 @@ body .section-whatis .circle-container:nth-child(94) {
   height: 1px;
   -webkit-animation-name: move-frames-94;
           animation-name: move-frames-94;
-  -webkit-animation-duration: 29366ms;
-          animation-duration: 29366ms;
-  -webkit-animation-delay: 32490ms;
-          animation-delay: 32490ms;
+  -webkit-animation-duration: 32643ms;
+          animation-duration: 32643ms;
+  -webkit-animation-delay: 27506ms;
+          animation-delay: 27506ms;
 }
 
 @-webkit-keyframes move-frames-94 {
   from {
-    -webkit-transform: translate3d(82vw, 110vh, 0);
-            transform: translate3d(82vw, 110vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(85vw, -116vh, 0);
+            transform: translate3d(85vw, -116vh, 0);
   }
 }
 
 @keyframes move-frames-94 {
   from {
-    -webkit-transform: translate3d(82vw, 110vh, 0);
-            transform: translate3d(82vw, 110vh, 0);
+    -webkit-transform: translate3d(8vw, 109vh, 0);
+            transform: translate3d(8vw, 109vh, 0);
   }
   to {
-    -webkit-transform: translate3d(44vw, -134vh, 0);
-            transform: translate3d(44vw, -134vh, 0);
+    -webkit-transform: translate3d(85vw, -116vh, 0);
+            transform: translate3d(85vw, -116vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(94) .circle {
-  -webkit-animation-delay: 2594ms;
-          animation-delay: 2594ms;
+  -webkit-animation-delay: 3605ms;
+          animation-delay: 3605ms;
 }
 
 body .section-whatis .circle-container:nth-child(95) {
-  width: 8px;
-  height: 8px;
+  width: 2px;
+  height: 2px;
   -webkit-animation-name: move-frames-95;
           animation-name: move-frames-95;
-  -webkit-animation-duration: 34582ms;
-          animation-duration: 34582ms;
-  -webkit-animation-delay: 23807ms;
-          animation-delay: 23807ms;
+  -webkit-animation-duration: 31215ms;
+          animation-duration: 31215ms;
+  -webkit-animation-delay: 21862ms;
+          animation-delay: 21862ms;
 }
 
 @-webkit-keyframes move-frames-95 {
   from {
-    -webkit-transform: translate3d(21vw, 102vh, 0);
-            transform: translate3d(21vw, 102vh, 0);
+    -webkit-transform: translate3d(12vw, 103vh, 0);
+            transform: translate3d(12vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(34vw, -110vh, 0);
-            transform: translate3d(34vw, -110vh, 0);
+    -webkit-transform: translate3d(19vw, -123vh, 0);
+            transform: translate3d(19vw, -123vh, 0);
   }
 }
 
 @keyframes move-frames-95 {
   from {
-    -webkit-transform: translate3d(21vw, 102vh, 0);
-            transform: translate3d(21vw, 102vh, 0);
+    -webkit-transform: translate3d(12vw, 103vh, 0);
+            transform: translate3d(12vw, 103vh, 0);
   }
   to {
-    -webkit-transform: translate3d(34vw, -110vh, 0);
-            transform: translate3d(34vw, -110vh, 0);
+    -webkit-transform: translate3d(19vw, -123vh, 0);
+            transform: translate3d(19vw, -123vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(95) .circle {
-  -webkit-animation-delay: 3635ms;
-          animation-delay: 3635ms;
+  -webkit-animation-delay: 3905ms;
+          animation-delay: 3905ms;
 }
 
 body .section-whatis .circle-container:nth-child(96) {
-  width: 8px;
-  height: 8px;
+  width: 1px;
+  height: 1px;
   -webkit-animation-name: move-frames-96;
           animation-name: move-frames-96;
-  -webkit-animation-duration: 33408ms;
-          animation-duration: 33408ms;
-  -webkit-animation-delay: 9938ms;
-          animation-delay: 9938ms;
+  -webkit-animation-duration: 32260ms;
+          animation-duration: 32260ms;
+  -webkit-animation-delay: 28100ms;
+          animation-delay: 28100ms;
 }
 
 @-webkit-keyframes move-frames-96 {
   from {
-    -webkit-transform: translate3d(70vw, 106vh, 0);
-            transform: translate3d(70vw, 106vh, 0);
+    -webkit-transform: translate3d(78vw, 108vh, 0);
+            transform: translate3d(78vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -124vh, 0);
-            transform: translate3d(6vw, -124vh, 0);
+    -webkit-transform: translate3d(87vw, -117vh, 0);
+            transform: translate3d(87vw, -117vh, 0);
   }
 }
 
 @keyframes move-frames-96 {
   from {
-    -webkit-transform: translate3d(70vw, 106vh, 0);
-            transform: translate3d(70vw, 106vh, 0);
+    -webkit-transform: translate3d(78vw, 108vh, 0);
+            transform: translate3d(78vw, 108vh, 0);
   }
   to {
-    -webkit-transform: translate3d(6vw, -124vh, 0);
-            transform: translate3d(6vw, -124vh, 0);
+    -webkit-transform: translate3d(87vw, -117vh, 0);
+            transform: translate3d(87vw, -117vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(96) .circle {
-  -webkit-animation-delay: 1447ms;
-          animation-delay: 1447ms;
+  -webkit-animation-delay: 1065ms;
+          animation-delay: 1065ms;
 }
 
 body .section-whatis .circle-container:nth-child(97) {
-  width: 2px;
-  height: 2px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-97;
           animation-name: move-frames-97;
-  -webkit-animation-duration: 31582ms;
-          animation-duration: 31582ms;
-  -webkit-animation-delay: 5374ms;
-          animation-delay: 5374ms;
+  -webkit-animation-duration: 36328ms;
+          animation-duration: 36328ms;
+  -webkit-animation-delay: 11218ms;
+          animation-delay: 11218ms;
 }
 
 @-webkit-keyframes move-frames-97 {
   from {
-    -webkit-transform: translate3d(92vw, 104vh, 0);
-            transform: translate3d(92vw, 104vh, 0);
+    -webkit-transform: translate3d(13vw, 110vh, 0);
+            transform: translate3d(13vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(30vw, -119vh, 0);
-            transform: translate3d(30vw, -119vh, 0);
+    -webkit-transform: translate3d(4vw, -140vh, 0);
+            transform: translate3d(4vw, -140vh, 0);
   }
 }
 
 @keyframes move-frames-97 {
   from {
-    -webkit-transform: translate3d(92vw, 104vh, 0);
-            transform: translate3d(92vw, 104vh, 0);
+    -webkit-transform: translate3d(13vw, 110vh, 0);
+            transform: translate3d(13vw, 110vh, 0);
   }
   to {
-    -webkit-transform: translate3d(30vw, -119vh, 0);
-            transform: translate3d(30vw, -119vh, 0);
+    -webkit-transform: translate3d(4vw, -140vh, 0);
+            transform: translate3d(4vw, -140vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(97) .circle {
-  -webkit-animation-delay: 2473ms;
-          animation-delay: 2473ms;
+  -webkit-animation-delay: 1630ms;
+          animation-delay: 1630ms;
 }
 
 body .section-whatis .circle-container:nth-child(98) {
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-98;
           animation-name: move-frames-98;
-  -webkit-animation-duration: 31939ms;
-          animation-duration: 31939ms;
-  -webkit-animation-delay: 31335ms;
-          animation-delay: 31335ms;
+  -webkit-animation-duration: 34208ms;
+          animation-duration: 34208ms;
+  -webkit-animation-delay: 27471ms;
+          animation-delay: 27471ms;
 }
 
 @-webkit-keyframes move-frames-98 {
   from {
-    -webkit-transform: translate3d(13vw, 106vh, 0);
-            transform: translate3d(13vw, 106vh, 0);
+    -webkit-transform: translate3d(70vw, 105vh, 0);
+            transform: translate3d(70vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(90vw, -112vh, 0);
-            transform: translate3d(90vw, -112vh, 0);
+    -webkit-transform: translate3d(7vw, -124vh, 0);
+            transform: translate3d(7vw, -124vh, 0);
   }
 }
 
 @keyframes move-frames-98 {
   from {
-    -webkit-transform: translate3d(13vw, 106vh, 0);
-            transform: translate3d(13vw, 106vh, 0);
+    -webkit-transform: translate3d(70vw, 105vh, 0);
+            transform: translate3d(70vw, 105vh, 0);
   }
   to {
-    -webkit-transform: translate3d(90vw, -112vh, 0);
-            transform: translate3d(90vw, -112vh, 0);
+    -webkit-transform: translate3d(7vw, -124vh, 0);
+            transform: translate3d(7vw, -124vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(98) .circle {
-  -webkit-animation-delay: 2452ms;
-          animation-delay: 2452ms;
+  -webkit-animation-delay: 1150ms;
+          animation-delay: 1150ms;
 }
 
 body .section-whatis .circle-container:nth-child(99) {
-  width: 2px;
-  height: 2px;
+  width: 6px;
+  height: 6px;
   -webkit-animation-name: move-frames-99;
           animation-name: move-frames-99;
-  -webkit-animation-duration: 32365ms;
-          animation-duration: 32365ms;
-  -webkit-animation-delay: 21839ms;
-          animation-delay: 21839ms;
+  -webkit-animation-duration: 29553ms;
+          animation-duration: 29553ms;
+  -webkit-animation-delay: 741ms;
+          animation-delay: 741ms;
 }
 
 @-webkit-keyframes move-frames-99 {
   from {
-    -webkit-transform: translate3d(78vw, 106vh, 0);
-            transform: translate3d(78vw, 106vh, 0);
+    -webkit-transform: translate3d(32vw, 102vh, 0);
+            transform: translate3d(32vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -128vh, 0);
-            transform: translate3d(99vw, -128vh, 0);
+    -webkit-transform: translate3d(95vw, -114vh, 0);
+            transform: translate3d(95vw, -114vh, 0);
   }
 }
 
 @keyframes move-frames-99 {
   from {
-    -webkit-transform: translate3d(78vw, 106vh, 0);
-            transform: translate3d(78vw, 106vh, 0);
+    -webkit-transform: translate3d(32vw, 102vh, 0);
+            transform: translate3d(32vw, 102vh, 0);
   }
   to {
-    -webkit-transform: translate3d(99vw, -128vh, 0);
-            transform: translate3d(99vw, -128vh, 0);
+    -webkit-transform: translate3d(95vw, -114vh, 0);
+            transform: translate3d(95vw, -114vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(99) .circle {
-  -webkit-animation-delay: 1948ms;
-          animation-delay: 1948ms;
+  -webkit-animation-delay: 1629ms;
+          animation-delay: 1629ms;
 }
 
 body .section-whatis .circle-container:nth-child(100) {
-  width: 4px;
-  height: 4px;
+  width: 3px;
+  height: 3px;
   -webkit-animation-name: move-frames-100;
           animation-name: move-frames-100;
-  -webkit-animation-duration: 32545ms;
-          animation-duration: 32545ms;
-  -webkit-animation-delay: 34680ms;
-          animation-delay: 34680ms;
+  -webkit-animation-duration: 29424ms;
+          animation-duration: 29424ms;
+  -webkit-animation-delay: 6565ms;
+          animation-delay: 6565ms;
 }
 
 @-webkit-keyframes move-frames-100 {
   from {
-    -webkit-transform: translate3d(67vw, 102vh, 0);
-            transform: translate3d(67vw, 102vh, 0);
+    -webkit-transform: translate3d(43vw, 106vh, 0);
+            transform: translate3d(43vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(93vw, -103vh, 0);
-            transform: translate3d(93vw, -103vh, 0);
+    -webkit-transform: translate3d(35vw, -128vh, 0);
+            transform: translate3d(35vw, -128vh, 0);
   }
 }
 
 @keyframes move-frames-100 {
   from {
-    -webkit-transform: translate3d(67vw, 102vh, 0);
-            transform: translate3d(67vw, 102vh, 0);
+    -webkit-transform: translate3d(43vw, 106vh, 0);
+            transform: translate3d(43vw, 106vh, 0);
   }
   to {
-    -webkit-transform: translate3d(93vw, -103vh, 0);
-            transform: translate3d(93vw, -103vh, 0);
+    -webkit-transform: translate3d(35vw, -128vh, 0);
+            transform: translate3d(35vw, -128vh, 0);
   }
 }
 
 body .section-whatis .circle-container:nth-child(100) .circle {
-  -webkit-animation-delay: 1625ms;
-          animation-delay: 1625ms;
+  -webkit-animation-delay: 113ms;
+          animation-delay: 113ms;
 }
 
 body .section-api .bg {
@@ -6613,89 +6613,93 @@ body .section-ecosystem .bg {
 }
 
 body .section-ecosystem .ecosystem-items {
-  @apply mt-12 xl:mt-36 mx-auto
-             gap-6 xl:gap-8
+  @apply mt-12 mx-auto
+             
              w-full
-             px-6
-             grid md:grid-cols-1 xl:grid-cols-2;
+             px-6 
+             flex flex-row flex-wrap;
 }
 
 body .section-ecosystem .ecosystem-items .item {
   z-index: 99;
-  @apply flex flex-col relative;
-  @apply w-full rounded-[2rem] p-8;
+  @apply w-full lg:w-1/2;
+}
+
+body .section-ecosystem .ecosystem-items .item .cnt {
+  @apply flex flex-col relative m-6;
+  @apply rounded-[2rem] p-8;
   background-color: rgba(64, 161, 252, 0.14);
 }
 
 @screen md {
-  body .section-ecosystem .ecosystem-items .item {
+  body .section-ecosystem .ecosystem-items .item .cnt {
     background-color: transparent !important;
   }
 }
 
 @screen xl {
-  body .section-ecosystem .ecosystem-items .item {
+  body .section-ecosystem .ecosystem-items .item .cnt {
     background-color: rgba(64, 161, 252, 0.14) !important;
   }
 }
 
-body .section-ecosystem .ecosystem-items .item .label {
+body .section-ecosystem .ecosystem-items .item .cnt .label {
   @apply text-5xl font-bold;
 }
 
-body .section-ecosystem .ecosystem-items .item .visual {
+body .section-ecosystem .ecosystem-items .item .cnt .visual {
   @apply text-center mx-auto 
-                 lg:mb-6 mt-6 xl:mt-0
-                 md:absolute md:translate-y-8 md:scale-90 md:-translate-x-10
-                 xl:relative xl:transform-none
-                 z-10;
+                  lg:mb-6 mt-6 xl:mt-0
+                  md:absolute md:translate-y-8 md:scale-90 md:-translate-x-10
+                  xl:relative xl:transform-none
+                  z-10;
 }
 
-body .section-ecosystem .ecosystem-items .item .visual img {
+body .section-ecosystem .ecosystem-items .item .cnt .visual img {
   @apply max-h-48 xl:max-h-full;
   -webkit-filter: drop-shadow(0.7rem 0.3rem 0.75rem rgba(0, 0, 0, 0.4));
           filter: drop-shadow(0.7rem 0.3rem 0.75rem rgba(0, 0, 0, 0.4));
 }
 
-body .section-ecosystem .ecosystem-items .item .explain {
+body .section-ecosystem .ecosystem-items .item .cnt .explain {
   z-index: 0;
   @apply md:w-10/12 ml-auto
-                 xl:w-full mb-0 md:mb-16 xl:mb-0
-                 mt-8 xl:mt-0
-                 xl:pl-0 px-12 xl:px-0 md:pl-32
-                 rounded-3xl;
+                  xl:w-full mb-0 md:mb-16 xl:mb-0
+                  mt-8 xl:mt-0
+                  xl:pl-0 px-12 xl:px-0 md:pl-32
+                  rounded-3xl;
   @screen md {}
 }
 
-body .section-ecosystem .ecosystem-items .item .explain div.desc {
+body .section-ecosystem .ecosystem-items .item .cnt .explain div.desc {
   @apply xl:text-center 
-                   mt-6 mb-8
-                   font-normal text-sm xl:text-lg;
+                    mt-6 mb-8
+                    font-normal text-sm xl:text-lg;
 }
 
-body .section-ecosystem .ecosystem-items .item .explain div.desc ul {
+body .section-ecosystem .ecosystem-items .item .cnt .explain div.desc ul {
   padding-left: 1rem;
   margin-top: 1rem;
 }
 
-body .section-ecosystem .ecosystem-items .item .explain div.desc ul li {
+body .section-ecosystem .ecosystem-items .item .cnt .explain div.desc ul li {
   margin-top: 0.5rem;
 }
 
 @screen xl {
-  body .section-ecosystem .ecosystem-items .item .explain {
+  body .section-ecosystem .ecosystem-items .item .cnt .explain {
     background-color: transparent !important;
   }
 }
 
 @screen md {
-  body .section-ecosystem .ecosystem-items .item .explain {
+  body .section-ecosystem .ecosystem-items .item .cnt .explain {
     background-color: rgba(64, 161, 252, 0.14);
   }
 }
 
 @screen xl {
-  body .section-ecosystem .ecosystem-items .item .explain {
+  body .section-ecosystem .ecosystem-items .item .cnt .explain {
     -webkit-transform: none !important;
             transform: none !important;
   }
@@ -6841,6 +6845,10 @@ body .section-roadmap .yeartabs-container .yeartab .quarter.current {
 body .section-roadmap .yeartabs-container .yeartab .quarter label {
   @apply block font-bold text-2xl mb-3;
   color: #27c6f7;
+}
+
+body .section-roadmap .yeartabs-container .yeartab .quarter p {
+  @apply font-bold text-lg mb-4;
 }
 
 body .section-roadmap .yeartabs-container .yeartab .quarter ul li {
