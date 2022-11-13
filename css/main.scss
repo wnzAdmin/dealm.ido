@@ -2190,6 +2190,7 @@ body {
 
       &:hover {
         .icon-container {
+
           @extend .glow-light;
           transform: scale(1.03);
           &::after {
@@ -2241,7 +2242,7 @@ body {
         
         position:relative;
         padding: 1rem;
-        @apply w-20 h-20 xl:w-28 xl:h-28 block;
+        @apply w-20 h-20 xl:w-28 xl:h-28 flex flex-row items-center;
         
         $radius : 40px;
         border-radius:$radius;
