@@ -325,6 +325,16 @@ body {
     @apply md:border-none rounded-full;
 
     width: 18rem;
+
+    @-moz-document url-prefix() { 
+      &::before {
+        background:transparent !important;
+        -webkit-mask: none !important;
+        -webkit-mask-composite: none !important;
+        border : solid 2px $misc-color-1;
+        // mask-composite: exclude;
+      }
+    }
     
     @screen md {
 
