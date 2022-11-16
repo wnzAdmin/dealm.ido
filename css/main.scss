@@ -1581,7 +1581,6 @@ body {
     .ecosystem-items {
 
       @apply mt-12 mx-auto
-             
              w-full
              px-0 lg:px-6 
              flex flex-row flex-wrap
@@ -1594,7 +1593,7 @@ body {
 
       .item {
         
-        z-index: 99;
+        // z-index: 99; 
 
         @apply w-full lg:w-1/2;
 
@@ -2254,7 +2253,7 @@ body {
         
         position:relative;
         padding: 1rem;
-        @apply w-20 h-20 xl:w-28 xl:h-28 flex flex-row items-center;
+        @apply w-20 h-20 xl:w-28 xl:h-28 flex flex-row items-center justify-center;
         
         $radius : 40px;
         border-radius:$radius;
