@@ -548,7 +548,7 @@ body .section-hero .bg {
 }
 
 body .section-hero .menu-desktop {
-  @apply flex flex-row gap-8 mt-4;
+  @apply flex flex-row 2lg:gap-8 lg:gap-4 mt-4;
 }
 
 body .section-hero .menu-desktop label {
