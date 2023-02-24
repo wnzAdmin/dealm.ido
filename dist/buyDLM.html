@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="Description" content="DEALM Poker - Discover a new poker universe">
+
+    <title>DEALM Poker - Discover a new poker universe</title>
+    
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+
+    <script type="module" src="/assets/js/vanilla-tilt.js"></script>
+    
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js" defer></script>
+    <script src="/assets/js/videojs-yt.min.js" defer></script>
+    
+  <script type="module" crossorigin src="/assets/main.1e029260.js"></script>
+  <link rel="stylesheet" href="/assets/main.c0c65f40.css">
+</head>
+<body>
+
+  <div id="waiter" class="bg-blue-900 text-white fixed top-0 right-0 left-0 bottom-0 z-[999]">
+    <div class="relative">
+      <div class="wcontent absolute w-[100vw] h-[100vh] pt-[40vh] font-secondary text-3xl text-center font-bold drop-shadow-md shadow-gray-900">
+        … Loading …
+        <br />
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="section-hero relative">
+
+      <div class="mb-6 lg:hidden mx-auto block text-center pt-6">
+        <img src="data:image/png;base64,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" class="inline-block mx-auto max-w-[80%] align-bottom" />
+      </div>
+
+      <div class="container hidden lg:flex lg:flex-row lg:gap-6 w-full lg:pt-10">
+        <img src="data:image/png;base64,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" class="inline-block mr-8 w-48" />
+        <div class="menu-desktop">
+          <a href="/index.html"><label>Home</label></a>
+        </div>
+        <div class="flex mx-auto mt-4 mr-0 text-center">
+          <a href="/acheterDLM.html">
+            <button class="flex gap-2 items-center">
+              <img src="/assets/FR_Flag.7ca76f2e.svg"/>
+                FR
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="container mx-auto mt-6">
+
+        <div class="flex flex-col xl:flex-row-reverse">
+
+          <div class="w-full 2xl:w-1/2">
+
+            <span class="xl:hidden block text-3xl md:text-5xl xl:text-[2.6rem] text-center xl:text-left mb-4 lg:mb-8 uppercase xl:leading-[3rem]">
+              BUY $DLM<br>
+              <div class="text-gradient-1" id="reshuffles">
+                EASILY AND SECURELY
+              </div>
+            </span>
+
+            <div class="hero-block-container mt-24">
+              <div class="hero-block relative max-w-[30rem] xl:lg:max-w-[56rem] mx-auto -mt-20"
+                  style="transform-style: preserve-3d"
+                  data-tilt
+                  data-tilt-max="5" 
+                  data-tilt-speed="1000" 
+                  data-tilt-perspective="1500"
+                  data-tilt-reset="false"
+                  data-tilt-full-page-listening> 
+    
+              </div>
+            </div>
+          </div>
+
+
+          <div class="w-full 2xl:w-1/2 xl:pt-16">
+
+            <h1 class="hidden xl:block text-xl lg:text-[3.5rem] font-bold text-center lg:text-left mb-4 lg:mb-8 leading-[3.8rem]">
+              BUY $DLM<br>
+              <div class="text-gradient-1" id="reshuffles">
+                EASILY AND SECURELY
+              </div>
+            </h1>
+
+            <div class="flex flex-col items-center xl:flex-row mx-auto justify-center lg:justify-start gap-6 mt-8">
+              <a href="/acheterDLM.html" target="_blank" class="btn-circle bg-transparent lg:hidden min-w-[40%]">
+                <button class="flex gap-2 mx-auto">
+                  <span class="text-xl font-bold">French</span>
+                  <img src="/assets/FR_Flag.7ca76f2e.svg"/>
+                </button>
+              </a>
+            </div>
+
+          </div>
+
+        </div>    
+
+      </div>
+    </section>
+
+    <section class="section-ecosystem relative">
+
+      <div class="container mx-auto mb-0">
+        <h3>STEP 1: CREATE A METAMASK</h3>
+      </div>
+      <div class="container mx-auto mb-0">
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          Metamask is a browser extension and a wallet for the decentralized
+          web. It allows users to receive, send and store cryptocurrencies
+          such as $DLM. To install Metamask on your Metamask website
+          (<u><a href="https://metamask.io">https://metamask.io</a></u>) and click on
+          "Get Chrome Extension" or "Get Firefox Add-On" depending on your browser. For the mobile version,
+          visit either the Google Play Store or the Apple App Store and download the app.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          Once Metamask is installed, click on the “Extensions” icon in your browser, choose Metamask and
+          click on the "Create a Wallet" button. You'll then be prompted to create a password, which will be
+          used to access your wallet regularly.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          Metamask will then generate a seed phrase (your private key) that you should absolutely write
+          down and store in a safe place. This seed phrase is the only way to recover your wallet if you lose
+          access to it or if you want to set it up on another device. Do not, under any circumstances, share
+          this private key with anyone.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          And voilà! You now have a Metamask wallet you can use on a large number of decentralized
+          applications and soon on the DealM platform.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-ecosystem relative">
+
+      <div class="container mx-auto mb-0">
+        <h3>STEP 2: ADD FUNDS TO YOUR WALLET</h3>
+      </div>
+      <div class="container mx-auto mb-0">
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          <strong>From an exchange:</strong> After creating an account on a popular centralized exchange like Binance,
+          Kraken or Coinbase, you can easily buy cryptocurrencies such as ETH, USDC or USDT with your credit card
+          or with a wire transfer from your bank account. You can then transfer your crypto on your
+          Metamask wallet and exchange it for $DLM tokens later on. For example, to withdraw crypto
+          from Binance to your Metamask, you need to go in your wallet’s overview and click on the
+          withdraw button, next to the “Deposit” one, just like in the screenshot below:
+        </p>
+        <img class="mx-auto max-w-[80%] mt-12" src="/assets/img/IMG1.png" />
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          Once you clicked on “Withdraw” , you will need to enter the amount of ETH, USDT or USDC you want
+          to transfer to your Metamask. To do so, copy your public address from your Metamask account
+          and paste it in the “Address” input below while choosing the Ethereum mainnet network.
+        </p>
+        <img class="mx-auto mt-12" src="/assets/img/IMG2.png" />
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          Withdrawing funds follows a similar pattern from an exchange to another, here are some
+          extensive guides that you can follow for other exchanges if needed: 
+          <br>
+          Kraken: 
+          <u><a href="https://support.kraken.com/hc/en-us/articles/360000672763-How-to-withdraw-cryptocurrencies-from-your-Kraken-account">
+            How to withdraw cryptocurrencies from your Kraken account?
+          </a></u><br>
+          Coinbase: 
+          <u><a href="https://www.hedgewithcrypto.com/how-to-send-crypto-from-coinbase-to-metamask/">
+            How to Send Crypto from Coinbase to Metamask?
+          </a></u>
+        </p>
+
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          If you have any issue on this particular step, feel free to
+          contact us from the form at the bottom of this page and we will gladly help you.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          <strong>From your Metamask:</strong> Metamask also allows its users to buy cryptocurrencies with credit and
+          debit cards directly from their interface through services like Transak, Moonpay as well as wire
+          transfers. To do so, click on the “Buy” button at the center of the screen and choose the option
+          that’s most suited to your needs.
+        </p>
+        <img class="mx-auto mt-12" src="/assets/img/IMG3.png" />
+      </div>
+    </section>
+
+    <section class="section-ecosystem relative">
+
+      <div class="container mx-auto mb-0">
+        <h3>STEP 3: BUY $DLM TOKENS</h3>
+      </div>
+      <div class="container mx-auto mb-0">
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+         Our token is not listed on an exchange yet and is therefore only purchasable through OTC
+         transactions. You will need to send your funds to us and we will send back the corresponding
+         amount of $DLM tokens to your Metamask. We currently offer two ways of establishing some fund
+         transfers between our two parties:
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          <strong>By sending funds to our multi-signature wallet :</strong> In order to receive our token upon listing, you
+          will need to send some funds to our multi-signature wallet at the following address:
+          0x223C87e56d37f5266C9b2bb14152077710a09687. To do so, click on the “Send” button at the
+          center of your wallet view and paste our contract address in the designated empty field, just as
+          shown below: 
+        </p>
+        <img class="mx-auto mt-12" src="/assets/img/IMG4.png" />
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          For example, at the price of $0,045 per $DLM token, if you send 1 ETH ($1645 as of 17/02/2023) to
+          our multi-sig wallet address, you will receive 36,555.55 DLM tokens upon Token Generation Event.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          <strong>By contacting us through our facebook profile :</strong> We accept OTC deals involving Fiat money
+          through wire transfers. Don’t hesitate to reach out to us via the contact form at the bottom of this
+          page to discuss that option.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-ecosystem relative">
+
+      <div class="container mx-auto mb-0">
+        <h3>STEP 4: VESTING SCHEDULE AND TOKEN OBTENTION</h3>
+      </div>
+      <div class="container mx-auto mb-0">
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          We implemented an adventageous vesting schedule for our public-sale buyers : 50% of your
+          $DLM tokens are sent to you upon TGE and the 50% remaining will be gradually unlocked in a
+          linear fashion over a 2 months period. You won’t have to do anything from that point except
+          waiting for the vesting period to end to obtain 100% of your $DLM tokens.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          For example, if you sent 1 ETH to our multisig wallet or bank-wired us ~$1645 as of 17/02/2023, you
+          will receive 18,277.77 tokens the day we release our token and around ~304 tokens per day for the
+          next 2 months.
+        </p>
+        <p class="mt-12 text-lg leading-8 w-full text-center xl:text-left">
+          If you have any inquiry regarding our platform, value proposition, tokenomics and/or token
+          purchase, don’t hesitate to leave us a message from the contact form below:
+        </p>
+      </div>
+    </section>
+
+    <section class="section-contact-form">
+
+      <form class="container mx-auto mb-0" action="https://formsubmit.co/63ad616e876e845ed8121dc699a04ee9" method="POST">
+        <div class="mb-8 flex">
+          <input class="rounded-lg w-4/5 lg:w-3/5 h-9 mx-auto text-gray-800 text-opacity-100 pl-2 placeholder-gray-800 placeholder-opacity-100" 
+            autocomplete="off" type="text" name="name" placeholder="Name"
+          >
+        </div>
+        <div class="mb-8 flex">
+          <input class="rounded-lg w-4/5 lg:w-3/5 h-9 mx-auto text-gray-800 text-opacity-100 pl-2 placeholder-gray-800 placeholder-opacity-100"
+           type="email" name="email" placeholder="Email" required
+          >
+        </div>
+        <div class="mb-8 flex">
+          <textarea class="rounded-lg w-4/5 lg:w-3/5 h-36 mx-auto text-gray-800 text-opacity-100 pl-2 placeholder-gray-800 placeholder-opacity-100"
+           type="text" name="message" placeholder="Message..."></textarea>
+        </div>
+        <div class="mb-8 flex">
+          <button class="rounded-lg bg-sky-500 w-44 h-11 mx-auto" style="background-color: #036ffc" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+
+
+    <footer class="container mx-auto mt-10 lg:mt-40 mb-24 w-5/6">
+
+      <div class="text-center w-full">
+        <img src="data:image/png;base64,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" class="w-16 inline mx-auto mr-3" />
+        <span class="uppercase text-xl">Thanks</span>
+      </div>
+      <div class="links mt-10 flex flex-col sm:flex-row text-xs gap-5 justify-evenly">
+        <div>
+          <strong>Ressources</strong>
+          <a href="/assets/docs/WP_DEALMPOKER.pdf" target="_blank">Whitepaper</a>
+          <a href="/assets/docs/TOKENOMIKS-DEAL-M.pdf" target="_blank">Tokenomics</a>
+        </div>
+        <div>
+          <strong>Company</strong>
+          <a href="mailto:info.dealmpoker@gmail.com">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="bg-roadmap"></div>
+    <div class="bg-tokenomics"></div>
+    <div class="bg-community"></div>
+
+  </main>
+
+
+  <script>
+    
+    document.body.style.overflow = "hidden"
+
+    document.addEventListener("DOMContentLoaded", function() {
+      initVideo();
+    });
+    
+    window.addEventListener("load", function() {
+      fixBackgrounds();
+    });
+
+    function fixBackgrounds() {
+      
+      const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+      const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+      
+      // roadmap
+      const elRoadmap = document.querySelector('.section-roadmap');
+      const bgRoadmap = document.querySelector('.bg-roadmap');
+      // positionBackground(elRoadmap, bgRoadmap, elRoadmap.offsetTop - elRoadmap.offsetHeight * 0.2, elRoadmap.offsetHeight * 1.2);
+      positionBackground(elRoadmap, bgRoadmap, elRoadmap.offsetTop, elRoadmap.offsetHeight * 1.9);
+
+      // tokenomics
+      const elTokenomics = document.querySelector('.section-tokenomics');
+      const bgTokenomics = document.querySelector('.bg-tokenomics');
+      const ratioH = 0.999; // vw >= 1000 ? 0.99 : 2;
+      positionBackground(elTokenomics, bgTokenomics, elTokenomics.offsetTop * ratioH, elTokenomics.offsetHeight * 0.8);
+      // positionBackground(elTokenomics, bgTokenomics, elTokenomics.offsetTop * ratioH, vh * 2);
+
+      // community-to-footer
+      const elCommunity = document.querySelector('.section-community');
+      const elTeam = document.querySelector('.section-team');
+      const elFaq = document.querySelector('.section-faq');
+      const elFooter = document.querySelector('footer');
+      const bgCommunity = document.querySelector('.bg-community');
+      positionBackground(elCommunity, bgCommunity, elCommunity.offsetTop * 0.999, (elCommunity.offsetHeight + elTeam.offsetHeight + elFaq.offsetHeight + elFooter.offsetHeight) * 1.9);
+    }
+      
+    // const resizeObserver = new ResizeObserver(entries => {
+    //   for (let entry of entries) {
+    //     // debugger
+    //     if(entry.contentBoxSize) {
+    //       // Firefox implements `contentBoxSize` as a single content rect, rather than an array
+    //       const contentBoxSize = Array.isArray(entry.contentBoxSize) ? entry.contentBoxSize[0] : entry.contentBoxSize;
+
+    //       // h1Elem.style.fontSize = Math.max(1.5, contentBoxSize.inlineSize / 200) + 'rem';
+    //       // pElem.style.fontSize = Math.max(1, contentBoxSize.inlineSize / 600) + 'rem';
+    //     } else {
+    //       // h1Elem.style.fontSize = Math.max(1.5, entry.contentRect.width / 200) + 'rem';
+    //       // pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + 'rem';
+    //     }
+    //   }
+    // });
+    // resizeObserver.observe(document.querySelector('.section-roadmap'));
+
+    
+    function positionBackground(element, backgroundElement, top, height) {
+      backgroundElement.style.top = top + 'px';
+      backgroundElement.style.height = height + 'px';
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+      fixBackgrounds();
+
+      let observerOptions = {
+          rootMargin: '0px',
+          threshold: 0.45
+      }
+
+      // anim observers
+      var animsObserver = new IntersectionObserver(observerCallback, observerOptions);
+      function observerCallback(entries, observer) {
+          entries.forEach(entry => {
+              if(entry.isIntersecting) {
+                entry.target.classList.add("animated")
+              }
+              else entry.target.classList.remove("animated")
+          });
+      };
+      let target = '.to-animate';
+      document.querySelectorAll(target).forEach((i) => {
+        if (i) {
+          animsObserver.observe(i);
+        }
+      });
+      
+      
+      // numbers counter observer
+      var countersObserver = new IntersectionObserver(countersObserverCallback, observerOptions);
+      function countersObserverCallback(entries, observer) {
+          entries.forEach(entry => {
+              if(entry.isIntersecting) {
+                // entry.target.classList.add("animated")
+
+                const counters = entry.target.querySelectorAll("[data-tnum]");
+                
+                counters.forEach( counter => {
+                  counterAnim(counter, 0, counter.getAttribute("data-tnum"), counter.getAttribute("data-tnum-speed"));
+                });
+
+              }
+          });
+      };
+      let targetCounter = '.to-counter';
+      document.querySelectorAll(targetCounter).forEach((i) => {
+        if (i) {
+          countersObserver.observe(i);
+        }
+      });
+
+      const counterAnim = (element, start = 0, end, duration = 1000) => {
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            element.innerText = Math.floor(progress * (end - start) + start);
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        };
+        window.requestAnimationFrame(step);
+      };
+      
+      
+      
+      var seed = 1;
+      function random() {
+          var x = Math.sin(seed++) * 10000;
+          return x - Math.floor(x);
+      }
+
+
+      const getRandomIntInclusive = (min, max) => {
+        // min = Math.ceil(min);
+        // max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min +1)) + min;
+      }
+      function rand(min, max){
+        let r = (Math.floor(Math.pow(10,14)*random()*random())%(max-min+1))+min;
+        while (Math.abs(r) < 15) r = rand(min, max);
+        // console.log(r);
+        return r;
+      }
+
+
+      // particles
+      const assignRandomParticleAnim = (elem, pidx) => {
+        // elem.style.setProperty(`--particle-${pidx}-pos-x`, rand(-100, 100) + "px");
+        // elem.style.setProperty(`--particle-${pidx}-pos-y`, rand(-100, 100) + "px");
+        elem.style.setProperty(`top`, rand(-30, 30) + "px");
+        elem.style.setProperty(`left`, rand(-30, 30) + "px");
+        elem.style.setProperty(`--particle-${pidx}-anim-x`, rand(-100, 100) + "px");
+        let randomYmove = rand(40, 150) * -1 + "px";
+        elem.style.setProperty(`--particle-${pidx}-anim-y`, randomYmove);
+        elem.style.setProperty(`animation`, `${getRandomIntInclusive(5, 9)}s ease-in-out ${getRandomIntInclusive(1, 2000)}ms infinite particle-anim-${pidx}`);
+      }
+
+      const particleDots = document.querySelectorAll('.particle');
+      let pidx = 0;
+      particleDots.forEach((elem) => {
+        pidx++;
+        assignRandomParticleAnim(elem, pidx);
+        elem.addEventListener('animationend', () => {
+          assignRandomParticleAnim(elem, pidx);
+        })
+        // elem.style.setProperty(`--particle-${pidx}-anim-speed`, getRandomIntInclusive(-100, 100) + "px");
+      })
+
+
+
+      // Backgrounds
+      const debounce = (func, wait, immediate) => {
+          var timeout;
+          return () => {
+              const context = this, args = arguments;
+              const later = function() {
+                  timeout = null;
+                  if (!immediate) func.apply(context, args);
+              };
+              const callNow = immediate && !timeout;
+              clearTimeout(timeout);
+              timeout = setTimeout(later, wait);
+              if (callNow) func.apply(context, args);
+          };
+      };
+
+      window.addEventListener("resize", debounce(() => {
+
+        fixBackgrounds();
+
+      }, 20, false), false);
+
+
+
+      // // scroling bg-games
+      // const bgGames = document.querySelector(".bg-games");
+      // let bgPos = 0;
+      // const speed = document.documentElement.clientWidth <= 600 ? -0.3 : -0.6;
+      // setInterval(() => {
+      //   bgPos += speed;
+      //   bgGames.style.backgroundPosition = bgPos + "px"
+      // }, 10);
+
+
+      // accordion
+      document.querySelectorAll(".faq-entry").forEach((el) => {
+        el.addEventListener("click", () => {
+
+          [].forEach.call(document.querySelectorAll(".faq-entry"), function(subel) {
+              if (el !== subel) {
+                subel.classList.remove('opened');
+              }
+          });
+
+          el.classList.toggle("opened");
+        });
+      });
+
+
+      // countdown
+      function countdown(dateEndStr) {
+        var timer, days, hours, minutes, seconds;
+
+        dateEnd = new Date(dateEndStr);
+        dateEnd = dateEnd.getTime();
+
+        if ( isNaN(dateEnd) ) {
+          return;
+        }
+
+        calculate();
+        timer = setInterval(calculate, 1000);
+
+        function calculate() {
+          var dateStart = new Date();
+          var dateStart = new Date(dateStart.getUTCFullYear(),
+                                  dateStart.getUTCMonth(),
+                                  dateStart.getUTCDate(),
+                                  dateStart.getUTCHours(),
+                                  dateStart.getUTCMinutes(),
+                                  dateStart.getUTCSeconds());
+          var timeRemaining = parseInt((dateEnd - dateStart.getTime()) / 1000)
+
+          if ( timeRemaining >= 0 ) {
+            days    = parseInt(timeRemaining / 86400);
+            timeRemaining   = (timeRemaining % 86400);
+            hours   = parseInt(timeRemaining / 3600);
+            timeRemaining   = (timeRemaining % 3600);
+            minutes = parseInt(timeRemaining / 60);
+            timeRemaining   = (timeRemaining % 60);
+            seconds = parseInt(timeRemaining);
+
+            document.querySelector("#cd-days label").innerHTML    = parseInt(days, 10);
+            document.querySelector("#cd-hours label").innerHTML   = ("0" + hours).slice(-2);
+            document.querySelector("#cd-minutes label").innerHTML = ("0" + minutes).slice(-2);
+            document.querySelector("#cd-seconds label").innerHTML = ("0" + seconds).slice(-2);
+
+            
+            // ranges
+            const rangeDays = 140; // 60 days before launch
+            const rangeHours = 24;
+            const rangeMin = 60;
+            const rangeSecs = 60;
+
+            const portionDays = 283 * (days / rangeDays);
+            document.querySelector(".gauge-days .base-timer__path-remaining").setAttribute("stroke-dasharray", `${portionDays} 283`);
+
+            const portionHours = 283 * (hours / rangeHours);
+            document.querySelector(".gauge-hours .base-timer__path-remaining").setAttribute("stroke-dasharray", `${portionHours} 283`);
+
+            const portionMin = 283 * (minutes / rangeMin);
+            document.querySelector(".gauge-minutes .base-timer__path-remaining").setAttribute("stroke-dasharray", `${portionMin} 283`);
+
+            const portionSec = 283 * seconds / rangeSecs;
+            document.querySelector(".gauge-seconds .base-timer__path-remaining").setAttribute("stroke-dasharray", `${portionSec} 283`);
+
+          } else {
+            return;
+          }
+        }
+
+      }
+
+      // countdown('12/01/2023 00:00:00 AM');
+
+
+
+      // roadmap tabs
+      const tabsContainer = document.querySelector(".yeartabs-container");
+      let activeTab = null;
+
+      function tabLabelClicked(label) {
+        document.querySelectorAll("label.year").forEach((lbl) => lbl.classList.remove("active"));
+        label.classList.add("active");
+        
+        let targetTab = label.getAttribute("data-target");
+        document.querySelectorAll(`.yeartab:not(.${targetTab})`).forEach((tab) => {
+          tab.classList.remove("active");
+        });
+
+        activeTab = document.querySelector(`.${targetTab}`);
+        activeTab.classList.add("active");
+
+        // update container height
+        tabsContainer.style.height = activeTab.offsetHeight + 'px';
+      }
+      
+      document.querySelectorAll(".roadmap-tabs label").forEach((elem) => {
+        if (elem.getAttribute("data-target") !== null) {
+
+          elem.addEventListener("click", (e) => {
+            tabLabelClicked(e.target);
+          });
+        }
+      })
+      tabLabelClicked(document.querySelector("label.year.active"));
+
+      window.addEventListener("resize", debounce(() => {
+        if (tabsContainer && activeTab) {
+          tabsContainer.style.height = activeTab.offsetHeight + 'px';
+        }
+      }, 20, false), false);
+
+
+    });
+
+    function animTo(target) {
+
+      const element = document.querySelector(target)
+      const topPos = element.getBoundingClientRect().top + window.pageYOffset - 30;
+
+      window.scrollTo({
+        top: topPos, // scroll so that the element is at the top of the view
+        behavior: 'smooth' // smooth scroll
+      })
+
+      return false;
+    }
+
+
+    let vidPlayer;
+
+    function initVideo() {
+      vidPlayer = videojs('dealm-teaser');
+      vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=QY7IevFAQ54&vq=hd1080'});
+    }
+    
+    function closeVideo() {
+      vidPlayer.pause();
+      document.querySelector("#video-cta").style.display = 'flex';
+      document.querySelector("#dealm-teaser-modal").style.display = 'none';
+    }
+    function playVideo() {
+      
+      document.querySelector("#video-cta").style.display = 'none';
+      document.querySelector("#dealm-teaser-modal").style.display = 'flex';
+      
+      vidPlayer.play();
+
+      // vidPlayer.ready(function() {
+        //   vidPlayer.play();
+      // });
+      // if (vidPlayer == undefined) {
+
+      // }
+      // else vidPlayer.play();
+
+    }
+
+
+    function preloadImages(urls, allImagesLoadedCallback){
+      let loadedCounter = 0;
+      let toBeLoadedNumber = urls.length;
+      urls.forEach(function(url){
+        preloadImage(url, function(){
+          loadedCounter++;
+          console.log('Number of loaded images: ' + loadedCounter);
+          if(loadedCounter == toBeLoadedNumber){
+            allImagesLoadedCallback();
+          }
+        });
+      });
+      function preloadImage(url, anImageLoadedCallback){
+          let img = new Image();
+          img.onload = anImageLoadedCallback;
+          img.src = url;
+      }
+    }
+
+    preloadImages([
+      './assets/img/hero/hero-cards.png'
+    ], function(){
+        
+      const waiter = document.getElementById("waiter");
+      waiter.classList.add("loaded");
+      document.body.style.overflow = "auto"
+
+      document.querySelector(".hero-block-container").classList.add("animated");
+
+      setTimeout(() => {
+        document.body.removeChild(waiter);
+      }, 1000);
+
+    });
+
+  </script>
+
+
+
+</body>
+</html>
