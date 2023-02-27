@@ -247,12 +247,12 @@
     <section class="section-contact-form">
 
       <form class="container mx-auto mb-0" action="https://formsubmit.co/info.dealmpoker@gmail.com" method="POST">
-        <div class="mb-8 flex">
+        <div class="mb-6 md:mb-4 flex">
           <input class="rounded-lg w-4/5 lg:w-3/5 h-9 mx-auto text-gray-800 text-opacity-100 pl-2 placeholder-gray-800 placeholder-opacity-100" 
             autocomplete="off" type="text" name="name" placeholder="Name"
           >
         </div>
-        <div class="mb-8 flex">
+        <div class="mb-6 md:mb-4 flex">
           <input class="rounded-lg w-4/5 lg:w-3/5 h-9 mx-auto text-gray-800 text-opacity-100 pl-2 placeholder-gray-800 placeholder-opacity-100"
            type="email" name="email" placeholder="Email" required
           >
@@ -277,8 +277,7 @@
       <div class="links mt-10 flex flex-col sm:flex-row text-xs gap-5 justify-evenly">
         <div>
           <strong>Ressources</strong>
-          <a href="/assets/docs/WP_DEALMPOKER.pdf" target="_blank">Whitepaper</a>
-          <a href="/assets/docs/TOKENOMIKS-DEAL-M.pdf" target="_blank">Tokenomics</a>
+          <a href="/assets/docs/DealM Manifesto English.pdf" target="_blank">Manifesto</a>
         </div>
         <div>
           <strong>Company</strong>
@@ -298,10 +297,6 @@
   <script>
     
     document.body.style.overflow = "hidden"
-
-    document.addEventListener("DOMContentLoaded", function() {
-      initVideo();
-    });
     
     window.addEventListener("load", function() {
       fixBackgrounds();
@@ -637,37 +632,7 @@
       return false;
     }
 
-
-    let vidPlayer;
-
-    function initVideo() {
-      vidPlayer = videojs('dealm-teaser');
-      vidPlayer.src({type: 'video/youtube', src: 'https://www.youtube.com/watch?v=QY7IevFAQ54&vq=hd1080'});
-    }
     
-    function closeVideo() {
-      vidPlayer.pause();
-      document.querySelector("#video-cta").style.display = 'flex';
-      document.querySelector("#dealm-teaser-modal").style.display = 'none';
-    }
-    function playVideo() {
-      
-      document.querySelector("#video-cta").style.display = 'none';
-      document.querySelector("#dealm-teaser-modal").style.display = 'flex';
-      
-      vidPlayer.play();
-
-      // vidPlayer.ready(function() {
-        //   vidPlayer.play();
-      // });
-      // if (vidPlayer == undefined) {
-
-      // }
-      // else vidPlayer.play();
-
-    }
-
-
     function preloadImages(urls, allImagesLoadedCallback){
       let loadedCounter = 0;
       let toBeLoadedNumber = urls.length;
