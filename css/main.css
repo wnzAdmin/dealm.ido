@@ -6887,7 +6887,7 @@ body .section-tokenomics .cheese-container {
 }
 
 body .section-tokenomics .cheese-container .cheese-mobile {
-  margin-bottom: 50vh;
+  margin-bottom: 35vh;
   margin-top: -20vw;
   @apply relative;
   @apply md:scale-100;
