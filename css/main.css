@@ -6896,7 +6896,17 @@ body .section-tokenomics .cheese-container .cheese-mobile {
 
 body .section-tokenomics .cheese-container .cheese-mobile .tokenomics-mobile {
   @apply block;
-  margin-top: 90vw;
+  margin-top: 10vw;
+}
+
+body .section-tokenomics .cheese-container .cheese-mobile .tokenomics-image {
+  @apply block;
+  margin-top: 20vw;
+}
+
+body .section-tokenomics .cheese-container .cheese-mobile .tokenomics-label {
+  @apply block;
+  margin-top: 10vw;
 }
 
 body .section-tokenomics .cheese-container .cheese-mobile .tokenomics-mobile ul {
@@ -7020,7 +7030,6 @@ body .section-tokenomics .cheese-container .cheese label span.col-2 {
 body .section-tokenomics .cheese-container .cheese-element {
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   -webkit-transform-origin: center center;
